@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "repair"
+	group: "755498137E246770"
+	id: "0D8F6A3CE55C77B6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "47BBB92803F2C403"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09AFB8CFE1BB621A"
+				table_id: 1516416992629669430L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "403B5207668ADF8D"
+				item: { components: { "minecraft:custom_data": { Durability: 300.0d, Equiped: 1b } }, count: 1, id: "iron_repair_kits:copper_repair_kit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47BBB92803F2C403"]
+			id: "68D7F371A1E34E44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "340BAB4B94F9E710"
+				table_id: 1516416992629669430L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "21854B013E8ECD3A"
+				item: { components: { "minecraft:custom_data": { Durability: 780.0d, Equiped: 1b } }, count: 1, id: "iron_repair_kits:iron_repair_kit" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68D7F371A1E34E44"]
+			id: "6925FFB8D5F308FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2150B6241D9FBCB5"
+				table_id: 1516416992629669430L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0546A689CF36A62C"
+				item: { components: { "minecraft:custom_data": { Durability: 930.0d, Equiped: 1b } }, count: 1, id: "iron_repair_kits:golden_repair_kit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6925FFB8D5F308FF"]
+			id: "3C08F8BA70348A9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05CBF52C8CC37E10"
+				table_id: 1516416992629669430L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "226AFC64B8CB66C5"
+				item: { components: { "minecraft:custom_data": { Durability: 1950.0d, Equiped: 1b } }, count: 1, id: "iron_repair_kits:diamond_repair_kit" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C08F8BA70348A9A"]
+			id: "4C35D366C185FF09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "397CA3165BA0E867"
+				table_id: 1516416992629669430L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4398953113C16132"
+				item: { components: { "minecraft:custom_data": { Durability: 2150.0d, Equiped: 1b } }, count: 1, id: "iron_repair_kits:amethyst_repair_kit" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C35D366C185FF09"]
+			id: "1D19CB08251AD0CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BC486010B884A6F"
+				table_id: 1516416992629669430L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0CCC7F5184AD6315"
+				item: { components: { "minecraft:custom_data": { Durability: 5000.0d, Equiped: 1b } }, count: 1, id: "iron_repair_kits:netherite_repair_kit" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1D19CB08251AD0CA"]
+			id: "15D49533530D8FEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F094F526E3D2033"
+				table_id: 1516416992629669430L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "432253AD8B442309"
+				item: { components: { "minecraft:custom_data": { Durability: 190.0d, Equiped: 1b } }, count: 1, id: "iron_repair_kits:duct_tape" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,23 @@
+#Whether to allow passive heat source to be calculated
+allow_passive_heat = true
+#Whether to allow non super heat sources to generate super heat source
+allow_generate_super_heat = false
+#Heat per fading (regular heat) blaze burner provide.
+#If passive heat source allowed, it will be 1 for passive heat source.
+#Should be bigger than 1. Default 2
+# Default: 2
+# Range: > 1
+heat_per_fading_blaze = 2
+#Heat per seething (super heat) blaze burner provide
+#If passive heat source allowed, it will be 1 for passive heat source.
+#Should be bigger than 2. Default 4
+# Default: 4
+# Range: > 2
+heat_per_seething_blaze = 4
+#Whether to allow super heat sources to generate more super heat sources
+#Only works when allow_generate_super_heat is false
+allow_super_heat_reproduce = false
+#Max range between blocks can be connected
+# Default: 32
+# Range: > 1
+max_connect_range = 32

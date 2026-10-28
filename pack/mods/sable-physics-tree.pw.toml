@@ -1,0 +1,13 @@
+name = "Sable Physics Tree"
+filename = "sable-physics-tree-0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SrcUJ600/versions/XCZLwQwr/sable-physics-tree-0.1.2.jar"
+hash-format = "sha512"
+hash = "6ca1ae06c924298a28c28671727e8ea30ca45e46e2d054b547f378dc5c4c018fb540ac44fb979b3952b50dd95d3a89d0046a171384994f9c4707c8a69705eab4"
+
+[update]
+[update.modrinth]
+mod-id = "SrcUJ600"
+version = "XCZLwQwr"

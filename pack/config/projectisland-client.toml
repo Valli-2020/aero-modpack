@@ -1,0 +1,48 @@
+#Draw synced island HUD labels when the world uses Project Island floating-islands generation (server can still send data when disabled).
+islandHudShow = true
+#When **false** (default): **world-space** HUD labels draw only when the server sends **exactly one** beacon (you are on an island surface).
+#In open void the server sends **many** nearby-island beacons for navigation — skipping labels avoids a cluttered horizon.
+#**Xaero** waypoint mirroring (**`islandHudXaeroWaypointSync`**) uses the same rule: multi-beacon sync does not replace **`[Island] `** markers (last on-island waypoint stays) unless this is **true**.
+#Set **true** to restore **all** floating labels and **full** Xaero mirrors while between islands.
+islandHudWorldBillboardVoidNavigation = false
+#World-space scale for island name labels (vanilla debug labels use ~0.02).
+# Default: 0.062
+# Range: 0.024 ~ 0.11
+islandHudTextScale = 0.062
+#Use **see-through** font mode (depth-aware). **false** (default) uses normal world text — simpler and usually clearer with **shader packs** and bright skies.
+#Set **true** if labels must stay on top when solid blocks sit between you and the beacon.
+islandHudSeeThroughText = false
+#Blend title color toward white at night (0 = off). Default **off** for a flat **white** label with **`islandHudTitleColorMode` = white**.
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+islandHudNightColorBoost = 0.0
+#Alpha for the **black** panel behind the island name (**0** = text only, default).
+#Non-zero values use an entity-translucent quad; with **shader packs** keep this at **0** unless you need a backing plate — then raise modestly after verifying readability.
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+islandHudPanelFillOpacity = 0.0
+#Draw extra **outline** passes around the title. Default **off** for minimal HUD; enable if you need rim contrast on busy backgrounds.
+islandHudWorldTextOutline = false
+#**white** — always white title (default, best with shaders).
+#**island_hue** — stable pastel per island name (hash).
+islandHudTitleColorMode = "white"
+#Scales max title width before ellipsis (**220 × this**, GUI px); text size is **`islandHudTextScale`**.
+# Default: 1.0
+# Range: 0.35 ~ 2.5
+islandHudPanelScale = 1.0
+#When **Xaero's Minimap** is installed, mirror each server-synced island HUD beacon as a **global waypoint** (name prefix **`[Island] `**).
+#Xaero's **World Map** shows the same waypoints when both mods are present. Reflection-based — disable if you prefer not to touch Xaero's waypoint list.
+islandHudXaeroWaypointSync = true
+#When **`islandHudXaeroWaypointSync`** is **true**: **true** (default) — **`[Island]`** pins for regions where you have **not** used a **Waystones** block yet (dark gray) are Xaero **temporary** (not saved on world exit).
+#After you **use** a waystone on an island, that pin turns **GOLD** and is **always persistent** (saved).
+#**false** — unvisited pins are saved too (legacy: waypoint list grows with every island you pass).
+islandHudXaeroWaypointTemporary = true
+#**`[Island] `** Xaero **`WaypointColor`** preset when it is **not** your current island (e.g. **DARK_GRAY**).
+#Must match an enum name from Xaero’s minimap — **not** raw RGB (**`Waypoint#setColor(int)`** uses palette indices, not hex).
+islandHudXaeroWaypointColorDefault = "DARK_GRAY"
+#**`[Island] `** Xaero **`WaypointColor`** when the server lists that island in your **waystone-hit** set (you **used** a Waystones block there), e.g. **GOLD**.
+islandHudXaeroWaypointColorHit = "GOLD"
+#Draw synced rope segments between linked anchors in the floating-islands overworld (server still sends data when disabled).
+ropeLinksShow = true
+#Draw small billboard health bars at each rope anchor when rope rendering is enabled (uses synced health fraction).
+ropeLinkHealthBarsShow = true

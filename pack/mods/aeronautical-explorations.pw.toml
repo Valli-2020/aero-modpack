@@ -1,0 +1,13 @@
+name = "Aeronautical Explorations"
+filename = "aeronautical_explorations-1.0.3-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f8a22281b8e0f22eb80dbcb0548d9454e698c025"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8251276
+project-id = 1556386

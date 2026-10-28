@@ -1,0 +1,35 @@
+{
+	id: "103C57C4AFDC7402"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "695DF1BDFC059D9E", item: { count: 1, id: "minecraft:wither_skeleton_skull" } }
+		{
+			count: 16
+			id: "580FB5393F6FB719"
+			item: {
+				count: 1
+				id: "minecraft:soul_sand"
+			}
+		}
+		{
+			count: 5
+			id: "127C161D8C030952"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+		}
+		{
+			count: 5
+			id: "2A36E6CBE34E5FE8"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+		}
+		{ id: "52AE5A38C9550AAF", item: { count: 1, id: "create:blaze_burner" } }
+		{ id: "24AE1A41F6963E57", item: { count: 1, id: "minecraft:skeleton_skull" } }
+		{ id: "6A617E0AB4BE4147", item: { count: 1, id: "minecraft:lava_bucket" } }
+	]
+}

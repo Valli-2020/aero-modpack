@@ -1,0 +1,37 @@
+[general]
+	#Master switch for all Create: Advanced Optimization server logic.
+	enabled = true
+	#Enables additional debug logging for diagnostics and cache invalidation.
+	debugLogging = false
+
+[diagnostics]
+	#Enables diagnostics, commands, and report generation.
+	enabled = true
+	#MSPT threshold used to flag lag spikes in profiler reports.
+	# Default: 50
+	# Range: 1 ~ 5000
+	lagSpikeThresholdMs = 50
+	#Default profiler duration used by commands when needed.
+	# Default: 30
+	# Range: 5 ~ 3600
+	profileDefaultDurationSeconds = 30
+	#Warns when active Create PackageEntity counts exceed this threshold.
+	# Default: 200
+	# Range: 1 ~ 100000
+	packageEntityWarningThreshold = 200
+
+	[optimizations.divingBoots]
+		#Skips redundant HeavyBoots tag removals when the tag is already absent.
+		enabled = true
+
+	[optimizations.spoutRecipeCache]
+		#Caches bounded per-spout official Create filling recipe lookups. Generic capability-based filling remains uncached.
+		enabled = true
+		#Maximum bounded cache entries stored per spout.
+		# Default: 4
+		# Range: 1 ~ 32
+		maxEntriesPerSpout = 4
+
+	[optimizations.processingRecipeMemoization]
+		#Enables one-tick memoization for Basin and Mechanical Crafter recipe lookup windows.
+		enabled = true

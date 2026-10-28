@@ -1,0 +1,13 @@
+name = "Create: Guardian-shooter"
+filename = "create-guardian-shooter-1.0.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NvmY9lVQ/versions/rZxdhUdv/create-guardian-shooter-1.0.21.jar"
+hash-format = "sha512"
+hash = "515f850469645c9f817ccc9a4156e26a0923a7b3a91e431687b1aef4b73ea59dfda80e44c59d7138630dbe4f26fe9c316721a22b6827632a69f7b4cd4f420b2e"
+
+[update]
+[update.modrinth]
+mod-id = "NvmY9lVQ"
+version = "rZxdhUdv"

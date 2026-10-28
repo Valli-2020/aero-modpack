@@ -1,0 +1,179 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trackwork"
+	group: "1064C2F129649404"
+	id: "08526D8BBF8EC20D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2E47B22FBBF9F0E4"
+				"533DB0B19E725594"
+				"4D0F756A88B7A1CB"
+				"79C0A72F69D5AD64"
+				"59A68730A927DB63"
+				"43CCD335235C439A"
+			]
+			id: "6A21B0DD644168E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EA223BDA30B5B89"
+					table_id: 1697955958300214969L
+					type: "random"
+				}
+				{
+					id: "2030E9FB64578770"
+					item: {
+						count: 1
+						id: "simulated:plunger_launcher"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "21F63D018BB2599C"
+					item: {
+						count: 1
+						id: "simulated:rope_coupling"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EFE5EB6C49E75E3"
+					table_id: 1697955958300214969L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7FB13CDAB40A067D"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17C908C0ECB98D0F"]
+			id: "2E47B22FBBF9F0E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B40CE85DF2ED911"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EAB4A5CA128DD6A"
+				item: { count: 1, id: "tracks:small_suspension_track" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17C908C0ECB98D0F"]
+			id: "43CCD335235C439A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "429F612914AD61E9"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5809989DCA1DAF59"
+				item: { count: 1, id: "tracks:small_track_drive_wheel" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17C908C0ECB98D0F"]
+			id: "4D0F756A88B7A1CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00B8284DD522F8C5"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29D0F722F3B90801"
+				item: { count: 1, id: "offroad:small_tire" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17C908C0ECB98D0F"]
+			id: "533DB0B19E725594"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50D7B8EB91BB3EE9"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F1C04B9B5CDE223"
+				item: { count: 1, id: "offroad:tire" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17C908C0ECB98D0F"]
+			id: "79C0A72F69D5AD64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BB32FC82D751A03"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D2ADBBFA08E6568"
+				item: { count: 1, id: "offroad:large_tire" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17C908C0ECB98D0F"]
+			id: "59A68730A927DB63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75FF73DCA35BB752"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "101A947E0A3F5E46"
+				item: { count: 1, id: "offroad:monstrous_tire" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "17C908C0ECB98D0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B33601ABC4D096E"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BDE270DC355A674"
+				item: { count: 1, id: "offroad:wheel_mount" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

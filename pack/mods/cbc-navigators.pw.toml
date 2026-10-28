@@ -1,0 +1,13 @@
+name = "CBC-Navigators"
+filename = "cbcnavigators-0.1.2+mc.1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iBxGX8By/versions/u0UkNBNw/cbcnavigators-0.1.2%2Bmc.1.21.1.jar"
+hash-format = "sha512"
+hash = "ced538845bb49adbf3f24353dc1c2a7ddc020d6f46891aea7752a119a54b0f5f5ccca1e5565a243212f4c14c94e6b6feeffb38c64291bbe632007f688ab09401"
+
+[update]
+[update.modrinth]
+mod-id = "iBxGX8By"
+version = "u0UkNBNw"

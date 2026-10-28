@@ -1,0 +1,13 @@
+name = "Create Defensive"
+filename = "createdefensive-1.21.1-1.11.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/970O29as/versions/GDnqwMYI/createdefensive-1.21.1-1.11.4.jar"
+hash-format = "sha512"
+hash = "14199e819801acfd4252b3e358a1d9b47553fac2f953d6735cffe15cdb0babbb981c4ac80853b3361d85fb02d1df93fd49c6da144450339fd06d5ba3a2e69c3c"
+
+[update]
+[update.modrinth]
+mod-id = "970O29as"
+version = "GDnqwMYI"

@@ -1,0 +1,13 @@
+name = "mekanism creative"
+filename = "mekanism-creative-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6ccec6215ca51892c2762206453c1051c13fba60"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8174941
+project-id = 1559671

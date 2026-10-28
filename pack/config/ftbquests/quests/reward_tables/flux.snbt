@@ -1,0 +1,16 @@
+{
+	id: "150B6538710EBE36"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ id: "6CEF1BAF8038D69F", item: { count: 1, id: "fluxnetworks:flux_block" } }
+		{ id: "4ADE869F8815A1DD", item: { count: 1, id: "fluxnetworks:flux_plug" } }
+		{ id: "22328A47878AF5EB", item: { count: 1, id: "fluxnetworks:flux_point" } }
+		{ id: "5528596CAD4B6F4D", item: { count: 1, id: "fluxnetworks:flux_controller" } }
+		{ id: "4971FB3E8C3CAA47", item: { count: 1, id: "fluxnetworks:basic_flux_storage" } }
+		{ id: "58EF3A2FEAD7B1FE", item: { count: 1, id: "fluxnetworks:herculean_flux_storage" } }
+		{ id: "2DCFEF6D763A3011", item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" } }
+		{ id: "4AFD1A474A60DD69", item: { count: 1, id: "fluxnetworks:flux_dust" } }
+		{ id: "44495A87230959C9", item: { count: 1, id: "fluxnetworks:flux_core" } }
+	]
+}

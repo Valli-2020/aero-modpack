@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pra_todo_lucar"
+	group: "755498137E246770"
+	id: "3CCE213CA093E31A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "2AF8181EA8844E1D"
+			rewards: [{
+				id: "7AAB51C5D9EB599B"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "1076635356CC4114"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "2F1F0364FDCC25BA"
+			rewards: [{
+				id: "3D13DD86360297B7"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "6E4A76C88AD6AA6F"
+				item: { count: 1, id: "crafting_on_a_stick:loom" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "04024462BBFB58EE"
+			rewards: [{
+				id: "4F9536349A791C62"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "04CADC33325F4DB8"
+				item: { count: 1, id: "crafting_on_a_stick:cartography_table" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "29B6ABB2F9C95489"
+			rewards: [{
+				id: "2749F6644B7EC9C8"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "31CC43F14A8DA55A"
+				item: { count: 1, id: "crafting_on_a_stick:grindstone" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "3A58536E3BE8FA94"
+			rewards: [{
+				id: "0CEEF1945DAAF141"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "782E01065E012B2E"
+				item: { count: 1, id: "crafting_on_a_stick:smithing_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "4F56CD0FFEA2B98B"
+			rewards: [{
+				id: "75E70ADB985E4615"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "31CDC36B3FF5A9CA"
+				item: { count: 1, id: "crafting_on_a_stick:stonecutter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "76E84EDD35349E57"
+			rewards: [{
+				id: "597B8CA205BFA277"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "2B782D34AF9CFD67"
+				item: { count: 1, id: "crafting_on_a_stick:anvil" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "3C5FEF594DE41E37"
+			rewards: [{
+				id: "1F6920EA6E20AF57"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			tasks: [{
+				id: "0413F5B236DB7C6E"
+				item: { count: 1, id: "crafting_on_a_stick:smithing_table" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+	]
+}

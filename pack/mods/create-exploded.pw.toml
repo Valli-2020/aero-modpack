@@ -1,0 +1,13 @@
+name = "Create: Exploded"
+filename = "create_exploded-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RaihQkTN/versions/nCXzMlgi/create_exploded-1.2.2.jar"
+hash-format = "sha512"
+hash = "d9a1f7d209c3629e589bae6692c38f7a28927ead55804b7ca7f757ed790ea008e79a1f90968436afdaad23c0b89d92d2061ab2f56b1614b0c558bb35a8b856ec"
+
+[update]
+[update.modrinth]
+mod-id = "RaihQkTN"
+version = "nCXzMlgi"

@@ -1,0 +1,760 @@
+#Log extra diagnostics during client and common setup (off by default for quieter logs).
+debugLogging = false
+#Weighted roll **together with** islandRegionRareStructureWeightMonsterRoom/TrialChambers/DesertPyramid/JunglePyramid/Mineshaft:
+#exclusive **one** outcome per **8×8-chunk island region** (same grid as island biomes). When rolled, monster rooms, trial chambers, and pyramids placed in that region are stripped.
+#Raising **monster room** / **trial** / pyramid weights gives more regions a matching dungeon or temple slot (vanilla must still attempt placement).
+# Default: 380
+# Range: 0 ~ 1000000
+islandRegionRareStructureWeightNone = 380
+#Relative weight for {@code minecraft:monster_room} as this region’s rare-structure slot.
+# Default: 55
+# Range: 0 ~ 1000000
+islandRegionRareStructureWeightMonsterRoom = 55
+#Relative weight for {@code minecraft:trial_chambers}.
+# Default: 45
+# Range: 0 ~ 1000000
+islandRegionRareStructureWeightTrialChambers = 45
+#Relative weight for {@code minecraft:desert_pyramid} (also requires desert/badlands island biome).
+# Default: 35
+# Range: 0 ~ 1000000
+islandRegionRareStructureWeightDesertPyramid = 35
+#Relative weight for {@code minecraft:jungle_pyramid} (also requires jungle-family island biome).
+# Default: 30
+# Range: 0 ~ 1000000
+islandRegionRareStructureWeightJunglePyramid = 30
+#Second roll per island region, independent of rare slot: relative weight to **allow** {@code village_*} and {@code pillager_outpost}
+#starts that survive land-contact checks. When denied, those starts are removed like wrong-slot dungeons.
+#Default pairs with **Deny** so some regions skip settlements entirely — tune for pack density (e.g. Better Villages).
+# Default: 72
+# Range: 0 ~ 1000000
+islandRegionSettlementStructureWeightAllow = 72
+#Paired with islandRegionSettlementStructureWeightAllow — relative weight to **skip** controlled settlements in this region.
+#Higher **Deny** thins village/outpost frequency across islands.
+# Default: 28
+# Range: 0 ~ 1000000
+islandRegionSettlementStructureWeightDeny = 28
+#When **true**, {@code village_*} starts are removed if the island biome does not fit that village id (e.g. **village_plains** only on plains/meadow/forest-family).
+#When **false**, only the settlement allow/deny roll applies to villages (useful with **Multi Village Selector** or other mods that place villages across biomes). **Pillager outpost** biome checks are unchanged.
+islandRegionVillageRequireBiomeMatch = true
+#When **true**, the floating-islands generator **removes** all vanilla {@code village_*} and {@code pillager_outpost} starts, then places **at most one** controlled jigsaw settlement per **inhabited** island region (same 8×8 grid as biomes).
+#Anchor is randomized near the procedural island center on solid columns so **/locate** and gameplay see predictable surface settlements. Uses **islandRegionSettlement** allow/deny, then weighted **controlledSettlementWeightVillage** / **Outpost** / **None**.
+#When **false**, vanilla structure-set placement runs (still subject to island gating and land-contact rules).
+floatingIslandsControlledSettlementPlacement = true
+#After a region passes **islandRegionSettlementStructureWeightAllow/Deny**: relative weight to place a **village** variant matching the rolled island biome (vs outpost / none).
+# Default: 42
+# Range: 0 ~ 1000000
+controlledSettlementWeightVillage = 42
+#Relative weight for the **outpost** branch ( **minecraft:pillager_outpost** or **takesapillage:*** pillager structures when that mod is loaded — see **floatingIslandsTakesapillageControlledOutpost**).
+# Default: 13
+# Range: 0 ~ 1000000
+controlledSettlementWeightOutpost = 13
+#Relative weight for **no** controlled settlement this region (even if vanilla would have tried).
+#Raise this (and **controlledSettlementPlaceTryChance** down) when packs add oversized villages / castles so settlements feel less crowded.
+# Default: 45
+# Range: 0 ~ 1000000
+controlledSettlementWeightNone = 45
+#Max horizontal jitter in blocks from the procedural island **center** when picking the jigsaw anchor (rejected if the column has no island stone). **0** = always center column.
+#Lower jitter keeps large jigsaw footprints nearer the plateau center (less rim overhang).
+# Default: 8
+# Range: 0 ~ 48
+controlledSettlementAnchorJitterBlocks = 8
+#How many random jitter samples to try before giving up on placing a controlled settlement in this region.
+# Default: 18
+# Range: 1 ~ 64
+controlledSettlementAnchorTries = 18
+#After the village/outpost/none weight roll **chose** a village or outpost (not **none**): probability to **actually** generate that controlled settlement (**0–1**).
+#**1** = always place when chosen; lower values thin settlements across regions; **0** never places (strip-only until you turn off **floatingIslandsControlledSettlementPlacement**).
+# Default: 0.38
+# Range: 0.0 ~ 1.0
+controlledSettlementPlaceTryChance = 0.38
+#When **true** (default) and NeoForge mod **takesapillage** (**It Takes a Pillage**) is loaded: controlled **outpost** rolls place **takesapillage:bastille** or **pillager_camp** (weights **1**:**2**, matching the mod’s structure set) via generic structure placement instead of **minecraft:pillager_outpost**.
+#Those mod structures are also stripped before controlled placement (like vanilla settlements) and skip aggressive surface trimming / void land-contact stripping while controlled settlements are enabled.
+#When **false**, outpost branch keeps **minecraft:pillager_outpost** even if the mod is present.
+floatingIslandsTakesapillageControlledOutpost = true
+#When **true**, after vanilla places **minecraft:monster_room**, **minecraft:trial_chambers**, or **minecraft:mineshaft**, vertically shift **all** pieces of that start so the bounding-box **top** sits at **columnBottomY − 1** at the box center (hang under procedural island stone).
+#Skips starts that already intersect island stone in that column, void columns, or when the shift would exceed **floatingIslandsSnapRareStructureMaxVerticalBlocks**.
+floatingIslandsSnapRareStructuresToIslandColumn = true
+#Max absolute vertical shift (blocks) for **floatingIslandsSnapRareStructuresToIslandColumn**; larger moves are skipped.
+# Default: 96
+# Range: 8 ~ 256
+floatingIslandsSnapRareStructureMaxVerticalBlocks = 96
+#When **true**, **minecraft:monster_room**, **trial_chambers**, or **minecraft:mineshaft** starts that cannot be snapped (no land column in the footprint search, horizontal shift over cap, vertical move over cap, or interior fit failure) are **removed** and overlapping blocks in this chunk cleared.
+#When **false**, failed snaps are left unchanged (may leave floating void junk).
+floatingIslandsSnapRareStructureInvalidateOnFail = true
+#Max **Manhattan** horizontal shift (|dx|+|dz| in blocks) when snapping rare structures to a chosen anchor column; **0** disables lateral correction.
+# Default: 24
+# Range: 0 ~ 64
+floatingIslandsSnapRareStructureMaxHorizontalManhattanBlocks = 24
+#Footprint sampling step (blocks) when searching for a valid island column under a rare structure bounding box (corners/center always included).
+# Default: 6
+# Range: 2 ~ 16
+floatingIslandsSnapRareStructureAnchorGridStepBlocks = 6
+#Rare-structure vertical placement after horizontal anchoring: **under_bottom** = hang with BB top at columnBottomY−1 (legacy); **interior** = align BB vertical center near island stone mid-depth (falls back to under_bottom if fit sampling fails).
+floatingIslandsRareStructurePlacementMode = "under_bottom"
+#Minimum fraction of footprint / vertical probe samples that must lie inside procedural island stone for **interior** placement and BB fit checks (0–1).
+# Default: 0.35
+# Range: 0.0 ~ 1.0
+floatingIslandsRareStructureInteriorMinColumnFitFraction = 0.35
+#When **true**, **FloatingIslandsChunkGenerator** runs overworld-style noise carvers **masked** to procedural island columns so caves pocket inside islands instead of carving open void.
+#Uses **minecraft:overworld** noise settings only for carving context (aquifer / surface sampling); terrain fill stays procedural.
+floatingIslandsEnableMaskedOverworldCarvers = true
+#Chebyshev radius (chunks) around each chunk when running masked carvers. Vanilla overworld uses **8** (a **17×17** area).
+#Lower values reduce worldgen CPU; **5** is a practical default (**11×11**). **8** matches vanilla cave reach at chunk seams.
+# Default: 5
+# Range: 2 ~ 8
+floatingIslandsMaskedCarverNeighborChunkRadius = 5
+#Caps **`/locate structure`** search rings on the floating-islands generator (vanilla passes **100**). Each candidate ring can synchronously force chunk generation and may watchdog-kill the server on heavy jigsaw structures (e.g. trial chambers).
+#Sparse structures (**minecraft:mansion**, ocean monuments, …) may need a **higher** cap or several locate attempts. Raise toward **100** only if you accept longer locate stalls.
+# Default: 32
+# Range: 4 ~ 100
+floatingIslandsLocateStructureMaxRingRadius = 32
+#When **true** with **debugLogging**, log when masked carving is skipped or fails (normally silent).
+floatingIslandsMaskedCarversDebugLogging = false
+#When **true**, strips vanilla **minecraft:monster_room** and **minecraft:trial_chambers** starts in each chunk, then (on the region owner chunk only) regenerates **at most one** matching structure per inhabited island region when the rare-structure slot roll matches **controlledRareDungeonPlaceTryChance**.
+#Runs before vertical snap; turn **false** for vanilla dungeon placement only.
+floatingIslandsControlledRareDungeonPlacement = false
+#After **floatingIslandsControlledRareDungeonPlacement** and the region rare slot is monster room or trial chambers: probability **0–1** to actually generate the controlled dungeon (**0** = strip-only).
+# Default: 0.55
+# Range: 0.0 ~ 1.0
+controlledRareDungeonPlaceTryChance = 0.55
+#Relative weight for **minecraft:mineshaft** in the same exclusive island-region rare slot as dungeons/trials/pyramids (**0** = never selected — vanilla mineshafts still generate unless removed by other rules).
+# Default: 0
+# Range: 0 ~ 1000000
+islandRegionRareStructureWeightMineshaft = 0
+#After biome decoration gating: for **monster_room**, **trial_chambers**, and **minecraft:mineshaft** starts still valid in this chunk, fill a vertical **minecraft:chain** column between structure top and procedural island underside when the gap is small enough.
+floatingIslandsRareStructureDecorativeChains = true
+#Max vertical gap (blocks) for decorative chains (**0** disables length limit only by this cap).
+# Default: 48
+# Range: 0 ~ 256
+floatingIslandsRareStructureChainMaxGapBlocks = 48
+#Per **8×8-chunk** island region: probability that a procedural floating island exists there.
+#Higher values shrink void gaps between land (~**0.34** ≈ twice as dense as legacy **0.17**). Range **0.05–1**.
+# Default: 0.34
+# Range: 0.05 ~ 1.0
+floatingIslandRegionSpawnChance = 0.34
+#Weight for minecraft:river when rolling per-island biome (0 = never). Land uses procedural biomes, not vanilla multi_noise sectors.
+# Default: 28
+# Range: 0 ~ 1000
+islandBiomeWeightRiver = 28
+#Weight for minecraft:plains (0 = exclude). Slightly higher default helps vanilla villages find suitable surfaces.
+# Default: 20
+# Range: 0 ~ 1000
+islandBiomeWeightPlains = 20
+#Weight for minecraft:forest (0 = exclude).
+# Default: 14
+# Range: 0 ~ 1000
+islandBiomeWeightForest = 14
+#Weight for minecraft:taiga (0 = exclude).
+# Default: 10
+# Range: 0 ~ 1000
+islandBiomeWeightTaiga = 10
+#Weight for minecraft:desert (0 = exclude).
+# Default: 8
+# Range: 0 ~ 1000
+islandBiomeWeightDesert = 8
+#Weight for minecraft:snowy_plains (0 = exclude).
+# Default: 8
+# Range: 0 ~ 1000
+islandBiomeWeightSnowyPlains = 8
+#Weight for minecraft:jungle (0 = exclude).
+# Default: 6
+# Range: 0 ~ 1000
+islandBiomeWeightJungle = 6
+#Weight for minecraft:mushroom_fields (0 = exclude).
+# Default: 2
+# Range: 0 ~ 1000
+islandBiomeWeightMushroomFields = 2
+#Weight for minecraft:badlands (0 = exclude).
+# Default: 4
+# Range: 0 ~ 1000
+islandBiomeWeightBadlands = 4
+#Weight for minecraft:windswept_forest (0 = exclude).
+# Default: 4
+# Range: 0 ~ 1000
+islandBiomeWeightWindsweptForest = 4
+#Weight for minecraft:swamp (0 = exclude).
+# Default: 6
+# Range: 0 ~ 1000
+islandBiomeWeightSwamp = 6
+#Weight for minecraft:dark_forest (0 = exclude). Required for vanilla **minecraft:mansion** placement;
+#mansions stay rare due to vanilla spacing, not this weight alone.
+# Default: 5
+# Range: 0 ~ 1000
+islandBiomeWeightDarkForest = 5
+#Weight for minecraft:snowy_taiga (0 = exclude). Improves **minecraft:igloo** eligibility alongside snowy_plains.
+# Default: 6
+# Range: 0 ~ 1000
+islandBiomeWeightSnowyTaiga = 6
+#Where **{@code levmod:levitite_fields}** applies when Create: Levite Fields is loaded:
+#**void_only** — open void near islands only (default; island surfaces use **islandBiomeWeight*** / BOP);
+#**island_only** — Levite can roll on island regions via **islandBiomeModWeightedEntries** / discover-all; void stays normal;
+#**both** — void belt **and** island rolls can include Levite.
+islandLeviteFieldsPlacement = "void_only"
+#With **void_only** or **both**: max horizontal ellipsoid ratio beyond the nearest island edge.
+#**1.0** = just outside the island footprint; **2.75** = wide void belt between nearby islands; higher = more empty sky.
+#Columns with no island stone and ratio above this use the normal void biome (**minecraft:plains** placeholder).
+# Default: 2.0
+# Range: 1.0 ~ 8.0
+islandLeviteFieldsVoidMaxHorizBeyondEdge = 2.0
+#With **void_only** or **both**: after a void column passes the horiz belt test, probability it rolls **levmod:levitite_fields** instead of the normal void biome.
+#**1.0** = every eligible column (legacy dense sky); **0.35** (default) ≈ sparse patches — fewer Levite clusters and less decoration load when flying through void.
+#**0** disables Levite in void (same as setting placement to **island_only** without island rolls).
+# Default: 0.35
+# Range: 0.0 ~ 1.0
+islandLeviteFieldsVoidBiomeChance = 0.35
+#When **true** and **Biomes O' Plenty** ({@code biomesoplenty}) is installed, merge **islandBiomeModWeightedEntries**
+#into per-**island** biome rolls. **Levite Fields** on islands uses **islandLeviteFieldsPlacement** (**island_only** / **both**).
+#Entries that do not resolve in the biome registry are skipped at runtime.
+islandBiomeModIntegrationEnabled = true
+#Used only when a supported biome mod is loaded, **islandBiomeModIntegrationEnabled**, and the mod biome pool is non-empty.
+#**Default 0.7** — **70%** of island regions roll **only** among mod biomes; **30%** roll **only** among **islandBiomeWeight*** (vanilla).
+#**0** — single combined pool (legacy): vanilla and mod weights compete by raw totals.
+#**1** — always mod subset when it is non-empty (no vanilla-only regions).
+# Default: 0.7
+# Range: 0.0 ~ 1.0
+islandBiomeModPreferredRollFraction = 0.7
+#When **true** (default) and BOP is loaded: every registered **`biomesoplenty:*`** biome is eligible on the island mod branch.
+#**islandBiomeModWeightedEntries** then acts as **per-id weight overrides**; ids not listed use **islandBiomeModDiscoveredDefaultWeight**.
+#When **false**: only lines in **islandBiomeModWeightedEntries** are used (pack-maker curated list).
+islandBiomeModDiscoverAllRegistered = true
+#Used when **islandBiomeModDiscoverAllRegistered** is **true**: relative weight for each discovered mod biome
+#that does not appear in **islandBiomeModWeightedEntries**.
+# Default: 5
+# Range: 1 ~ 1000
+islandBiomeModDiscoveredDefaultWeight = 5
+#When **islandBiomeModDiscoverAllRegistered** is **true**: optional **`namespace:path=weight`** overrides (empty = equal weights via **islandBiomeModDiscoveredDefaultWeight**).
+#For **levmod**, use **islandLeviteFieldsPlacement** (**island_only** / **both**) — ignored on islands when **void_only**.
+#When **false**: required explicit list of **`namespace:path=weight`** lines for mod island biomes (**empty** = no mod biomes).
+#Format: weight **1**–**9999999**. Unresolved ids are skipped.
+islandBiomeModWeightedEntries = ["levmod:levitite_fields=35"]
+#Extra horizontal radius in blocks for procedural floating islands (added on top of the random base).
+#Increase if villages or large structures clip off the rim; 0 yields smaller legacy-sized masses.
+# Default: 18
+# Range: 0 ~ 48
+floatingIslandHorizontalRadiusBonus = 18
+#Extra horizontal radius (blocks) when the region rolls a controlled pillager outpost settlement.
+#Stacks with floatingIslandHorizontalRadiusBonus; 0 disables this bump.
+# Default: 52
+# Range: 0 ~ 96
+floatingIslandHorizontalRadiusOutpostExtraBlocks = 52
+#Extra horizontal radius (blocks) when the region rolls a controlled **village** settlement.
+#Stacks with floatingIslandHorizontalRadiusBonus; 0 disables. Tune up if modded villages still overhang.
+# Default: 46
+# Range: 0 ~ 96
+floatingIslandHorizontalRadiusVillageExtraBlocks = 46
+#Master toggle for pointy island undersides. When **true**, each island gets 3–5 deterministic Gaussian downward bumps that extend the bottom ellipsoid into stalactite-like roots. When **false**, the legacy smooth bottom is used (existing worlds keep the same silhouette).
+floatingIslandBottomSpikesEnabled = true
+#Minimum number of stalactite-root spikes per island (inclusive). Clamped against floatingIslandBottomSpikeCountMax.
+# Default: 3
+# Range: 0 ~ 6
+floatingIslandBottomSpikeCountMin = 3
+#Maximum number of stalactite-root spikes per island (inclusive). Hard cap matches the internal spike array length (6).
+# Default: 5
+# Range: 0 ~ 6
+floatingIslandBottomSpikeCountMax = 5
+#Upper cap on the per-column bottom-radius multiplier at a spike center (1.0 = no extension, 2.8 ≈ tap-root depth nearly 3× the smooth bottom). Higher values stretch spikes further into the void; effective cap is also limited by floatingIslandBottomSpikeMaxDepthBelowCenterBlocks / vrBottom.
+# Default: 2.8
+# Range: 1.0 ~ 4.0
+floatingIslandBottomSpikeMaxMultiplier = 2.8
+#Approximate horizontal radius (in blocks) where a spike's depth boost falls to roughly half. Smaller = sharper points; larger = broader hanging lobes.
+# Default: 7.0
+# Range: 2.0 ~ 64.0
+floatingIslandBottomSpikeFalloffBlocks = 7.0
+#Maximum sqrt(horiz) at which a spike anchor may sit (fraction of horizontal radius). Keeps roots under the island body rather than the rim; lower = tighter cluster near center, higher = spikes reach toward the rim so the disk is covered evenly on both sides.
+# Default: 0.82
+# Range: 0.1 ~ 0.95
+floatingIslandBottomSpikeMaxAnchorHoriz = 0.82
+#Minimum sqrt(horiz) at which a spike anchor may sit (fraction of horizontal radius). Pushes anchors outward so K=3-4 spikes do not clump near the island center, leaving the rest of the underside smooth.
+# Default: 0.35
+# Range: 0.0 ~ 0.9
+floatingIslandBottomSpikeMinAnchorHoriz = 0.35
+#Fraction of an angular slot (2π / spikeCount) by which each spike's polar angle may jitter inside its slot. 0 = perfectly evenly spaced (looks too symmetric); 1 = spikes can land anywhere in their slot. Lower values guarantee disk coverage with small spike counts.
+# Default: 0.55
+# Range: 0.0 ~ 1.0
+floatingIslandBottomSpikeAngleJitterFraction = 0.55
+#Hard cap (blocks) on how far below an island's centerY the spike-extended bottom may reach. Prevents extreme vrBottom + spike combinations from poking into the void-floor band used by FloatingIslandVoidRescue (see voidRescueTriggerBlocksAboveMinY).
+# Default: 128
+# Range: 16 ~ 256
+floatingIslandBottomSpikeMaxDepthBelowCenterBlocks = 128
+#Returned only by **ChunkGenerator#getSeaLevel()** for the floating-islands overworld (not the same as **Level#getSeaLevel()**, which still comes from the overworld **dimension type**, usually **~63**).
+#Many structure placement helpers and some mods anchor vertical placement to generator sea level. The legacy **−63** value misaligned Y relative to island tops; set this near your typical **surface Y** (often **~90–120**). Tune when adding structure/worldgen mods.
+# Default: 100
+# Range: -64 ~ 512
+floatingIslandsChunkGeneratorSeaLevel = 100
+#After structures generate, remove any **start** in this chunk whose horizontal footprint does not intersect procedural island columns (void-only). Cleared blocks are wiped for this chunk only; multi-chunk pieces behave like other partial trims.
+#Improves packs that add villages/buildings so void debris is less common. Set **false** if a mod requires structures that intentionally float with no land.
+floatingIslandsRemoveStructuresWithNoLandContact = true
+#For **minecraft:mineshaft** only: require the structure bounding-box **center** to sit on an island column and at least **floatingIslandsMineshaftMinIslandColumnFraction** of sampled footprint columns to have land.
+#Vanilla’s huge mineshaft box often **barely touched** one rim while corridors and chains filled void sky — the loose test still kept the whole start. Set **false** to restore the legacy **any-corner touch** rule (more void junk).
+floatingIslandsMineshaftStrictIslandOverlap = true
+#Used only when **floatingIslandsMineshaftStrictIslandOverlap** is **true**: minimum fraction (0–1) of horizontal BB samples that must have procedural island stone beneath.
+#**0** = center-column check only; **~0.12** rejects skinny edge grazing.
+# Default: 0.12
+# Range: 0.0 ~ 1.0
+floatingIslandsMineshaftMinIslandColumnFraction = 0.12
+#When **true**, void-column structure trimming also removes **minecraft:mineshaft** blocks in open-sky columns (fragments corridors under floating islands).
+#When **false** (default), mineshaft planks/fences/logs spanning void **between** island columns are kept so halls stay connected; floating junk above the surface is still trimmed.
+floatingIslandsTrimStripMineshaftThroughVoid = false
+#For **minecraft:stronghold** only: same idea as mineshafts — vanilla’s huge ring-spread box often touches one island column while most of the fortress floats in void.
+#When **true**, require BB **center** on island and **floatingIslandsStrongholdMinIslandColumnFraction** horizontal overlap. Does **not** re-place the stronghold inside stone (that would need custom placement); it **removes** bad starts. Set **false** for legacy loose touch tests.
+floatingIslandsStrongholdStrictIslandOverlap = true
+#Used when **floatingIslandsStrongholdStrictIslandOverlap** is **true** — often slightly **higher** than the mineshaft fraction because stronghold footprints are enormous.
+# Default: 0.18
+# Range: 0.0 ~ 1.0
+floatingIslandsStrongholdMinIslandColumnFraction = 0.18
+#For **minecraft:ruined_portal** only: vanilla’s search bounding box can span many chunks while the placed fragment sits in pure void.
+#When **true**, this chunk **keeps** the start only if the **intersection** of the structure BB with this chunk has procedural island land under its horizontal midpoint (not merely “any sample anywhere in the global BB”).
+#Set **false** for the legacy whole-BB touch rule (more void rubble).
+floatingIslandsRuinedPortalChunkLocalLandAnchor = true
+#Run structure void-column trimming again at the **start** of biome decoration so blocks placed **after** the STRUCTURE_STARTS trim pass are cleared from open void.
+#Helps **ruined_portal** fragments and similar late-written pieces. Set **false** only if something must leave structure blocks floating with no island column.
+floatingIslandsTrimStructureVoidBlocksAfterFeatures = true
+#For **minecraft:monster_room**, **minecraft:trial_chambers**, and **minecraft:stronghold**: remove the start if its bounding box does not intersect the procedural island **stone column** (by Y) at the box center.
+#Vanilla anchoring uses **sea level** / spread logic, so dungeons and fortress pieces often appear **above or below** the island mass in open air. This does **not** reposition structures — it only strips bad placements.
+floatingIslandsCaveStructureRequireStoneYOverlap = true
+#After normal biome decoration, try to place this many extra trees on grass / sand / mycelium island tops per chunk.
+#Attempts pick random **surface columns that have land** (void columns are skipped), so small islands still get coverage.
+# Default: 4
+# Range: 0 ~ 64
+floatingIslandsExtraSurfaceTreesPerChunk = 4
+#Same as floatingIslandsExtraSurfaceTreesPerChunk but for snow-block tops (cold islands). Usually higher than grass so taiga-style islands are not bare.
+# Default: 6
+# Range: 0 ~ 64
+floatingIslandsExtraSurfaceTreesSnowPerChunk = 6
+#Fraction of chunks that run **any** surface water pool placement (0–1). Combined with a low per-chunk cap, keeps pools rare on large islands.
+#**1** = every chunk may get pools; **0.25** ≈ **75%** fewer chunk placements than always-on.
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+floatingIslandsSurfaceWaterPoolChunkChance = 0.25
+#Max **small surface water pools** per chunk **when** this chunk passes floatingIslandsSurfaceWaterPoolChunkChance (grass / sand / mycelium; not snow tops).
+#Runs before extra trees. Default **1** with **~0.25** chunk chance ≈ **~80%** less coverage than the old default of **4** pools every chunk.
+# Default: 1
+# Range: 0 ~ 32
+floatingIslandsSurfaceWaterPoolsPerChunk = 1
+#After biome decoration (including optional surface pools / extra trees), remove **water** / **lava** that can leak into the void:
+#either outside the procedural island envelope, or inside it but touching **air**, **cave_air**, or open fluid in a **horizontal or downward** neighbor **outside** FloatingIslandLayout.columnContains.
+#**Upward** neighbors are ignored so sky above surface pools is not treated as a leak.
+#Within **`floatingIslandsStripExteriorFluidsTopDepthExemptBlocks`** of **`columnTopY`**, **water** skips leak stripping and is **not** cleared merely for lying outside **`columnContains`** (rim lakes). Set **false** for legacy behavior.
+floatingIslandsStripExteriorFluidsAfterDecoration = true
+#Max strip iterations per chunk (**1**–**16**). Multiple passes clear chained sources along the shell after the first removal.
+# Default: 6
+# Range: 1 ~ 16
+floatingIslandsStripExteriorFluidsMaxPasses = 6
+#Band under **`columnTopY`** where **water** is protected from exterior stripping: skips sideways/down leak removal **and** skips clearing water whose block sits **outside** columnContains (vanilla lakes often spill past the analytic ellipsoid at the rim).
+#**Lava** outside columnContains is always cleared; lava inside the envelope still follows leak rules below this band.
+#**0** = no exemption (aggressive shell strip). Deep water far below this band is still stripped when it leaks.
+# Default: 48
+# Range: 0 ~ 256
+floatingIslandsStripExteriorFluidsTopDepthExemptBlocks = 48
+#Keep probability for blocks in minecraft:coal_ores (1.0 = vanilla after decoration).
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsOreMultiplierCoal = 1.0
+#Keep probability for blocks in minecraft:copper_ores.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsOreMultiplierCopper = 1.0
+#Keep probability for blocks in minecraft:iron_ores.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsOreMultiplierIron = 1.0
+#Keep probability for blocks in minecraft:gold_ores (overworld + nether gold in those tags).
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsOreMultiplierGold = 1.0
+#Keep probability for blocks in minecraft:redstone_ores.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsOreMultiplierRedstone = 1.0
+#Keep probability for blocks in minecraft:lapis_ores.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsOreMultiplierLapis = 1.0
+#Keep probability for blocks in minecraft:diamond_ores.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsOreMultiplierDiamond = 1.0
+#Keep probability for blocks in minecraft:emerald_ores.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsOreMultiplierEmerald = 1.0
+#When true, floating-islands overworld **natural** chunk spawns (night mobs, etc.) are thinned with the keep-chance options below.
+#Spawners, structures, breeding, eggs, and commands are not affected.
+floatingIslandsSpawnTuningEnabled = true
+#Per natural spawn attempt for non-creeper **monsters** (zombies, skeletons, spiders, …): keep with this probability (1 = vanilla, 0.35 ≈ 65% fewer).
+#Creepers use floatingIslandsNaturalCreeperSpawnKeepChance instead.
+#Vanilla illagers (pillager, vindicator, …) use floatingIslandsNaturalIllagerSpawnKeepChance instead.
+# Default: 0.42
+# Range: 0.0 ~ 1.0
+floatingIslandsNaturalMonsterSpawnKeepChance = 0.42
+#Per natural spawn attempt for vanilla **illagers** (pillager, vindicator, evoker, vex, ravager, illusioner): keep probability.
+#Separate from floatingIslandsNaturalMonsterSpawnKeepChance so patrol/outpost pressure can rise without raising all hostiles.
+# Default: 0.58
+# Range: 0.0 ~ 1.0
+floatingIslandsNaturalIllagerSpawnKeepChance = 0.58
+#Entity registry **namespaces** that skip floating-islands spawn thinning for NATURAL / CHUNK_GENERATION (**keep = 1**).
+#Useful for rare boss/content mods. Default includes **mowziesmobs** and **cnb** (Creatures and Beasts: Continued); remove entries to thin them like vanilla monsters.
+#Each entry must match lowercase mod-id pattern **`^[a-z0-9_]+$`**.
+floatingIslandsSpawnTuningBypassEntityNamespaces = ["mowziesmobs", "cnb"]
+#When **true** (default) and mod **realmrpg_balloons** (Realm RPG: Treasure Balloons) is loaded: on the floating-islands overworld, new balloon entities are **raised** to at least **floatingIslandsRealmrpgBalloonsMinBlocksAboveIslandSurface** above the procedural island top at their X/Z. If that column is void, nearby columns are searched before the join is **cancelled**.
+#Does not affect entities loaded from disk (world save).
+floatingIslandsRealmrpgBalloonsSpawnFixEnabled = true
+#Minimum blocks **above** the island surface Y used by **floatingIslandsRealmrpgBalloonsSpawnFixEnabled** for **realmrpg_balloons** entities (first join only).
+# Default: 14
+# Range: 0 ~ 128
+floatingIslandsRealmrpgBalloonsMinBlocksAboveIslandSurface = 14
+#Per natural spawn attempt for **creepers** only (explosion damage on small islands). Lower = fewer creepers (e.g. **0.08** ≈ 1 in 12 attempts).
+# Default: 0.08
+# Range: 0.0 ~ 1.0
+floatingIslandsNaturalCreeperSpawnKeepChance = 0.08
+#Per natural spawn attempt for **land animals** (pigs, sheep, cows, chickens, …): keep with this probability (**1** = vanilla rate before optional multiplier below).
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsNaturalCreatureSpawnKeepChance = 1.0
+#After a natural land **animal** spawn succeeds and passes the keep chance above, roll again: with probability **(multiplier − 1)** (capped at 1) spawn one extra tagged duplicate nearby.
+#**1** disables; **1.2** ≈ 20% extra animals. Does not apply to breeding, eggs, or spawners.
+# Default: 1.2
+# Range: 1.0 ~ 2.5
+floatingIslandsNaturalCreatureSpawnMultiplier = 1.2
+#When **true** (default): on floating-islands overworld during **daytime**, periodically roll each online player's biome **CREATURE** spawn list at a random **nearby loaded island surface** column.
+#Complements vanilla natural spawning (which rarely finds grass columns on small islands). Uses **NATURAL** so **`floatingIslandsNaturalCreatureSpawnKeepChance`** still applies.
+floatingIslandsDaytimeCreatureSpawnBoostEnabled = true
+#How often the boost runs globally (**one** tick per interval). Each eligible player is considered on their own staggered sub-tick (see implementation). Minimum **20**.
+# Default: 200
+# Range: 20 ~ 12000
+floatingIslandsDaytimeCreatureSpawnBoostIntervalTicks = 200
+#Horizontal search radius around each player for a candidate island column (blocks).
+# Default: 56
+# Range: 8 ~ 160
+floatingIslandsDaytimeCreatureSpawnBoostRadiusBlocks = 56
+#How many random columns to try per player each time their stagger fires (**1–8**).
+# Default: 3
+# Range: 1 ~ 8
+floatingIslandsDaytimeCreatureSpawnBoostTriesPerPlayer = 3
+#Skip spawning if this many **CREATURE** mobs already exist within ~**28** blocks of the candidate feet position (reduces clumping).
+# Default: 10
+# Range: 2 ~ 64
+floatingIslandsDaytimeCreatureSpawnBoostNearbyCap = 10
+#When **true** (default): reloadable **`data/projectisland/floating_island_pack_spawns/rules.json`** drives extra **NATURAL** spawns on floating-islands overworld (e.g. sky **cnb:end_whale** on **`#minecraft:is_overworld`**).
+#Datapacks can override that path. **0** rules disables work until reload.
+floatingIslandsPackSpawnBoostEnabled = true
+#When **true** (default), pack spawn attempts only run during the same **daytime** window as **`floatingIslandsDaytimeCreatureSpawnBoost`**.
+#Set **false** for 24h pack spawns (still throttled by interval and chunk cooldown).
+floatingIslandsPackSpawnBoostDayOnly = true
+#Per-player stagger interval for pack spawn attempts (minimum **40**).
+# Default: 400
+# Range: 40 ~ 24000
+floatingIslandsPackSpawnBoostIntervalTicks = 400
+#Horizontal search radius around each player for a candidate island column (blocks).
+# Default: 72
+# Range: 16 ~ 192
+floatingIslandsPackSpawnBoostRadiusBlocks = 72
+#Random island columns to try per player each time their stagger fires.
+# Default: 2
+# Range: 1 ~ 12
+floatingIslandsPackSpawnBoostTriesPerPlayer = 2
+#Minimum **game ticks** between successful **pack** spawns in the same chunk (**0** disables). Reduces bursts when exploring fast.
+# Default: 3600
+# Range: 0 ~ 120000
+floatingIslandsPackSpawnChunkCooldownTicks = 3600
+#Per natural spawn attempt for **villagers** (e.g. from village mechanics): keep with this probability (**1** = unchanged).
+#Most villagers come from village structures; this covers villager-type spawns that use natural/chunk-generation.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsNaturalVillagerSpawnKeepChance = 1.0
+#Natural spawns for **ambient** mobs (bats): keep chance (1 = unchanged).
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsNaturalAmbientSpawnKeepChance = 1.0
+#Natural spawns for **water creatures** (squid, etc.): keep chance on islands (1 = unchanged).
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+floatingIslandsNaturalWaterCreatureSpawnKeepChance = 1.0
+#On server start, pregenerate chunks in an L-infinity (Chebyshev) neighborhood around overworld spawn.
+#0 disables. Small values (e.g. 4–8) reduce first-join hitching; large values slow server startup.
+# Default: 4
+# Range: 0 ~ 128
+spawnPregenChunkRadius = 4
+#How many FULL chunks to load per server tick while spawn pregeneration is running (minimum 1).
+# Default: 4
+# Range: 1 ~ 64
+spawnPregenChunksPerTick = 4
+#When true, players in the floating-islands overworld receive periodic nearby-island **names** (HUD beacons).
+#When false, the server sends an empty list on the same interval so clients clear any stale HUD.
+islandHudSyncEnabled = true
+#How often each player is sent an island HUD update (in ticks, 20 = 1 second).
+# Default: 40
+# Range: 1 ~ 600
+islandHudSyncIntervalTicks = 40
+#Chebyshev radius in island regions around the player to include in each HUD sync (0 = only the player's current region).
+# Default: 10
+# Range: 0 ~ 48
+islandHudRegionScanRadius = 10
+#Vertical offset in blocks above each island's procedural surface peak for the HUD anchor.
+# Default: 20
+# Range: 4 ~ 128
+islandHudHeightAbovePeakBlocks = 20
+#When **waystones** is installed, use the **nearest named waystone** inside the procedural island (see `FloatingIslandLayout#columnContains`) as the **island HUD title** instead of the generated name.
+#Falls back to **`FloatingIslandDisplayName`** when no named waystone is found. Set **false** to always use generated names.
+islandHudWaystoneTitleWhenLoaded = true
+#How long (in ticks) to cache the resolved waystone title per island region before re-querying Waystones' manager (renames pick up after this interval, or immediately after right-clicking a waystone).
+#Higher values reduce repeated lookups; lower values refresh faster.
+# Default: 120
+# Range: 20 ~ 72000
+islandHudWaystoneTitleCacheTicks = 120
+#On first join to the floating-islands overworld, assign a starter-home island region (persisted **`StarterHomes`** mapping only), then teleport to that island's procedural center (HUD-aligned).
+#Players who already have a starter home entry are unchanged. Void rescue still runs afterward if needed.
+starterIslandAutoAssignEnabled = true
+#When true: after the server picks a **shared starter hub** island, **new** players without a starter home are sent there (same region as existing starters) instead of claiming a new island.
+#The hub is created by the first successful starter claim while **starterIslandSplitWhenWorldSpawnMoves** still considers spawn unchanged (see that option).
+#When false: every new player spirals for their own AVAILABLE island (legacy one-island-per-player behavior).
+starterIslandSharedHub = true
+#When **starterIslandSharedHub** is true: the overworld **shared spawn XZ** is remembered the first time starter assignment runs.
+#If an operator later moves world spawn (e.g. `/setworldspawn`) so **XZ** differs, **new** players without a starter home claim **their own** islands again (**starterIslandMinRegionSeparation** applies).
+#Set false to keep assigning everyone to the shared hub even after spawn moves.
+starterIslandSplitWhenWorldSpawnMoves = true
+#When true, the starter region spiral anchors at world block column (0, 0) (region containing that column).
+#Takes precedence over starterIslandSearchFromWorldSpawn when enabled.
+starterIslandSearchFromWorldOrigin = false
+#When starterIslandSearchFromWorldOrigin is false: if true, the spiral starts at the overworld shared spawn chunk.
+#If false, the spiral starts at the player's join chunk (useful for tests).
+starterIslandSearchFromWorldSpawn = true
+#Chebyshev radius in island regions (8×8 chunks each) when searching for an AVAILABLE starter candidate.
+#Increase on dense servers if nearby regions are all claimed.
+# Default: 96
+# Range: 1 ~ 4096
+starterIslandMaxRegionSearchRadius = 96
+#Minimum Chebyshev distance in regions between a new starter island and any existing starter home island.
+#0 disables separation checks.
+# Default: 0
+# Range: 0 ~ 256
+starterIslandMinRegionSeparation = 0
+#If non-empty and no starter island could be assigned within the search radius, disconnect the joining player with this literal message (otherwise they stay at join position and void rescue may still run).
+starterIslandFailureKickMessage = ""
+#After a player's **first** starter-home assignment succeeds, place **one** loot chest on that island region (near the procedural center, offset from the spawn column).
+#Loot table: **`projectisland:chests/starter_supply`** (harpoon, elytra, food, torches, basic tools, etc.).
+#With **Lootr** installed, behavior follows Lootr's conversion rules for vanilla loot chests.
+#Persisted per region and block position in **`FloatingIslandSavedData`** so each starter island (hub or per-player) gets at most one chest; that chest resists **explosions** and **survival** mining (creative **instabuild** can still remove it).
+starterIslandSupplyChestEnabled = true
+#When true, the server watches floating-islands overworld players in the void: **bed / starter / relocate** and optional **last-safe** snap (voidRescueSnapToLastSafe*) run only inside the **void-floor band** (**minBuildHeight** + **voidRescueTriggerBlocksAboveMinY**; see **FloatingIslandVoidRescue**) — not while you are only a few blocks under an island.
+#Join / dimension change still runs immediate void relocation when you are not on a surface.
+voidRescueEachTick = true
+#With voidRescueEachTick: when feet Y is at or below (minBuildHeight + this value), run rescue if still not supported.
+#This must stay a **narrow band near the world minimum** — large values (e.g. 200) treat mid-air under islands as “void” and cause **last-safe + floor rescue every tick** (rubber-band / teleport loops). Vanilla overworld min is **-64**; **12** ⇒ rescue at **Y≤-52**.
+#Hard-capped at **64** so the void-floor band cannot swallow normal overworld heights. Join / dimension relocate still runs when unsupported at any height (see FloatingIslandVoidRescue).
+# Default: 12
+# Range: 0 ~ 64
+voidRescueTriggerBlocksAboveMinY = 12
+#In the **void-floor band** only (same Y rule as bed/starter/relocate): optionally teleport you back to the last feet position that was on solid / island surface once you drop voidRescueSnapToLastSafeMinFallBlocks below that Y.
+#Does **not** run high under islands — avoids snap/relocate thrash and vanilla “Flying is not enabled” when voidRescueSnapToLastSafeMinFallBlocks is small.
+voidRescueSnapToLastSafeEnabled = true
+#Used only inside the void-floor band: vertical gap below the saved last-safe Y before the snap runs.
+#Very small values only affect behavior near the world bottom, not a few blocks under an island.
+# Default: 20
+# Range: 4 ~ 256
+voidRescueSnapToLastSafeMinFallBlocks = 20
+#Ticks after a last-safe snap before another mid-void snap can run (prevents thrash if the spot is no longer valid).
+# Default: 40
+# Range: 0 ~ 200
+voidRescueSnapToLastSafeCooldownTicks = 40
+#On the **floating-islands overworld**, while **`FloatingIslandVoidRescue`** considers you **unsupported** (open void / rim gaps, etc.), each tick resets vanilla's move-packet floating accumulators on your connection.
+#Prevents **Disconnected: Flying is not enabled** / **kicked for floating too long** on long falls and void rescue when **`allow-flight`** is **false** in **`server.properties`**. Set **false** if you want vanilla's strict checks even in the void.
+voidRescueResetVanillaFloatingPacketCounters = true
+#When true, players in the floating-islands overworld receive rope anchor segment positions for client rendering.
+#When false, the server sends an empty list on the same interval so clients clear stale segments.
+ropeLinkSyncEnabled = true
+#How often each player is sent a rope link update (in ticks, 20 = 1 second).
+# Default: 20
+# Range: 1 ~ 600
+ropeLinkSyncIntervalTicks = 20
+#A rope segment is included if either anchor or the midpoint is within this horizontal Chebyshev distance (blocks) of the player.
+#Increase if long spans disappear while you stand between islands.
+# Default: 384
+# Range: 32 ~ 2048
+ropeLinkSyncCullRadiusBlocks = 384
+#Harpoon gun raycast reach (blocks) for each shot when placing rope anchors.
+#Should be **≥ ropeLinkMaxLengthBlocks** so you can aim at the far island from the near one; defaults match max span.
+# Default: 256
+# Range: 8 ~ 512
+ropeLinkRaycastRangeBlocks = 256
+#Maximum Euclidean distance (blocks) between two anchors for a new rope link (server-validated).
+#Default **256** fits typical floating-neighbor islands (~117+ blocks is common); raise up to **1024** for rare layouts. Stored on each RopeLink for strain / future rules.
+# Default: 256
+# Range: 16 ~ 1024
+ropeLinkMaxLengthBlocks = 256
+#Maximum (and initial) hit points per rope link. Strain lowers health; at 0 the link snaps and anchors restore.
+# Default: 100.0
+# Range: 1.0 ~ 1000000.0
+ropeLinkMaxHealth = 100.0
+#When true, when a player unlocks a higher rope tier (advancement), existing RopeLinks they own are upgraded server-side (max length + max health).
+#Upgrades preserve the current health fraction. Disable if you want tiers to affect new links only.
+ropeProgressionUpgradeExistingLinks = true
+#How often (ticks) to scan and upgrade existing rope links when ropeProgressionUpgradeExistingLinks is enabled.
+# Default: 200
+# Range: 1 ~ 20000
+ropeProgressionUpgradeIntervalTicks = 200
+#Server ticks between strain evaluations (span vs max length) and optional damage. 20 ≈ once per second.
+# Default: 20
+# Range: 1 ~ 1200
+ropeLinkStressTickInterval = 20
+#When chord length / maxLinkLength exceeds this ratio, the rope takes strain damage each stress tick (e.g. 0.88 = 88% of allowed span).
+# Default: 0.88
+# Range: 0.5 ~ 0.999
+ropeLinkStrainRatioThreshold = 0.88
+#Hit points removed per stress tick while over the strain threshold. Scales up as span approaches max length.
+# Default: 1.5
+# Range: 0.0 ~ 10000.0
+ropeLinkStrainDamagePerTick = 1.5
+#Survival/adventure: each time a **linked** rope anchor would be removed by mining, **link HP** is reduced (scaled by swing cooldown and how fast the block would break) and the break is blocked until 0% HP.
+#At **0** the anchor breaks like a normal block (one removal still severs the link via strain-style cleanup).
+#Default **0.35** is tuned for **ropeLinkMaxHealth** 100; raise to chip faster per completed mining attempt.
+# Default: 0.35
+# Range: 0.0 ~ 20.0
+ropeAnchorLinkDamagePerDigTick = 0.35
+#**Legacy — ignored.** Harpoon ziplines are not restricted by starter-centric graph rules.
+ropeTopologyEnabled = true
+#**Legacy — ignored.**
+# Default: 2
+# Range: 0 ~ 8
+ropeTopologyMaxDepthFromStarter = 2
+#**Legacy — ignored.**
+ropeAllowTertiaryIslandLinks = false
+#**Legacy — ignored.**
+# Default: 1
+# Range: 1 ~ 4
+ropeMainDirectSpokeCap = 1
+#**Legacy — ignored.**
+# Default: 1
+# Range: 1 ~ 3
+ropeSisterOutboundCap = 1
+#**Legacy — ignored.** Island **claims** and rope placement were decoupled; `/projectisland island claim` was removed.
+secondaryClaimRequiresRopeLink = true
+#**Legacy — ignored.**
+# Default: 160
+# Range: 0 ~ 2048
+secondaryClaimCommandMaxDistanceBlocks = 160
+#**Legacy — ignored.**
+autoClaimIslandOnRopeLink = true
+#**Legacy — ignored.**
+# Default: 0
+# Range: 0 ~ 4
+secondaryClaimCommandPermissionLevel = 0
+#When true, empty-hand use (not sneaking) on a linked rope anchor starts rope surfing along the sag toward the other anchor (any player).
+ropeTraversalSurfEnabled = true
+#Minimum rope health fraction (0–1) required to start or continue rope surfing.
+# Default: 0.12
+# Range: 0.0 ~ 1.0
+ropeTraversalSurfMinHealthFraction = 0.12
+#Approximate rope-surf speed along the rope curve (blocks per second).
+#Lower if dedicated-server movement validation kicks you; raise for faster zips (SP or allow-flight true).
+# Default: 12.0
+# Range: 0.5 ~ 80.0
+ropeTraversalSurfSpeedBlocksPerSecond = 12.0
+#Ticks after completing a rope surf before another can start (0 = none). Sneak-cancel does not apply cooldown.
+# Default: 45
+# Range: 0 ~ 1200
+ropeTraversalSurfCooldownTicks = 45
+#Safety cap: if rope surfing lasts longer than this (ticks), the server clears surf state.
+#Prevents a stuck "already surfing" session if movement packets desync.
+# Default: 2400
+# Range: 40 ~ 120000
+ropeTraversalSurfMaxDurationTicks = 2400
+#When true, entity types in **`data/projectisland/tags/entity_types/rope_surfing_mobs.json`** can auto-start rope surfing on linked anchors in the floating-islands overworld (server curve motion + link wear).
+mobRopeSurfEnabled = true
+#When **> 0**, a mob with **`getTarget()`** on a **living player** in the **same level** within this **spherical** distance (blocks) defers auto-surf **only** when the **far** anchor is horizontally **farther** from that player than the anchor the mob is touching (chase on the rim / hallway — avoids riding away from the fight).
+#If the far anchor is **closer** to the player than the near anchor, auto-surf is **not** deferred so mobs can cross toward you. Defer is **off** while the target is player rope surfing. Set **0** to always allow auto-surf.
+# Default: 40.0
+# Range: 0.0 ~ 512.0
+mobRopeSurfDeferAutoWhenPlayerTargetWithinBlocks = 40.0
+#Mob rope-surf speed along the sag curve (blocks per second), same integration as player surf.
+# Default: 12.0
+# Range: 0.5 ~ 80.0
+mobRopeSurfSpeedBlocksPerSecond = 12.0
+#Hit points removed from the shared **RopeLink** when a mob **finishes** one crossing (primary wear lever).
+#Stacks with **mobRopeDamagePerAdvanceDuringCrossing** while moving.
+# Default: 28.0
+# Range: 0.0 ~ 1000000.0
+mobRopeDamagePerCompletedCrossing = 28.0
+#If **> 0**, the link is severed when **mob crossings completed** reaches this count (both anchors), even if HP would remain.
+#**0** disables this cap (HP-only sever).
+# Default: 0
+# Range: 0 ~ 1000000
+mobRopeMaxCrossingsBeforeSever = 0
+#Optional extra **RopeLink** HP removed **each server tick** while a mob is actively surfing (**0** = completion damage only).
+# Default: 0.0
+# Range: 0.0 ~ 10000.0
+mobRopeDamagePerAdvanceDuringCrossing = 0.0
+#Safety cap (ticks) for an active mob rope surf session before the server clears surf state.
+# Default: 2400
+# Range: 40 ~ 120000
+mobRopeSurfMaxDurationTicks = 2400
+#Minimum ticks between **auto-start** attempts for the same mob near anchors (reduces thrash when blocked).
+# Default: 40
+# Range: 0 ~ 1200
+mobRopeAutoTryCooldownTicks = 40
+#Auto-start: mob **feet** may be up to this **horizontal** Chebyshev distance (blocks) from an anchor and still try that link (default **10** — ~6–10 block “radius” on the island).
+#**0** = legacy: only a small box around feet plus **touch** (collision / slight inflate) on the anchor counts.
+# Default: 10
+# Range: 0 ~ 64
+mobRopeAutoStartHorizontalChebBlocks = 10
+#With **mobRopeAutoStartHorizontalChebBlocks** > **0**: max **vertical** |feet Y − anchor Y| (default **128**). **0** = treat as **128** when horizontal mode is on.
+# Default: 128
+# Range: 0 ~ 384
+mobRopeAutoStartVerticalBlocks = 128
+#When true, **PathfinderMob** types in **`rope_surfing_mobs`** (e.g. zombie, skeleton) get an AI goal to **walk toward** the nearest legal rope anchor within the auto-start radii, then **`tryStart`** (bypasses player-target defer used by bump auto-start).
+#Non-**PathfinderMob** tag members (e.g. pillager) still use tick bump detection only. Set **false** to rely on bump auto-start alone.
+mobRopeAnchorNavigationGoalEnabled = true
+#Lower = higher AI priority (vanilla). Default **6** — below melee (**~2**) so close combat wins, above random stroll (**~8**) so crossing is preferred when out of melee.
+# Default: 6
+# Range: 1 ~ 15
+mobRopeGoalPriority = 6
+#After a mob **finishes** a rope surf, ticks before that mob may auto-start or goal-start again (**default 200** ≈ **10** s at 20 TPS) — reduces ping-pong loops on the same link.
+# Default: 200
+# Range: 0 ~ 6000
+mobRopePostCrossingCooldownTicks = 200
+#Navigation goal: when the mob is within this **Euclidean** distance (blocks) of the anchor block center, **`tryStart`** runs (default **2.75**).
+# Default: 2.75
+# Range: 0.5 ~ 12.0
+mobRopeGoalAnchorStartDistBlocks = 2.75
+#Navigation goal: refresh **`moveTo`** toward the anchor every this many ticks while chasing the anchor (default **40**).
+# Default: 40
+# Range: 5 ~ 200
+mobRopeGoalRepathIntervalTicks = 40
+#Max **concurrent** mob surfers per **RopeLink** id (**0** = unlimited). Starts beyond this cap are rejected until someone finishes or clears.
+# Default: 0
+# Range: 0 ~ 64
+mobRopeMaxSurfingPerLink = 0
+#When true, **rope_surfing_mobs** that **target** a **ServerPlayer** receive a short **follow intent** when that player **starts** rope surfing from an anchor: they prefer that **departure** anchor for the navigation goal / bump auto-start (same link the player took).
+#Requires **mobRopeSurfEnabled**. Set **false** to disable chase-follow onto the rope.
+mobRopeFollowPlayerSurfEnabled = true
+#When assigning follow intent: mobs whose **AABB** intersects this **axis-aligned** expansion of the player’s bounding box (± blocks on each axis) and have **getTarget() ==** that player are eligible.
+#**0** disables assigning new intents (existing intents still expire normally).
+# Default: 32.0
+# Range: 0.0 ~ 128.0
+mobRopeFollowPlayerSurfAssignRangeBlocks = 32.0
+#How long (ticks) follow intent lasts after the player starts surfing — the mob prefers that departure anchor until expiry, target change, or invalid link.
+#Minimum **20** when applied.
+# Default: 400
+# Range: 20 ~ 6000
+mobRopeFollowPlayerSurfIntentTicks = 400
+#When true, **ServerPlayer** clients within **`mobRopeNearbyPlayerWarningRangeBlocks`** of a mob that **starts** rope surfing receive an action-bar toast ( **`projectisland.rope.surf.mob_nearby_warning`** ).
+mobRopeNearbyPlayerWarningEnabled = true
+#Spherical **inflate** radius (blocks) around the mob’s position when broadcasting the nearby-player rope-surf warning (**0** = no toast).
+# Default: 24.0
+# Range: 0.0 ~ 128.0
+mobRopeNearbyPlayerWarningRangeBlocks = 24.0
+#When **true**, the first **Ender Dragon** death in **the End** starts a **scheduled respawn**: after every player who was **in the End at kill time** has left the dimension, wait **`dragonResetDelayTicks`**, then respawn the dragon.
+#Shows a **top-of-screen countdown** on clients and optional **sounds** / toasts. Does **not** wipe End terrain — only respawns the boss fight (same as vanilla respawn mechanics).
+dragonResetEnabled = true
+#Ticks to wait **after** the last **witness** (player in the End when the dragon died) leaves **the End**, before **`respawnDragon`** runs (**20** ticks = **1** second).
+#Default **24000** = **20** minutes.
+# Default: 24000
+# Range: 200 ~ 2000000
+dragonResetDelayTicks = 24000
+#When **true**, if any **witness** re-enters **the End** while the post-leave countdown is running, the countdown **pauses** until everyone leaves again (timer restarts from full **`dragonResetDelayTicks`** when the End is empty of witnesses).
+dragonResetCancelOnWitnessReenter = true
+#When **true**, play a short **sound** when the post-leave countdown **starts** and when the dragon **respawns**.
+dragonResetPlaySounds = true
+#When **true**, the vanilla **Ender Dragon** boss bar stays **hidden** until the dragon **loses health from damage** once this fight.
+#Re-arms when a **new** dragon appears (**vanilla crystal respawn** or Project Island **scheduled respawn**). After a **server restart**, if a damaged dragon already exists, the bar shows immediately (avoids a stuck-hidden bar).
+dragonBossBarHideUntilFirstDamage = true

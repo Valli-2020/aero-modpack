@@ -1,0 +1,13 @@
+name = "滚木学(aero wheel extra)"
+filename = "aeronautics_wheelworks-3.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70f640043e854c0bfb1180312b840537c622d4ef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9224307
+project-id = 1729455

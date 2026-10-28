@@ -1,0 +1,13 @@
+name = "Sable: Collapsing Caves"
+filename = "SableCollapsingCaves-1.21.1-NeoForge-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cDSvl6iV/versions/AcFNtvY6/SableCollapsingCaves-1.21.1-NeoForge-1.0.jar"
+hash-format = "sha512"
+hash = "f8f4f9d6f77b9185e5217194f1e6d6033f9962ae51f129ca7557b6270340b5eb441bb569f6364bcf2be8e9f5c594914972484869c61f288596a19006bb4ca562"
+
+[update]
+[update.modrinth]
+mod-id = "cDSvl6iV"
+version = "AcFNtvY6"

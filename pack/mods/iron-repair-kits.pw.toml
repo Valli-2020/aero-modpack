@@ -1,0 +1,13 @@
+name = "Iron Repair Kits"
+filename = "iron_repair_kits-2.7.6-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "54905b6b5257e2cb4a68b5635facf3eedd420f67"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7872751
+project-id = 982371

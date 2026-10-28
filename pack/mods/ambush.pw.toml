@@ -1,0 +1,13 @@
+name = "Create Aeronautics: AMBUSH"
+filename = "ambush-1.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9sJ2Gcnx/versions/ZMxf96AX/ambush-1.1.6.jar"
+hash-format = "sha512"
+hash = "736c6320ac6de4ec26a266b62a61b5000b2552a521368d0e37f20346ce715cd90ca0d323158102484e6bd6fdc57c9fa9f7ca4b03e79e0f0b0ff0c2eb83d6fb9f"
+
+[update]
+[update.modrinth]
+mod-id = "9sJ2Gcnx"
+version = "ZMxf96AX"

@@ -1,0 +1,41 @@
+[recipes]
+	#Whether the Meat Packer crafting recipe is loaded.
+	enableMeatPackerRecipe = true
+
+[meatPacker]
+	#Internal Meat fluid tank size for the Meat Packer, in millibuckets.
+	# Default: 5000
+	# Range: 100 ~ 64000
+	tankCapacityMb = 5000
+	#Base ticks required for the Meat Packer to make one Raw Meat Ingot at 16 RPM.
+	# Default: 50
+	# Range: 1 ~ 1200
+	operationTicks = 50
+	#Meat fluid consumed per working tick. Defaults to 2mb/t, or 100mb per 50-tick operation.
+	# Default: 2
+	# Range: 1 ~ 1000
+	meatUsePerTickMb = 2
+
+[slaughterhouse]
+	#Whether placed Slaughterhouses process mobs.
+	enableProcessing = true
+	#Internal Meat fluid tank size for the Slaughterhouse, in millibuckets.
+	# Default: 20000
+	# Range: 20000 ~ 64000
+	tankCapacityMb = 20000
+	#Base ticks between Slaughterhouse mob-processing operations at 16 RPM. Higher RPM is faster, down to 5 ticks.
+	# Default: 20
+	# Range: 1 ~ 1200
+	operationTicks = 20
+	#Meat fluid produced by a normal-sized mob.
+	# Default: 200
+	# Range: 0 ~ 64000
+	meatPerMobMb = 200
+	#Meat fluid produced by mobs smaller than smallMobSize.
+	# Default: 100
+	# Range: 0 ~ 64000
+	meatPerSmallMobMb = 100
+	#Mobs with both width and height below this many blocks count as small.
+	# Default: 0.5
+	# Range: 0.0 ~ 16.0
+	smallMobSize = 0.5

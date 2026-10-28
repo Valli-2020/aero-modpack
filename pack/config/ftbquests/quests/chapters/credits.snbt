@@ -1,0 +1,34 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "credits"
+	group: "023BD0CBC1469830"
+	id: "30DCF9BD5690358F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "4DEEA2B119861D3E"
+		rewards: [
+			{
+				id: "13EFD6FD491BA613"
+				type: "xp"
+				xp: 100
+			}
+			{
+				id: "1495D7EDAA98E326"
+				item: {
+					count: 1
+					id: "immersive_aircraft:gyrodyne"
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "0FC569D2C314DBEF"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

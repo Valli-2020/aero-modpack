@@ -1,0 +1,10 @@
+#BacktankIsJetpack server config
+[gameplay]
+	#每 tick 的平均气体消耗量 (Average gas consumption per tick)
+	# Default: 0.3
+	# Range: 0.0 ~ 1000.0
+	gasConsumptionPerTick = 0.3
+	#免疫掉落伤害 (Immune to fall damage when using jetpack)
+	immuneToFallDamage = false
+	#喷气时发热，可与意志坚定等模组联动 (Jetpack heats up when active, e.g. Tough As Nails)
+	jetpackHeatsWhenActive = true

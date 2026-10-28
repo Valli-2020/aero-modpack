@@ -1,0 +1,38 @@
+{
+	id: "45385A634AF2DB5F"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 6
+			id: "3D55D20588D53A90"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{ id: "29141F176E03F24E", item: { count: 1, id: "minecraft:ender_chest" } }
+		{ id: "432EE70FD2CD035D", item: { components: { "relics:data": { abilities: { abilities: { neutrality: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, swap: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { distance: { initialValue: 25.35387d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:enders_hand" } }
+		{
+			count: 16
+			id: "1C662513152F6A5E"
+			item: {
+				components: {
+					"ftbquests:missing_item": "alexsmobs:enderiophage_rocket"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "0AEE3CCC93EF632B", item: { count: 1, id: "waystones:end_stone_waystone" } }
+		{
+			count: 16
+			id: "2920EDE3E5668622"
+			item: {
+				count: 1
+				id: "minecraft:end_rod"
+			}
+		}
+		{ id: "1D9542D51E859933", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" } }
+	]
+}

@@ -1,0 +1,13 @@
+name = "Create BigBig Cannon"
+filename = "cbbc-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L5Q5YEkC/versions/NQSR7eF3/cbbc-1.0.0.jar"
+hash-format = "sha512"
+hash = "a048f5b0adeacad8e932b68b7732feea5aaac7debe20328f27836cc168426aaf246bf427a1838d1ba939220a2320008f052f1b70e1883011d21068a488093f6b"
+
+[update]
+[update.modrinth]
+mod-id = "L5Q5YEkC"
+version = "NQSR7eF3"

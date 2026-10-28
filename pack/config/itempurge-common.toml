@@ -1,0 +1,13 @@
+[itempurge]
+	#How often to auto purge dropped items (seconds). Min 5.
+	# Default: 60
+	# Range: > 5
+	intervalSeconds = 60
+	#How many seconds before purge to show warning (0 = no warning).
+	# Default: 10
+	# Range: 0 ~ 300
+	warningSeconds = 10
+	#Show chat notifications to players (warnings and purge messages).
+	broadcastMessages = true
+	#Item IDs to never purge (ex: minecraft:nether_star)
+	whitelist = []

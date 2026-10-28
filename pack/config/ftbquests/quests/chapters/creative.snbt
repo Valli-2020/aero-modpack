@@ -1,0 +1,337 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative"
+	group: "4F5A0DE3B0E3FDAD"
+	id: "185CBD249D19E7E1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6D59333306CBC703"
+				"139799A30ADDB09A"
+			]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:creeper"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0CA6BCA26C0B1E94"
+			rewards: [{
+				id: "613F51ABA76E16A7"
+				item: {
+					count: 1
+					id: "create:creative_motor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "255A0769FB23AF2A"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5BD4B85AEC17F5BB"
+				"139799A30ADDB09A"
+			]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:allay"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "644893C75B7FE9B8"
+			rewards: [{
+				id: "7E4EAF205A359002"
+				item: {
+					count: 1
+					id: "simulated:creative_physics_staff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1075745EE8EF214C"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5134C9C0A4305578"
+				"139799A30ADDB09A"
+			]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "irons_spellbooks:dead_king"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "047E88FD5222DBC3"
+			ignore_reward_blocking: true
+			rewards: [{
+				id: "0CE24C4B6D4231E2"
+				item: {
+					count: 1
+					id: "createpropulsion:creative_thruster"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E1878A387AD2E1"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61F6337472724450"
+				"139799A30ADDB09A"
+			]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "irons_spellbooks:cultist"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2299FFC9F40F1986"
+			rewards: [{
+				id: "7027A26F99A698C4"
+				item: {
+					count: 1
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DE8E685097F85A1"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"644893C75B7FE9B8"
+				"0CA6BCA26C0B1E94"
+				"2299FFC9F40F1986"
+				"047E88FD5222DBC3"
+				"135E0FF591882B85"
+				"5263217A1DE47690"
+				"4840B43439586BEA"
+				"61F6337472724450"
+				"34BF08F28FAF2BDF"
+				"4B3913B3D49F3FA2"
+				"4B3913B3D49F3FA2"
+				"6D59333306CBC703"
+				"5BD4B85AEC17F5BB"
+				"30DCF9BD5690358F"
+				"4CEF4EF4154B97D5"
+				"2E43E5FF4D335499"
+				"06C13F8991636365"
+				"187A82BA2510B01C"
+				"3A3DE3C6DF6A4FB4"
+				"3A3DE3C6DF6A4FB4"
+				"48AF40F2B2DB26A9"
+				"5134C9C0A4305578"
+				"7C542B2364402688"
+				"45236ADD14315104"
+				"08526D8BBF8EC20D"
+			]
+			id: "022A0122E48A9353"
+			rewards: [
+				{
+					id: "7DF3FDADDB35AC08"
+					item: {
+						count: 1
+						id: "create:handheld_worldshaper"
+					}
+					type: "item"
+				}
+				{
+					id: "392C51263B812213"
+					item: {
+						count: 1
+						id: "simulated:creative_physics_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "514F6B4DE2CB5EA1"
+					item: {
+						components: {
+							"ftbquests:missing_item": "numismatics:creative_vendor"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "69E0EDEF9215817C"
+					item: {
+						count: 1
+						id: "create:creative_blaze_cake"
+					}
+					type: "item"
+				}
+				{
+					id: "2653AE83A3356EAE"
+					item: {
+						count: 1
+						id: "create:creative_crate"
+					}
+					type: "item"
+				}
+				{
+					id: "7C8CFA11174BFC3D"
+					item: {
+						count: 1
+						id: "create:creative_fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "373B0E38BB8C2CB6"
+					item: {
+						count: 1
+						id: "createpropulsion:creative_thruster"
+					}
+					type: "item"
+				}
+				{
+					id: "584C89607059EFD3"
+					item: {
+						count: 1
+						id: "createpropulsion:creative_vector_thruster"
+					}
+					type: "item"
+				}
+				{
+					id: "5C4CBCE991BB1B5E"
+					item: {
+						count: 1
+						id: "create:creative_motor"
+					}
+					type: "item"
+				}
+				{
+					id: "4D76A8B4A848CC7E"
+					item: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										stellar_ascension: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												radius: {
+													initialValue: 3.61095d
+												}
+											}
+										}
+										stellar_radiance: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 1b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												dmg: {
+													initialValue: 6.4019d
+												}
+												radius: {
+													initialValue: 1.3603d
+												}
+											}
+										}
+										stellar_shower: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												dmg: {
+													initialValue: 6.1728d
+												}
+												duration: {
+													initialValue: 15.8195d
+												}
+												radius: {
+													initialValue: 4.97618d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						count: 1
+						id: "arcane_abilities:stellar_sphere"
+					}
+					type: "item"
+				}
+				{
+					id: "48929A82E60499C2"
+					item: {
+						count: 1
+						id: "create_connected:fan_seething_catalyst"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B74BBF5F6ABF720"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}

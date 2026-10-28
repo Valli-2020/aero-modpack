@@ -1,0 +1,13 @@
+name = "Create: Camber"
+filename = "aeronautics-camber-1.21.1-0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sIAZo3GJ/versions/D64m2yhs/aeronautics-camber-1.21.1-0.1.2.jar"
+hash-format = "sha512"
+hash = "e2cf33fa511cf5186557c0cfd3dea8423c0b26a09cb9a4389de5ea96b2b2f67a01b154ce7744b250f6b0e814921f68df23176b9dd86c3f05c47f1cf887c4ab1b"
+
+[update]
+[update.modrinth]
+mod-id = "sIAZo3GJ"
+version = "D64m2yhs"

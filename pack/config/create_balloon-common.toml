@@ -1,0 +1,40 @@
+#--- Lift ---
+#Lift capacity per balloon (kpg). Each balloon can lift this much mass.
+# Default: 100.0
+# Range: 1.0 ~ 10000.0
+liftForce = 100.0
+#Gravity compensation. Adjust until structure stops drifting in hover mode.
+#NOT RECOMMENDED to change. This value is empirically tuned for Sable physics.
+# Default: 0.2597
+# Range: 0.0 ~ 100.0
+baseKpg = 0.2597
+#Ascend speed bonus (kpg). Higher = faster ascent.
+# Default: 1.0
+# Range: 0.1 ~ 5.0
+ascendSpeed = 1.0
+#Descend speed reduction (kpg). Higher = faster descent.
+# Default: 1.0
+# Range: 0.1 ~ 5.0
+descendSpeed = 1.0
+#--- Gyroscope ---
+#Enable gyroscope stabilization to keep the balloon upright.
+gyroEnabled = true
+#Gyroscope stabilization strength multiplier.
+#Higher = stronger correction. WARNING: values above 2.0 may cause violent shaking or physics instability. Recommended <= 2.0.
+# Default: 3.0
+# Range: 0.1 ~ 5.0
+gyroStrength = 3.0
+#--- Movement ---
+#Horizontal movement speed when using WASD keys. Multiplied by structure mass.
+# Default: 1.0
+# Range: 0.0 ~ 5.0
+moveSpeed = 1.0
+#Turning speed when using A/D keys. Multiplied by structure mass.
+#WARNING: values above 1.0 may cause uncontrollable spinning. Recommended < 1.0.
+# Default: 0.5
+# Range: 0.0 ~ 5.0
+turnSpeed = 0.5
+#--- Debug ---
+#Debug log level: OFF=no logging, SIMPLE=basic, DETAILED=full physics data
+#Allowed Values: OFF, SIMPLE, DETAILED
+logLevel = "SIMPLE"

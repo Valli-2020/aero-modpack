@@ -1,0 +1,13 @@
+name = "Create: Twistermill (VS / Sable & Aeronautics)"
+filename = "twistermill-1.21.1-0.2.0-beta.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/I1hpoiHP/versions/JxryPzED/twistermill-1.21.1-0.2.0-beta.5.jar"
+hash-format = "sha512"
+hash = "545c9ecba4d502281f3119709d91bb04b074939501bbbe7c70df51c53e838632894e118c466f0e73f1bd0517475947c405c4071409e8a21c5f438281c64e916c"
+
+[update]
+[update.modrinth]
+mod-id = "I1hpoiHP"
+version = "JxryPzED"

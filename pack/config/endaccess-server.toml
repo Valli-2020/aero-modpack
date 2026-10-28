@@ -1,0 +1,124 @@
+#© 2area | Discord: 2area | CurseForge: https://www.curseforge.com/members/2area/projects
+#All rights reserved.
+#
+#End Access System - Server Configuration
+#This file controls access-gate behaviour for the End dimension.
+#Changes require a server restart (or /reload) to take effect.
+#Note: there is NO automatic bypass for operators/admins. Even admins are locked out of the End
+#by default - they must run '/endaccess bypass' in-game to toggle their own personal bypass on/off.
+#
+#Two access modes are available (see 'mode' section below): PER_PLAYER (default) uses per-player
+#grant/revoke via commands. GLOBAL replaces that with a single server-wide on/off switch, toggled
+#with '/endaccess global open' / '/endaccess global close' - see the 'globalMode' section for its texts.
+[general]
+	#Minimum permission/operator level (0-4) required to use the '/endaccess' command tree
+	#(grant, revoke, check, silent grant, bypass, global open/close).
+	#This does NOT grant automatic End access by itself - it only controls who may run the commands.
+	#Vanilla operator levels: 0 = none, 1 = bypass spawn protection, 2 = use commands/cheats, 3 = manage other ops, 4 = full server control.
+	#Default: 2 (standard operator).
+	# Default: 2
+	# Range: 0 ~ 4
+	requiredPermissionLevel = 2
+
+#Chooses how End access is controlled server-wide.
+[mode]
+	#PER_PLAYER (default): the existing per-player system - players need to be granted access
+	#individually via '/endaccess grant <player>' (e.g. automated by an FTB Quests CommandReward).
+	#GLOBAL: replaces the per-player system with a single server-wide on/off switch, toggled via
+	#'/endaccess global open' / '/endaccess global close'. In this mode 'grant', 'revoke', 'check'
+	#and 'silent grant' are disabled and return an error telling the admin to use the global command instead.
+	#The personal admin bypass ('/endaccess bypass') keeps working in BOTH modes.
+	#Changing this value requires a server restart (or /reload) to take effect.
+	#Default: PER_PLAYER.
+	#Allowed Values: PER_PLAYER, GLOBAL
+	accessMode = "PER_PLAYER"
+
+#Settings for the server-wide broadcast shown when a player unlocks the End.
+[broadcast]
+	#Whether a server-wide chat broadcast is sent to ALL online players when a player unlocks the End.
+	#This does NOT apply to '/endaccess silent grant', which never broadcasts.
+	#Default: true.
+	broadcastEnabled = true
+	#The broadcast message shown to all online players when a player unlocks the End.
+	#Use '%s' as a placeholder for the player's name (it keeps its own color/prefix, e.g. from a ranks plugin).
+	#Minecraft color codes are supported using '&' (e.g. '&5' for dark purple, '&l' for bold).
+	#The color used right before '%s' is automatically re-applied to the text AFTER '%s' as well,
+	#so the whole message stays one consistent color except for the player's name itself.
+	#This text is shown exactly as written here (no automatic translation) - edit it in whichever language you prefer.
+	#Default: '&5✦ %s has unlocked the End! ✦'
+	broadcastMessage = "&5✦ %s has unlocked the End! ✦"
+
+#Settings for the private message sent only to the player who got unlocked.
+[playerMessage]
+	#Whether the unlocked player receives a private confirmation message.
+	#This does NOT apply to '/endaccess silent grant', which never messages the player.
+	#Disabled by default since the server-wide broadcast already informs everyone, including the unlocked player.
+	#Default: false.
+	playerMessageEnabled = false
+	#The private message sent only to the player who just got End access.
+	#Minecraft color codes are supported using '&' (e.g. '&a' for green, '&l' for bold).
+	#Default: '&a&l✦ The End is now accessible to you! ✦'
+	playerMessage = "&a&l✦ The End is now accessible to you! ✦"
+
+#Settings for the sound played to all online players when a player unlocks the End.
+#Also reused for the '/endaccess global open|close' toggle in GLOBAL mode.
+[sound]
+	#Whether a sound is played to all online players when a player unlocks the End
+	#(PER_PLAYER mode) or when an admin toggles '/endaccess global open|close' (GLOBAL mode).
+	#This does NOT apply to '/endaccess silent grant', which never plays a sound.
+	#Default: true.
+	soundEnabled = true
+	#The resource location (registry ID) of the vanilla or modded sound event to play.
+	#Must be a valid sound event ID, e.g. 'minecraft:ui.toast.challenge_complete' (default, the achievement/advancement sound),
+	#'minecraft:entity.ender_dragon.growl', 'minecraft:block.beacon.activate', or 'minecraft:entity.player.levelup'.
+	#If the ID is invalid or unknown, the default sound is used instead and a warning is logged.
+	#Default: 'minecraft:ui.toast.challenge_complete'.
+	soundEventId = "minecraft:ui.toast.challenge_complete"
+	#Volume of the unlock sound (0.0 to 10.0). 1.0 is the normal vanilla volume.
+	#Default: 1.0.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	soundVolume = 1.0
+	#Pitch of the unlock sound (0.5 to 2.0). 1.0 is the normal vanilla pitch.
+	#Default: 1.0.
+	# Default: 1.0
+	# Range: 0.5 ~ 2.0
+	soundPitch = 1.0
+
+#Settings for the message shown to a player who tries to enter the End without access.
+#Only used in PER_PLAYER mode - see 'globalMode' section for the GLOBAL mode equivalent.
+[denyMessage]
+	#The main (first line) message shown to a player who is denied entry to the End.
+	#Minecraft color codes are supported using '&' (e.g. '&c' for red, '&l' for bold).
+	#Default: '&c&lThe End is still locked!'
+	denyTitle = "&c&lThe End is still locked!"
+	#The secondary (second line) hint message shown below the deny title, explaining how to unlock the End.
+	#Minecraft color codes are supported using '&' (e.g. '&7' for gray).
+	#Default: '&7Reach Level 30 in the Level System (FTB Quests) to enter the End.'
+	denyHint = "&7Reach Level 30 in the Level System (FTB Quests) to enter the End."
+
+#Settings used only when 'accessMode' (see 'mode' section) is set to GLOBAL.
+#Ignored entirely while running in the default PER_PLAYER mode.
+[globalMode]
+	#The main (first line) message shown to a player who is denied entry while the End is globally closed.
+	#Minecraft color codes are supported using '&' (e.g. '&c' for red, '&l' for bold).
+	#Default: '&c&lThe End is currently closed.'
+	denyTitleGlobal = "&c&lThe End is currently closed."
+	#The secondary (second line) hint message shown below the global deny title.
+	#Minecraft color codes are supported using '&' (e.g. '&7' for gray).
+	#Default: '&7The server operator has temporarily disabled the End.'
+	denyHintGlobal = "&7The server operator has temporarily disabled the End."
+	#Whether a server-wide chat broadcast is sent to ALL online players when an admin runs '/endaccess global open'.
+	#Default: true.
+	openBroadcastEnabled = true
+	#The broadcast message shown to all online players when the End is globally opened.
+	#Minecraft color codes are supported using '&' (e.g. '&5' for dark purple, '&l' for bold).
+	#Default: '&5✦ The End has been opened! ✦'
+	openBroadcastMessage = "&5✦ The End has been opened! ✦"
+	#Whether a server-wide chat broadcast is sent to ALL online players when an admin runs '/endaccess global close'.
+	#Default: true.
+	closeBroadcastEnabled = true
+	#The broadcast message shown to all online players when the End is globally closed.
+	#Minecraft color codes are supported using '&' (e.g. '&5' for dark purple, '&l' for bold).
+	#Default: '&5✦ The End has been closed! ✦'
+	closeBroadcastMessage = "&5✦ The End has been closed! ✦"

@@ -1,0 +1,16 @@
+{
+	id: "10DEDACB6F216A18"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ id: "46309ACC29891AB1", item: { count: 1, id: "easy_villagers:villager" } }
+		{ id: "1F879F47B7CB902D", item: { count: 1, id: "easy_villagers:villager" } }
+		{ id: "0307214F2A60A741", item: { count: 1, id: "easy_villagers:trader" } }
+		{ id: "207974895EA95176", item: { count: 1, id: "easy_villagers:auto_trader" } }
+		{ id: "57395EB88BE5F8AF", item: { count: 1, id: "easy_villagers:farmer" } }
+		{ id: "68F00B1EAE1881C8", item: { count: 1, id: "easy_villagers:breeder" } }
+		{ id: "77129917674BA39B", item: { count: 1, id: "easy_villagers:converter" } }
+		{ id: "386FF7107D078275", item: { count: 1, id: "easy_villagers:iron_farm" } }
+		{ id: "1D36CB49441BBB25", item: { count: 1, id: "easy_villagers:incubator" } }
+	]
+}

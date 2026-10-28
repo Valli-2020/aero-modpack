@@ -1,0 +1,13 @@
+name = "Create Big Mail"
+filename = "CreateBigMail-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DVjwMAmO/versions/kILA3d86/CreateBigMail-1.0.3.jar"
+hash-format = "sha512"
+hash = "5e677439873d5ca4d9e7a35a35bc7779151066f9a279dd97f489fcfa70c7a6052312e12342d50fbcca68b3a57858266fe2fc5096e9d5e952a24306e4e79b9b34"
+
+[update]
+[update.modrinth]
+mod-id = "DVjwMAmO"
+version = "kILA3d86"

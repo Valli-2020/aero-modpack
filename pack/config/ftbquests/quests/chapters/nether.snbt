@@ -1,0 +1,275 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "53ACE81CFAD8FCAC"
+	id: "06C13F8991636365"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72E2E902792789AF"]
+			id: "0F25184B1959F8AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "031553B403CED9AA"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "21BE63BA6D4A0132"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F25184B1959F8AD"]
+			id: "51A4B4FE33385898"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32FE3F5C3C80C345"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1601308E5783D650"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0F25184B1959F8AD"]
+			id: "25222202308E4FBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4905DCF267E7DB85"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3F3506AA287E3F7C"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F25184B1959F8AD"]
+			id: "56DC9F00AFEBCECF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15BCB125C9C0EFDB"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				count: 3L
+				id: "7960307BA8E9A971"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51A4B4FE33385898"]
+			id: "37A7536E4D4439FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13DE22260995EE69"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				id: "544AAFF606533B43"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51A4B4FE33385898"]
+			id: "72F6EFBA6A48074B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5750A495560E9754"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F16EEF377997855"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51A4B4FE33385898"]
+			id: "385C3C3B094617A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "128A88462C08E3A7"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1581EEC375B19E1F"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25222202308E4FBC"]
+			id: "3A78C5A8FF772F99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FD09FC35B4643EB"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "minecraft:nether_wastes"
+				id: "526A9EB3E7AAD531"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25222202308E4FBC"]
+			id: "72326ED742CD1A4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CDFA7E5201E05E7"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "#minecraft:has_structure/nether_fortress"
+				id: "7F762D39A214AB77"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56DC9F00AFEBCECF"]
+			id: "415FA63E83F70266"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EC76F27AF91D887"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44373EE5FEC99523"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56DC9F00AFEBCECF"]
+			id: "409B543E48EA7299"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3604B64BA0A3BEEC"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37193162D46DB205"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"25222202308E4FBC"
+				"51A4B4FE33385898"
+			]
+			id: "387FFDCFCF0BB5D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BAC2762AA1CE7B5"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FAE1C797AE3746F"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51A4B4FE33385898"]
+			id: "10256800C8A6F3F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C732D99F4C1035F"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6562E8EEC129C30D"
+				item: { components: { "relics:data": { abilities: { abilities: { heat_resistance: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, pace: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { time: { initialValue: 24.96531d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:magma_walker" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10256800C8A6F3F3"]
+			id: "1D26C86784B00350"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7844CAA7DE13195C"
+				table_id: 1169906505485153282L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E2000680CD0475C"
+				item: { components: { "relics:data": { abilities: { abilities: { phlebotomy: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { attack_speed: { initialValue: 0.00914d }, heal: { initialValue: 2.3E-4d }, movement_speed: { initialValue: 0.0224d } } }, rage: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { dealt_damage: { initialValue: 0.03277d }, duration: { initialValue: 2.98561d }, incoming_damage: { initialValue: 0.03409d } } }, spurt: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 16.09113d }, damage: { initialValue: 0.20664d }, distance: { initialValue: 5.74463d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:rage_glove" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25222202308E4FBC"]
+			id: "0F03B447173B79ED"
+			rewards: [{
+				count: 64
+				id: "30003D79A73D9301"
+				item: {
+					count: 1
+					id: "aeronautics:end_stone_powder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "297DD29978EA7E81"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+}

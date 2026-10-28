@@ -1,0 +1,24 @@
+{
+	id: "59EC0DE6CABEFFAE"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			count: 16
+			id: "0587E5B53F44F1F9"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{ id: "572969286311CE70", item: { count: 1, id: "waystones:waystone" } }
+		{ id: "5C4ABBA5068A9498", item: { count: 1, id: "waystones:return_scroll" } }
+		{ id: "75062F9BDE1D5E0B", item: { count: 1, id: "waystones:return_scroll" } }
+		{ id: "5A5DA230A3D2C19B", item: { count: 1, id: "waystones:bound_scroll" } }
+		{ id: "73FCD053EC103BD3", item: { count: 1, id: "waystones:warp_scroll" } }
+		{ id: "464455CBCEB70D87", item: { components: { "ftbquests:missing_item": "waystones:sharestone" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "2EC8E5C0574CF915", item: { count: 1, id: "waystones:sandy_waystone" } }
+		{ id: "1EDECF0A33C4FB2A", item: { count: 1, id: "waystones:deepslate_waystone" } }
+		{ id: "51F8E1692242B6BF", item: { count: 1, id: "irons_spellbooks:scroll" } }
+	]
+}

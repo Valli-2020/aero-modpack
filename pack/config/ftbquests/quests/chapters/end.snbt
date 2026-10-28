@@ -1,0 +1,504 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "53ACE81CFAD8FCAC"
+	id: "4CEF4EF4154B97D5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["387FFDCFCF0BB5D2"]
+			id: "507471803EFA6318"
+			rewards: [
+				{
+					count: 12
+					id: "21C229463D6B685F"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B93FDA2448F629E"
+					table_id: 8577672095746277681L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1C138C3D1D8A3616"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:end_portal_frame"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "0982D26DE42C3B4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B07AA20315A8CAE"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "01E77FD9614BC3F3"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "63DBB5C80B996A3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48E7A12EE4BFC7F3"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "68CF5CA29C5445BD"
+				item: { count: 1, id: "minecraft:ender_chest" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "58391F216472BCC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69C20C8E1614ABFC"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 6L
+				id: "103CBBF981CEA2E3"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "206815C3E7DF6862"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18407B0865E8CD82"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "6384EE31603C0FC5"
+				item: { count: 1, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "1FB31D5C1F021273"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3025E6F7F8C461B6"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20F7FE0823D1C2EA"
+				item: { count: 1, id: "minecraft:dragon_head" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "790210FE00FD9561"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CCF54DADB48B1A5"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FD6C33DC64D4A64"
+				item: { count: 1, id: "mob_drops_recipes_end:end_essence_epic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "2B884123EF9727D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "035F4C2B150759F7"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "092D232771881DDB"
+				item: { count: 1, id: "mob_drops_recipes_end:end_essence_rare" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "393BF93D8445C0E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56963D623221691C"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5D16F41FD275F73B"
+				item: { count: 1, id: "mob_drops_recipes_end:end_essence_uncommon" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "551C3C9F7A931397"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36AC6B67E7EC07CD"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "559B80F8F92FD5E9"
+				item: { count: 1, id: "mob_drops_recipes_end:end_essence_common" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "0C38C47A31434527"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18099B397092B844"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "72D75D86A8D093CD"
+				item: { count: 1, id: "irons_spellbooks:dragonskin" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "54A2297E5659E842"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "386D6CCE1AA3611C"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 6L
+				id: "462D50CE10709BB3"
+				item: { count: 1, id: "quark:dragon_scale" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "7FB5CA3C66D9E64C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ED25A88E18EB10A"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "078D7CE75DEC6DAF"
+				item: { count: 1, id: "aeronautics:levitite_blend_bucket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "49AC9D278936BDCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D14C7A361D97F29"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 32L
+				id: "07E3EC57A5F3C287"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "0F6FA4C2908F0DDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F69F8494F772F4B"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "5D026E9DFC71581A"
+				item: { count: 1, id: "minecraft:end_stone_bricks" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "64CCD3F97BA1DBF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68309B8B92E1ED30"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4FD8A4486A7EAEDB"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "73E49C7234CDDA54"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E7E34A62A7FC215"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "627008B4871D47B8"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:dragonskin_spell_book" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "6F954ADCF3D7AEAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D2727DD9B37E5B5"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7C0346B1754900CE"
+				item: { count: 1, id: "waystones:end_stone_waystone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "5F9D5C90235DF95C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B5ACA502BF38EF0"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3B5B3424D13547B1"
+				item: { components: { "relics:data": { abilities: { abilities: { neutrality: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, swap: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { distance: { initialValue: 22.4092d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:enders_hand" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "7C2B9AB90195A2A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CC2EDD8DC40158B"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D246D9682CB0DAE"
+				item: { count: 1, id: "irons_spellbooks:ender_rune" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "6A86CB26D464A9FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C7878A2DB721FFA"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "462D21B345B4B2D8"
+				item: { count: 1, id: "create_dragons_plus:dragon_breath_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "6339718D34293026"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7796FEA3201FF2DD"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3E9E53D1983D1D08"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					id: "4679046322F7A1BA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "6B954BFFE36D1EBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51D0B52D741BFCE1"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 6L
+				id: "5FF465822D650546"
+				item: { count: 1, id: "supplementaries:end_stone_lamp" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "04D75EF245D8C8B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CEFB9180172D7C9"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "72B27B69EE37CF95"
+				item: { count: 1, id: "aeronautics:levitite" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "03FF40A7A86FABB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "601BD4FF13A1F6F7"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1E97385956AABA91"
+				item: { count: 1, id: "aeronautics:end_stone_powder" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "3D21D20013AE0566"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D48AED5AC1E994F"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7EEF8DCA07B94569"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["507471803EFA6318"]
+			id: "744909F295AFDD8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B058C1708F29E3E"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "32E1CC6C9852E045"
+				item: { count: 1, id: "aeronautics:pearlescent_levitite" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+	]
+}

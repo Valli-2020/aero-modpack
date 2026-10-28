@@ -1,0 +1,13 @@
+name = "Mob Drops Recipes [Overworld]"
+filename = "mob_drops_recipes_overworld-merged-1.21.1-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LYhFZWpP/versions/80VAylGn/mob_drops_recipes_overworld-merged-1.21.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "5476edd894ee9c70bb44ae2e1f934cc2457c1c6c093392396db9372c9c2b9e89ecc53156c0cc07c197220f36833660551f5c3fedc4524010f389f35f78be65ef"
+
+[update]
+[update.modrinth]
+mod-id = "LYhFZWpP"
+version = "80VAylGn"

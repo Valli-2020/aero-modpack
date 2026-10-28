@@ -1,0 +1,13 @@
+name = "Mianbao's NewModernWarfare"
+filename = "mianbaos_modernwarfare-2.5.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "62dce85cb698257c22c2a8961c9a448737418c2b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8778561
+project-id = 1619723

@@ -1,0 +1,13 @@
+name = "create: creative assembly"
+filename = "cca1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a99c016c165a2f5cddb72ad0faaee00e60977aef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8138987
+project-id = 1531478

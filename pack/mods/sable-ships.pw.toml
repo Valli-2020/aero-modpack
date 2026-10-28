@@ -1,0 +1,13 @@
+name = "Sable: Ships"
+filename = "sable_ships-1.0.0-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/shoQ6mQk/versions/npOQqZVu/sable_ships-1.0.0-release.jar"
+hash-format = "sha512"
+hash = "f32a546681ca67b405c1bd91cbf80cdd4c76dfd0b6377178912068ddf1aed4d2cbaf83c727a3a4df26e5ba0db19be29636f6bb3847139b95c6d3572affa2004f"
+
+[update]
+[update.modrinth]
+mod-id = "shoQ6mQk"
+version = "npOQqZVu"

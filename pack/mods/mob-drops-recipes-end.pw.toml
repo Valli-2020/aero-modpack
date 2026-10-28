@@ -1,0 +1,13 @@
+name = "Mob Drops Recipes [End]"
+filename = "mob_drops_recipes_end-merged-1.21.1-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rT4FBoKu/versions/wwTwaok5/mob_drops_recipes_end-merged-1.21.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "755e4e7498dc9e2b6edfeb0765367262916a8df6bf41f240f4f351164fb4541da4c3981ccac90eaeea277ea42568bcf19d494d82984036e93a22df3b3bd27d5e"
+
+[update]
+[update.modrinth]
+mod-id = "rT4FBoKu"
+version = "wwTwaok5"

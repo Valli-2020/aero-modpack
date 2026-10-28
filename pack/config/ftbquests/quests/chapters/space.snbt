@@ -1,0 +1,2767 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space"
+	group: "1064C2F129649404"
+	id: "40923813C1A7DD94"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"139799A30ADDB09A"
+				"06D78B8FA5401768"
+			]
+			id: "616C984755932663"
+			rewards: [
+				{
+					count: 16
+					id: "61D6D4D34225FEBA"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4A888ECC2D7966A7"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3647147934BC869A"
+				item: { count: 1, id: "northstar:titanium_tetrachloride_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			hide_dependency_lines: true
+			id: "06D78B8FA5401768"
+			rewards: [
+				{
+					count: 16
+					id: "78F89CAFBAA98FBB"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5C7CBCFE28F3599B"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "725E6E9A5A9F259F"
+				item: { count: 1, id: "northstar:telescope" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06D78B8FA5401768"]
+			id: "3C747CF555286730"
+			rewards: [
+				{
+					count: 16
+					id: "316484C8EFAA03B2"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "12D2D0FF4125321F"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05EEE3155A3D0CAD"
+				item: { count: 1, id: "northstar:astronomy_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["735AF995B1719148"]
+			id: "22BDFB9CE9518907"
+			rewards: [
+				{
+					count: 16
+					id: "5D46F26A8C37C215"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1EAF924B01CF5464"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2802C26CC6DAEC2A"
+					item: { count: 1, id: "northstar:iron_space_suit_helmet" }
+					type: "item"
+				}
+				{
+					id: "61D364FA13486E12"
+					item: { count: 1, id: "northstar:iron_space_suit_chestpiece" }
+					type: "item"
+				}
+				{
+					id: "203FEC0C124CD201"
+					item: { count: 1, id: "northstar:iron_space_suit_leggings" }
+					type: "item"
+				}
+				{
+					id: "1829CAD0D77FCD90"
+					item: { count: 1, id: "northstar:iron_space_suit_boots" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["616C984755932663"]
+			id: "632BA47FFA04A43B"
+			rewards: [
+				{
+					count: 16
+					id: "7EE66193B0271F27"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3AADE85AC9FC27C3"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F77A0F5EDE579E4"
+				item: { count: 1, id: "northstar:titanium_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["632BA47FFA04A43B"]
+			id: "523F6349D3267AEF"
+			rewards: [
+				{
+					count: 16
+					id: "31C858F18CDDDD5E"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "036DD41C42FC8547"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "183F48C5B6244F2E"
+				item: { count: 1, id: "northstar:circuit_engraver" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["523F6349D3267AEF"]
+			id: "4D4391711EA1D84C"
+			rewards: [
+				{
+					count: 16
+					id: "7F0C237E4DBC8CB1"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4943000426353383"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D4E36B6E8E57EE7"
+				item: { count: 1, id: "northstar:oxygen_filler" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["523F6349D3267AEF"]
+			id: "3EDE38E166B65BBD"
+			rewards: [
+				{
+					count: 16
+					id: "24808136CB6D31D6"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7FB90001232C344A"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E4EBD54FD7917F3"
+				item: { count: 1, id: "northstar:atmospheric_concentrator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["632BA47FFA04A43B"]
+			id: "4DBF30A3C07D36D4"
+			rewards: [
+				{
+					count: 16
+					id: "330259248E6060BC"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "12AB27D86B360DA0"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6AA0059792F8EBAD"
+				item: { count: 1, id: "northstar:titanium_space_door" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["523F6349D3267AEF"]
+			id: "32BDB54D42D81BC9"
+			rewards: [
+				{
+					count: 16
+					id: "55C66FA8682A65F4"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3DEC9AC88400B297"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54F3A1BF12D25EDE"
+				item: { count: 1, id: "northstar:rocket_controls" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EDE38E166B65BBD"]
+			id: "4F8F516C78D8984D"
+			rewards: [
+				{
+					count: 16
+					id: "09B39780DB991055"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "14007612CE99D621"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "0CA701DB1363B304"
+				item: { count: 1, id: "northstar:solar_panel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D4391711EA1D84C"]
+			id: "3BA29DD0F1264CA1"
+			rewards: [
+				{
+					count: 16
+					id: "0A0530668BC4D5A1"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5062F9DA8A44A85F"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77B359D94E6BF356"
+				item: { count: 1, id: "northstar:combustion_engine" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"32BDB54D42D81BC9"
+				"4F8F516C78D8984D"
+				"3BA29DD0F1264CA1"
+			]
+			id: "70BE8D8099EC85C8"
+			rewards: [
+				{
+					count: 16
+					id: "2336544F7EB31637"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2698D08678588386"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "47CCBB632EA5B320"
+				item: { count: 1, id: "northstar:rocket_thruster" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70BE8D8099EC85C8"]
+			id: "36AE9A50A2B49E77"
+			rewards: [
+				{
+					count: 16
+					id: "1A138F0B926BE846"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5FF261F1B843CED6"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6312581D60000552"
+				item: { count: 1, id: "northstar:auto_lander" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F8F516C78D8984D"]
+			id: "144DB156DCDD6165"
+			rewards: [
+				{
+					count: 16
+					id: "57224A0692B13B12"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5C2357DB1D228EF2"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A07FF6C3C51C26E"
+				item: { count: 1, id: "northstar:temperature_regulator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BA29DD0F1264CA1"]
+			id: "735AF995B1719148"
+			rewards: [
+				{
+					count: 16
+					id: "7F4BE4F50FCCD40F"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3452B8A8734E516E"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67BF5FA5E32A73DC"
+				item: { count: 1, id: "northstar:oxygen_detector" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["144DB156DCDD6165"]
+			id: "612135AEE282F0C9"
+			rewards: [
+				{
+					count: 16
+					id: "77C2CC9F265D07E0"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "32B18D34287B958C"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4806B0767E193F0A"
+				item: { count: 1, id: "northstar:interplanetary_navigator" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["735AF995B1719148"]
+			id: "37AAC5EF973F7540"
+			rewards: [
+				{
+					count: 16
+					id: "494F60EC8416FFB5"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "16FBFB87F0B589DA"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23B0F23002C4C287"
+				item: { count: 1, id: "northstar:rocket_station" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36AE9A50A2B49E77"]
+			id: "54A712733ECA97C9"
+			rewards: [
+				{
+					count: 16
+					id: "75CB94F487DC0043"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "412F5F4267975B45"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:silk_touch": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "05B653C3F5A77C97"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16C2524ECA776DFB"
+				item: { count: 1, id: "northstar:oxygen_sealer" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"612135AEE282F0C9"
+				"37AAC5EF973F7540"
+				"54A712733ECA97C9"
+				"22BDFB9CE9518907"
+			]
+			id: "163AB4B8AE8EC627"
+			rewards: [
+				{
+					id: "37D8D24544AA18ED"
+					item: {
+						components: {
+							"ftbquests:missing_item": "northstar:star_map"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "10485678FF3F7589"
+					item: {
+						components: {
+							"ftbquests:missing_item": "northstar_structures:moon_compass"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "16F7D787AF90693F"
+					item: {
+						count: 1
+						id: "northstar:astronomical_reading"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A9283B2E3E14A88"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1B9DACF456A51D4D"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "northstar:moon"
+				id: "631BD4A752578189"
+				type: "dimension"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D4391711EA1D84C"]
+			id: "370CC4F137FEE900"
+			rewards: [
+				{
+					count: 16
+					id: "122FF2EA23E3D2A3"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "77D22F02528EAC3A"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "42C4FDFECABF5E5C"
+				item: { count: 1, id: "northstar:titanium_plating" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "2392F57A615FED62"
+			rewards: [
+				{
+					count: 16
+					id: "2529DC6B4EF2C4E4"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "185AA01F9A6E350A"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71B832A5DEDEA999"
+				item: { count: 1, id: "northstar:moon_iron_ore" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "32D6F9B93A4FBCA2"
+			rewards: [
+				{
+					count: 16
+					id: "4B86B800018401AB"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7C4523FEF491F11E"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "125F621E0A62949D"
+				item: { count: 1, id: "northstar:moon_copper_ore" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "1A8B394075CC14BF"
+			rewards: [
+				{
+					count: 16
+					id: "76D57347311C681A"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "360117306D8A4834"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F70D1FB795D7EF8"
+				item: { count: 1, id: "northstar:moon_gold_ore" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29B274D1DCFA880E"]
+			id: "601E5592E8037553"
+			rewards: [
+				{
+					count: 16
+					id: "613821E8482D8189"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "388C105D34F68E44"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56767FFC2A82D227"
+				item: { count: 1, id: "northstar:moon_titanium_ore" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "6D53A096C3CC47D8"
+			rewards: [
+				{
+					count: 16
+					id: "5D9B334681CC5287"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0BC2104E84621DD5"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A0A9B83B0B65F5D"
+				item: { count: 1, id: "northstar:moon_deep_iron_ore" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "29B274D1DCFA880E"
+			rewards: [
+				{
+					count: 16
+					id: "4945E2368BDB6E30"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "006BC7CDDCF49BD9"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CC6B0D4B7A27CA9"
+				item: { count: 1, id: "northstar:moon_deep_copper_ore" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "47E7F28FFC7F742F"
+			rewards: [
+				{
+					count: 16
+					id: "0B6D0FAF975F64D5"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "551FDFAEC6EF3370"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AE22C82BB4FAFA8"
+				item: { count: 1, id: "northstar:moon_deep_gold_ore" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "0974F71A36CF6DCD"
+			rewards: [
+				{
+					count: 16
+					id: "5FCE5AE9B79B5913"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0ECF67FEF352AD19"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C8A7C0E9CAEEE97"
+				item: { count: 1, id: "northstar:moon_deep_diamond_ore" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "6E359238CCDEBBF4"
+			rewards: [{
+				count: 16
+				id: "16B707D98AC8026B"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56618ED45A7D2F50"
+				item: { count: 1, id: "northstar:moon_sand_paper" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "668B15C7F47E6943"
+			rewards: [{
+				count: 16
+				id: "3A93CA6A69EE8C85"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5F2B8F4FCBA73B"
+				item: { count: 1, id: "northstar:astronomical_reading" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "6FCA71AA66AD5E80"
+			rewards: [{
+				count: 16
+				id: "37BF3472BE154ED6"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FE552D2CF94D516"
+				item: { count: 1, id: "northstar:lunar_sapphire_crystal" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FCA71AA66AD5E80"]
+			id: "1BE28BB84ECA53E6"
+			rewards: [{
+				count: 16
+				id: "766940152B4689D4"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "296BBE498ACC6AE2"
+				item: { count: 1, id: "northstar:martian_steel_space_suit_helmet" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FCA71AA66AD5E80"]
+			id: "3F3D8B297A0D35B4"
+			rewards: [{
+				count: 16
+				id: "33089F2120CFB65D"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2431A36390255238"
+				item: { count: 1, id: "northstar:martian_steel_space_suit_chestpiece" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FCA71AA66AD5E80"]
+			id: "1739743D78E10135"
+			rewards: [{
+				count: 16
+				id: "4B57D92E1ED8641C"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "551C014344570782"
+				item: { count: 1, id: "northstar:martian_steel_space_suit_leggings" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FCA71AA66AD5E80"]
+			id: "2FCC0A0856AD7F18"
+			rewards: [{
+				count: 16
+				id: "58040C4E768D7247"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "497CE0BEFC69E24F"
+				item: { count: 1, id: "northstar:martian_steel_space_suit_boots" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2FCC0A0856AD7F18"
+				"3F3D8B297A0D35B4"
+				"1739743D78E10135"
+				"1BE28BB84ECA53E6"
+			]
+			id: "4E10CD4741D5C038"
+			rewards: [
+				{
+					id: "18C19BD213DE503E"
+					item: {
+						components: {
+							"ftbquests:missing_item": "northstar:star_map"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "68F47AD051F1DB98"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "northstar:mars"
+				id: "5C42C50287FE58DD"
+				type: "dimension"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "6440161BAD891998"
+			rewards: [{
+				count: 16
+				id: "395FBAE8ADFB8493"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "397607E07AC623A9"
+				item: { count: 1, id: "northstar:mars_deep_redstone_ore" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "0000447EC0613904"
+			rewards: [{
+				count: 16
+				id: "6E7E4A99C397D3E5"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF2460DB318B081"
+				item: { count: 1, id: "northstar:mars_zinc_ore" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "6FD9F304DC576A72"
+			rewards: [{
+				count: 16
+				id: "675B01E390F76FBC"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52D55AB5DC420CF9"
+				item: { count: 1, id: "northstar:mars_iron_ore" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "0D81EF36AB0CB36A"
+			rewards: [{
+				count: 16
+				id: "3FA1EF2AB39CAD77"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AC576DEF0A71E8C"
+				item: { count: 1, id: "northstar:mars_deep_gold_ore" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "04830F6CD1BBE966"
+			rewards: [{
+				count: 16
+				id: "1B8FFEB4250F8523"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D8ACC79D1633F60"
+				item: { count: 1, id: "northstar:mars_redstone_ore" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "1CF05114FF685D9E"
+			rewards: [{
+				count: 16
+				id: "01BB16D6034201CE"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1963140D2111F11E"
+				item: { count: 1, id: "northstar:mars_deep_titanium_ore" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "2FAAF8881CCDAF1C"
+			rewards: [{
+				count: 16
+				id: "64A207BEE7C579C5"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "591954160EA0A166"
+				item: { count: 1, id: "northstar:mars_deep_copper_ore" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "43830A6617CF86F6"
+			rewards: [{
+				count: 16
+				id: "06A29987A1676D67"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "657A84F82C2909F0"
+				item: { count: 1, id: "northstar:mars_copper_ore" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "4EE0810B2DA839F8"
+			rewards: [{
+				count: 16
+				id: "3B3EDB620F04300E"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D4D3CAA9110D9CF"
+				item: { count: 1, id: "northstar:mars_titanium_ore" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "4003F4D5A7CD7100"
+			rewards: [{
+				count: 16
+				id: "28DF139A2209D82B"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68EB53527E8ADD88"
+				item: { count: 1, id: "northstar:mars_deep_diamond_ore" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "75AEA308B87197E1"
+			rewards: [{
+				count: 16
+				id: "24447402F8005D81"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "739519E723F54616"
+				item: { count: 1, id: "northstar:mars_quartz_ore" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "3EF0E0B7A2582492"
+			rewards: [{
+				count: 16
+				id: "084FEE24C891E036"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14407FFC9EDC3D9C"
+				item: { count: 1, id: "northstar:mars_deep_zinc_ore" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "59CA97B673076D64"
+			rewards: [{
+				count: 16
+				id: "11F075B216C1ECB8"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25EC33DB8E6FE7E5"
+				item: { count: 1, id: "northstar:mars_deep_iron_ore" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "25B0DC9CCD8B5B01"
+			rewards: [{
+				count: 16
+				id: "057B09E52CB2BE19"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17CCB2A67D552862"
+				item: { count: 1, id: "northstar:mars_diamond_ore" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "784A8E28FBE42E21"
+			rewards: [{
+				count: 16
+				id: "01D8EACB537B88AC"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EC31ECC9A5151FB"
+				item: { count: 1, id: "northstar:mars_gold_ore" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "57258095B8A70EEA"
+			rewards: [{
+				count: 16
+				id: "5F8EB3D7C8928E59"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AF3009082A7591C"
+				item: { count: 1, id: "northstar:mars_deep_quartz_ore" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "558F63D78FFDF309"
+			rewards: [{
+				count: 16
+				id: "07661C3DB8283FD1"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "004454D458D78EF2"
+				item: { count: 1, id: "northstar:mars_worm_nest" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "3B9539894F671F5E"
+			rewards: [{
+				count: 16
+				id: "544D87C60243042E"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "284C1063ECBFC388"
+				item: { count: 1, id: "northstar:mars_tulip" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "1A4867A37A45277C"
+			rewards: [{
+				count: 16
+				id: "24631EB041A493C3"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "621C1B67D05E6E37"
+				item: { count: 1, id: "northstar:martian_strawberry_bush" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "53B54EDFCB435A17"
+			rewards: [{
+				count: 16
+				id: "1A05F8F5A0B8C5CE"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B688873D47A3488"
+				item: { count: 1, id: "northstar:mars_sprout_big" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "493F7FC9F5505E78"
+			rewards: [{
+				count: 16
+				id: "3C7EE41E14E839D4"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08D4CDF4D757B73B"
+				item: { count: 1, id: "northstar:glowing_mars_roots" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "451D50694BEB212F"
+			rewards: [{
+				count: 16
+				id: "6052DBCFE146FE55"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E3AB83BD5BDF6E7"
+				item: { count: 1, id: "northstar:mars_roots" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "590568A8CAADB0AA"
+			rewards: [{
+				count: 16
+				id: "1F4FACE54EA6AC11"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "007020CCB6677D70"
+				item: { count: 1, id: "northstar:mars_palm" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "3E702F3D8B3B2432"
+			rewards: [{
+				count: 16
+				id: "43C21FD8C1ABC46E"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D34CC90D095F875"
+				item: { count: 1, id: "northstar:mars_sprout" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "005BAF8E80786851"
+			rewards: [{
+				count: 16
+				id: "7877AC9B317508D7"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CFC1ACD5DF75A90"
+				item: { count: 1, id: "northstar:mars_sand" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "44E023FB3499A5AD"
+			rewards: [{
+				count: 16
+				id: "6DF00677942148FE"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50FD78C455EA18F3"
+				item: { count: 1, id: "northstar:martian_grass" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "4EBB7D2F5FC79220"
+			rewards: [{
+				count: 16
+				id: "235F4080162906FA"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "701FACB595B1FCE2"
+				item: { count: 1, id: "northstar:mars_soil" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "1E76D1E5AEF2E4D7"
+			rewards: [{
+				count: 16
+				id: "7E5B307DC2AB16C2"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42A7FC058A4F832C"
+				item: { count: 1, id: "northstar:mars_gravel" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E10CD4741D5C038"]
+			id: "6259254ECDF3831C"
+			rewards: [{
+				count: 16
+				id: "7CB7BA7512E58526"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "northstar:venus"
+				id: "3BFDB81CC099C8B6"
+				type: "dimension"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "221373E7202BA016"
+			rewards: [{
+				count: 16
+				id: "16CD14BF61F93FC6"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "214506475F5B4402"
+				item: { count: 1, id: "northstar:moon_deep_lapis_ore" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "3E0CBFFAB13E6881"
+			rewards: [{
+				count: 16
+				id: "0E8D4F674968E25F"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BEC111D93655CED"
+				item: { count: 1, id: "northstar:venus_redstone_ore" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "4E918D7DCAF26DD8"
+			rewards: [{
+				count: 16
+				id: "1B8337CCD2A026E5"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5830B86DFDC156D4"
+				item: { count: 1, id: "northstar:venus_deep_redstone_ore" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "3CDA74CE07F8F559"
+			rewards: [{
+				count: 16
+				id: "4199FE95AB9287AE"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41F9BF4A235F93C1"
+				item: { count: 1, id: "northstar:venus_deep_diamond_ore" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "415CD1BC6CC3D57D"
+			rewards: [{
+				count: 16
+				id: "66CB765358FA0A2C"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69DA11AAD02D4874"
+				item: { count: 1, id: "northstar:moon_lapis_ore" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "15939F1F9AC5A795"
+			rewards: [{
+				count: 16
+				id: "24E3DABB1824EA3E"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74F224DB9B72AC8F"
+				item: { count: 1, id: "northstar:moon_deep_zinc_ore" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "526AB6CB68FC7636"
+			rewards: [{
+				count: 16
+				id: "6BEC1342D29141DA"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D85802B6FBBCAEE"
+				item: { count: 1, id: "northstar:moon_zinc_ore" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "7A80895407310D55"
+			rewards: [{
+				count: 16
+				id: "1A983E2B0B13C03A"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72429C871EEB8B32"
+				item: { count: 1, id: "northstar:moon_glowstone_ore" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "6957D079B97B6D1E"
+			rewards: [{
+				count: 16
+				id: "339E6B51E8BEFE58"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19AF1D9FC7EBFE36"
+				item: { count: 1, id: "northstar:moon_deep_glowstone_ore" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "26FDC3B91CCB823A"
+			rewards: [{
+				count: 16
+				id: "106B645030D9EAEF"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58E9BCA5D6A7FC13"
+				item: { count: 1, id: "northstar:mars_deep_gold_ore" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "18B5EEE58EA85F2C"
+			rewards: [{
+				count: 16
+				id: "4E666114579D39E2"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DCDF2D198DDBF5C"
+				item: { count: 1, id: "northstar:mars_iron_ore" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "488E7607312EE2DE"
+			rewards: [{
+				count: 16
+				id: "02D99B84FCC04D2F"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ABA9D30BDDFBA18"
+				item: { count: 1, id: "northstar:mars_redstone_ore" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "03CBF17B675DFF5E"
+			rewards: [{
+				count: 16
+				id: "1199F4391A8CEACF"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B334A11A27BE88C"
+				item: { count: 1, id: "northstar:mars_deep_titanium_ore" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "4DA89F190F48CFA7"
+			rewards: [{
+				count: 16
+				id: "3FBC7B0D172FA308"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "704D7EE1311FA846"
+				item: { count: 1, id: "northstar:mars_deep_copper_ore" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "66C0E0E44C2E5D58"
+			rewards: [{
+				count: 16
+				id: "186236CDD6E907A7"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B01CD6BA738A747"
+				item: { count: 1, id: "northstar:mars_copper_ore" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "62977095EAA3DC44"
+			rewards: [{
+				count: 16
+				id: "437E9A45AF4BA0B7"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6295D9DB96BFD084"
+				item: { count: 1, id: "northstar:mars_titanium_ore" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "6E7635054666BB86"
+			rewards: [{
+				count: 16
+				id: "5FD779DC637C27AA"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72203229D40FBCA0"
+				item: { count: 1, id: "northstar:mars_deep_diamond_ore" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "5EFBB88EECD9B197"
+			rewards: [{
+				count: 16
+				id: "68A914831ADBF12F"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CD471D2D7B9A1FB"
+				item: { count: 1, id: "northstar:mars_quartz_ore" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "6A3CBC41AB897762"
+			rewards: [{
+				count: 16
+				id: "779565F242692FAD"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "597B961B1CD16468"
+				item: { count: 1, id: "northstar:mars_deep_zinc_ore" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "3C8D50C04F157D74"
+			rewards: [{
+				count: 16
+				id: "3CD722264F348011"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F052E2A73349D63"
+				item: { count: 1, id: "northstar:mars_deep_zinc_ore" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "5239696BF9EDDB69"
+			rewards: [{
+				count: 16
+				id: "45D051D7B36E6FBE"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71E006D7E347EB95"
+				item: { count: 1, id: "northstar:mars_diamond_ore" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "5C764B52956F3D5C"
+			rewards: [{
+				count: 16
+				id: "60D39B51CABFBAA4"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69093D0BE6A2B04C"
+				item: { count: 1, id: "northstar:mars_gold_ore" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "0ED2772CCC036BDD"
+			rewards: [{
+				count: 16
+				id: "0AFD6EA47624AF8B"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A89F3AEF3D763D9"
+				item: { count: 1, id: "northstar:mars_deep_quartz_ore" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "1C20EEE5F663A93F"
+			rewards: [{
+				count: 16
+				id: "7BB605F783739883"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "699F7CF364BA4E58"
+				item: { count: 1, id: "northstar:venus_vines" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "4A49A66E439DC5B4"
+			rewards: [{
+				count: 16
+				id: "64AEBE4DF7F671F1"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F79AFA995CF7A96"
+				item: { count: 1, id: "northstar:glowing_venus_vines" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "0715DBA01453D273"
+			rewards: [{
+				count: 16
+				id: "7C553F01C91DDAAF"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27856921B999E44D"
+				item: { count: 1, id: "northstar:tall_venus_mycelium" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6259254ECDF3831C"]
+			id: "221DD09AE3AA3E28"
+			rewards: [{
+				count: 16
+				id: "1021DD78706A9483"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "northstar:mercury"
+				id: "5244D67C7857A437"
+				type: "dimension"
+			}]
+			x: 32.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "7FC3000DA0D35BE1"
+			rewards: [{
+				count: 16
+				id: "4103E87718A50AE1"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7402E7305E206555"
+				item: { count: 1, id: "northstar:mercury_diamond_ore" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			hide_dependent_lines: true
+			id: "0537BDDF05E202C4"
+			rewards: [{
+				count: 16
+				id: "5C52DDD4E0856A27"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CC7D626F27C31B3"
+				item: { count: 1, id: "northstar:mercury_titanium_ore" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "026536E756EF5B1F"
+			rewards: [{
+				count: 16
+				id: "3C564459BEAC0200"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B6C4ACD410F2924"
+				item: { count: 1, id: "northstar:mercury_deep_iron_ore" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "1EC88AB55C1702A6"
+			rewards: [{
+				count: 16
+				id: "378895DAFACEB555"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64CA377A49E697A2"
+				item: { count: 1, id: "northstar:mercury_deep_gold_ore" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "3CDB82AF93F8F57C"
+			rewards: [{
+				count: 16
+				id: "02A38AC896D89E14"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "517F8C51D9DB3E98"
+				item: { count: 1, id: "northstar:mercury_zinc_ore" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "039B23E27DDA712E"
+			rewards: [{
+				count: 16
+				id: "5325E5C78BAA9A10"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B63660642ABD65B"
+				item: { count: 1, id: "northstar:mercury_deep_redstone_ore" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "190A32E1C3020A0E"
+			rewards: [{
+				count: 16
+				id: "6973471B4AF28EEA"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25039CA7648A8716"
+				item: { count: 1, id: "northstar:mercury_deep_lapis_ore" }
+				type: "item"
+			}]
+			x: 34.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "6D287A8EAB3E48B1"
+			rewards: [{
+				count: 16
+				id: "40AD8AE743983C88"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4836C86E56075D3A"
+				item: { count: 1, id: "northstar:mercury_lapis_ore" }
+				type: "item"
+			}]
+			x: 34.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "03B5CFA212DB42F3"
+			rewards: [{
+				count: 16
+				id: "2F5C9788D8398778"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "114E7DB24F06E341"
+				item: { count: 1, id: "northstar:mercury_iron_ore" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "329C33905B2DB571"
+			rewards: [{
+				count: 16
+				id: "6CC7A95BD652DA81"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A6606E801A2BF73"
+				item: { count: 1, id: "northstar:mercury_deep_titanium_ore" }
+				type: "item"
+			}]
+			x: 34.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "2D17A52CD2D97077"
+			rewards: [{
+				count: 16
+				id: "51668B58455E4944"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FAD57814A4EDA89"
+				item: { count: 1, id: "northstar:mercury_deep_zinc_ore" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "4471DF61C1541FE4"
+			rewards: [{
+				count: 16
+				id: "75D731C2F78AFFDA"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D31182F9EF7E983"
+				item: { count: 1, id: "northstar:mercury_deep_copper_ore" }
+				type: "item"
+			}]
+			x: 34.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "2B96E9C79CA36110"
+			rewards: [{
+				count: 16
+				id: "628E32637D401AC9"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "601FCE421375FE10"
+				item: { count: 1, id: "northstar:mercury_deep_copper_ore" }
+				type: "item"
+			}]
+			x: 35.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "2C46C8E93B35CEEC"
+			rewards: [{
+				count: 16
+				id: "25AB8F29CA9CD116"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62214EE5AA6A5193"
+				item: { count: 1, id: "northstar:mercury_gold_ore" }
+				type: "item"
+			}]
+			x: 35.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "026F049689332EF7"
+			rewards: [{
+				count: 16
+				id: "4C37FE712C0786F4"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E798CF5DA036BCD"
+				item: { count: 1, id: "northstar:mercury_glowstone_ore" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "31F2063971CA8505"
+			rewards: [{
+				count: 16
+				id: "5F49FA9106FEBE6D"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1756457DF48F07D2"
+				item: { count: 1, id: "northstar:mercury_deep_diamond_ore" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["221DD09AE3AA3E28"]
+			id: "27A6BADEAE69D319"
+			rewards: [{
+				count: 16
+				id: "539338B3DD51683B"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F826A798198B061"
+				item: { count: 1, id: "northstar:mercury_redstone_ore" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "4F3A6DD17BCE8292"
+			rewards: [{
+				count: 16
+				id: "5F2AFD928C789D5D"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FB6414402394427"
+				item: { count: 1, id: "create_lnl:monstrous_slime_tire" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "6CF23E3050363963"
+			rewards: [{
+				count: 16
+				id: "58AB007E0858D735"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EC41C638D1EBF5D"
+				item: { count: 1, id: "create_lnl:large_slime_tire" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "34D643C037711C2F"
+			rewards: [{
+				count: 16
+				id: "6F1B704EE8046E53"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "466F10F0E5F3E922"
+				item: { count: 1, id: "create_lnl:slime_tire" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "49B42B9D384DC6D1"
+			rewards: [{
+				count: 16
+				id: "21E20C5192483C6D"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BF8EBD9BD113B82"
+				item: { count: 1, id: "create_lnl:small_slime_tire" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "3C431784998298D8"
+			rewards: [{
+				count: 16
+				id: "21B8091B5C499669"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "779CFE2364641CD4"
+				item: { count: 1, id: "create_lnl:thruster" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "3CAAF997BB6995F5"
+			rewards: [{
+				count: 16
+				id: "76E0DC0F6BCCA417"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B2F258CFAFD4032"
+				item: { count: 1, id: "create_lnl:physic_welder" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["163AB4B8AE8EC627"]
+			id: "6A55C9FB351CD489"
+			rewards: [{
+				count: 16
+				id: "6968D46F40297C02"
+				item: {
+					count: 1
+					id: "northstar:titanium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A0128C7A427BCBA"
+				item: { count: 1, id: "create_lnl:contraption_lift" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+	]
+}

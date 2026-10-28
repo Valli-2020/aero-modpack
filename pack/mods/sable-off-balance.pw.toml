@@ -1,0 +1,13 @@
+name = "Sable: Off-Balance"
+filename = "offbalance-2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZRCKPZxZ/versions/NmqqkzII/offbalance-2.0.jar"
+hash-format = "sha512"
+hash = "90dcffc9c492bd398344ecf78edb3ba9690ab465202f0c425f50249fe9dd2cf89133669be07b7d2397954ea82f97c27b1b61c206bf133c0ac10660caffd998da"
+
+[update]
+[update.modrinth]
+mod-id = "ZRCKPZxZ"
+version = "NmqqkzII"

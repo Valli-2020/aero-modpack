@@ -1,0 +1,13 @@
+name = "CBC Complete Steel Armor"
+filename = "CBCCompleteSteelArmor-1.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4394ddab591091bf2f9e8bd988da67e96cc1395b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9024353
+project-id = 1697160

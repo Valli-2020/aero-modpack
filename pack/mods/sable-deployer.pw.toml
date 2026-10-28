@@ -1,0 +1,13 @@
+name = "sable-deployer"
+filename = "sable-deployer-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/749eTE70/versions/rAoAjF1k/sable-deployer-0.1.0.jar"
+hash-format = "sha512"
+hash = "78f2daa0a7b9edeeb48ae101f6931153fd5ba63cef4779c7c097595647786a7f17d3fa7b1a0db4a9523cf97f879e2db555a4f72b2a8beef8751151230e6cc26e"
+
+[update]
+[update.modrinth]
+mod-id = "749eTE70"
+version = "rAoAjF1k"

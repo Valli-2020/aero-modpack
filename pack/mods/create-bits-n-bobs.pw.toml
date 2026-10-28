@@ -1,0 +1,9 @@
+name = "Create: Bits 'n' Bobs"
+filename = "bits_n_bobs-2.1.15-beta-aero.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Valli-2020/aero-modpack/releases/download/dateien/bits_n_bobs-2.1.15-beta-aero.jar"
+hash-format = "sha512"
+hash = "35e1d645300d9d840d52e2e83ea68f304ddab5cad43287b9ac3925449834cc86442915e490b6b1e99c8d94b468c82235dd91c4622011d50b0876fd63fd2d5d86"
+

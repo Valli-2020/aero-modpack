@@ -1,0 +1,11 @@
+["Fletching Recipe"]
+	#Allow fletching table to craft explosive arrow
+	allowExplosiveCrafting = true
+	#Amount of tipped arrow it can craft with 1 lingering potion, if json recipe for particular tipped arrow are defined, it will not be controlled by this config
+	# Default: 16
+	# Range: 1 ~ 64
+	tippedArrowCraftingAmount = 16
+	#Amount of explosive arrow it can craft with 1 explosive ingredient
+	# Default: 4
+	# Range: 1 ~ 64
+	explosiveArrowCraftingAmount = 4

@@ -1,0 +1,653 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survivor"
+	group: "53ACE81CFAD8FCAC"
+	id: "7C542B2364402688"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "346AEF78D14F828F"
+			rewards: [{
+				id: "528804F6740E99E6"
+				item: {
+					count: 1
+					id: "minecraft:stone_axe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2C79454DAE73D6FB"
+				item: { count: 1, id: "minecraft:oak_log" }
+				tags: ["log"]
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["346AEF78D14F828F"]
+			id: "139799A30ADDB09A"
+			rewards: [{
+				count: 16
+				id: "614852EEB43F50AF"
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0681C15E1C2BC303"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06FBB75A9D2EA0D5"]
+			id: "75BF3D5D4FBA739A"
+			rewards: [{
+				count: 32
+				id: "538E2FB0F5E1A612"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26A4A6F522899EDC"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["566C449D8C2B2F04"]
+			id: "192A5B4A2A830719"
+			rewards: [{
+				count: 16
+				id: "233B1730C03A897B"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A7E84DC27C8D1F1"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75BF3D5D4FBA739A"]
+			id: "776526CD6B0DAF93"
+			rewards: [{
+				id: "2DBF24D7210C81C4"
+				item: {
+					count: 1
+					id: "minecraft:blast_furnace"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "3C951ECF05843EBB"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["192A5B4A2A830719"]
+			id: "2E5234C77614A908"
+			rewards: [{
+				id: "2F2188898DF32361"
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "40E274D264CC6D37"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["776526CD6B0DAF93"]
+			id: "6B541AA0CA31D4DC"
+			rewards: [{
+				id: "1C106A5C4B6442FF"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0874503B61584BCA"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E5234C77614A908"]
+			id: "58228D47F2B04360"
+			rewards: [{
+				count: 2
+				id: "46616CEE62A331A6"
+				item: {
+					count: 1
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1342CD91907292EE"
+				item: { count: 1, id: "minecraft:iron_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75BF3D5D4FBA739A"]
+			id: "628590F0A27B33F4"
+			rewards: [{
+				count: 32
+				id: "2C0E1AA5D1BFB1CA"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "3086632802E936C8"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B541AA0CA31D4DC"]
+			id: "28B5E24E2BAD991D"
+			rewards: [
+				{
+					id: "16192BD8E4F3DE44"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "0F9578D9E56FDA46"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 14L
+				id: "7CA29EE39A1F9ABF"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58228D47F2B04360"]
+			id: "03BE7F51B951ECAE"
+			rewards: [{
+				id: "294D84C262D51405"
+				item: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									marinade: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											duration: {
+												initialValue: 2.3198d
+											}
+										}
+									}
+									meat_bat: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 0
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											damage: {
+												initialValue: 0.72088d
+											}
+											stun: {
+												initialValue: 0.16053d
+											}
+										}
+									}
+									regeneration: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											cooldown: {
+												initialValue: 19.66881d
+											}
+											feed: {
+												initialValue: 2.63376d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					count: 1
+					id: "relics:infinity_ham"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EA03650B3AFA28C"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"03BE7F51B951ECAE"
+				"28B5E24E2BAD991D"
+			]
+			id: "72E2E902792789AF"
+			rewards: [{
+				count: 16
+				id: "43EC4074C5393178"
+				item: {
+					count: 1
+					id: "create:sweet_roll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6C9203099A08F197"
+				type: "dimension"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["257E090B60649A13"]
+			id: "219F1D5464745B2F"
+			rewards: [{
+				count: 16
+				id: "675F818B9D41BA8E"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "1D8337B26EBDBEE7"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E2E902792789AF"]
+			id: "257E090B60649A13"
+			rewards: [{
+				id: "353219B522A2BCB0"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#minecraft:has_structure/nether_fortress"
+				id: "095B5A5A81F0860F"
+				type: "biome"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E2E902792789AF"]
+			id: "0972B5071DBCA708"
+			rewards: [
+				{
+					count: 4
+					id: "07DB2D3D15E4DBD7"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+				{
+					id: "08AF3E94D4A37EA9"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_regeneration"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "550150550568ABE1"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "05BB652C916EC30C"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FD5ADD4D3FFBE53"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0972B5071DBCA708"]
+			id: "3F1402E220DFC059"
+			rewards: [{
+				id: "52B23AEF1B768067"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mysticalagriculture:prudentium_sword"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72D12CFE0B8B5E98"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F1402E220DFC059"]
+			id: "34FFCF22B9A1EACB"
+			rewards: [
+				{
+					count: 9
+					id: "1E35946FE21E6247"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "04B2AC5D7C9302A3"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54D38CF52953CD0E"
+				item: { count: 1, id: "minecraft:beacon" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["219F1D5464745B2F"]
+			id: "6A8AF5642AC08C89"
+			rewards: [
+				{
+					id: "658154E88F21BB05"
+					item: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										heat_resistance: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: { }
+										}
+										pace: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												time: {
+													initialValue: 29.05335d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						count: 1
+						id: "relics:magma_walker"
+					}
+					type: "item"
+				}
+				{
+					id: "5968DDC8BF042194"
+					item: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										boost: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												capacity: {
+													initialValue: 94.46962d
+												}
+												speed: {
+													initialValue: 1.23498d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						count: 1
+						id: "relics:elytra_booster"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "628408A4C5D65401"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "06FBB75A9D2EA0D5"
+			rewards: [{
+				id: "58B4BC8EFBB4C5DF"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:backpack"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA8364F0ED5FB8D"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "566C449D8C2B2F04"
+			rewards: [{
+				count: 8
+				id: "2836A1957C6E98AC"
+				item: {
+					count: 1
+					id: "minecraft:charcoal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "2927D014A0893884"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Infinite Night Vision"
+filename = "InfiniteNightVision-1.21-NeoForge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Nf2vFbov/versions/JtttLdTa/InfiniteNightVision-1.21-NeoForge.jar"
+hash-format = "sha512"
+hash = "fb790bcc681ade058546a3b52f21370d37949e5f50af75ea85397a3576d7c1917af697b5ee482c1ccc8fce6bd81b52d355865deb2e08218450f6b576113c8f4c"
+
+[update]
+[update.modrinth]
+mod-id = "Nf2vFbov"
+version = "JtttLdTa"

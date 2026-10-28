@@ -1,0 +1,13 @@
+{
+	id: "3F2CDD3E3B0F7611"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "56E7F4DE7A543F7C", item: { count: 1, id: "alexscaves:cave_book" } }
+		{ id: "213E25769E492DB0", item: { count: 1, id: "alexscaves:spelunkery_table" } }
+		{ id: "0584196B7CC7E293", item: { count: 1, id: "alexscaves:ferrouslime_ball" } }
+		{ id: "069176B2D705FC32", item: { count: 1, id: "alexscaves:dinosaur_nugget" } }
+		{ id: "408220B07EAAB43E", item: { count: 1, id: "alexscaves:ambersol" } }
+		{ id: "527FDF8D687949FB", item: { count: 1, id: "alexscaves:galena" } }
+	]
+}

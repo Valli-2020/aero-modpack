@@ -1,0 +1,13 @@
+name = "Chinese flying island tower"
+filename = "chineseflyingislandtower-1.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NVz9DXUE/versions/jM8I7XB1/chineseflyingislandtower-1.1.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "c9d1456c31b75e90a5c419c265311038d7fb2e249cb9f3f46d446abd75c66299a1a675b2088f820dd437fd98ac58a1cb43c5e837033060e8547e8f9b28d05577"
+
+[update]
+[update.modrinth]
+mod-id = "NVz9DXUE"
+version = "jM8I7XB1"

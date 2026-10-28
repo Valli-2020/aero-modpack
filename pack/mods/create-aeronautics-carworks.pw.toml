@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Carworks"
+filename = "createaeronauticscarworks-0.1.0-BETA.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BxBHEGS9/versions/w2U0MEx9/createaeronauticscarworks-0.1.0-BETA.jar"
+hash-format = "sha512"
+hash = "f63259e373ebb76fb6734489be94a11ed2d4c404749de4495ad0f0254c87f64ca61397076005dc9485ef413c1430af145d862ebf528595bc9c7281b56647b917"
+
+[update]
+[update.modrinth]
+mod-id = "BxBHEGS9"
+version = "w2U0MEx9"

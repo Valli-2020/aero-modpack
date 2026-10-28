@@ -1,0 +1,234 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thrster"
+	group: "1064C2F129649404"
+	id: "5134C9C0A4305578"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "6161838A911C0C0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30A01F8E6C264C2F"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "106A91D03B017379"
+				item: { count: 1, id: "createpropulsion:thruster" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6161838A911C0C0B"]
+			id: "6B7A2F86680760B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F5B1E2C2A9EB46D"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A78DF26F5BEE6FB"
+				item: { count: 1, id: "createpropulsion:pine_resin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B7A2F86680760B4"]
+			id: "2F79C54E9578F3C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DE5A67BB4C7EC32"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BA00BFC706C00D6"
+				item: { count: 1, id: "createpropulsion:turpentine_bucket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6161838A911C0C0B"]
+			id: "653DA29C175FA4C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E5F46A4D5ABB588"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23A7336954E544C0"
+				item: { count: 1, id: "createpropulsion:solid_burner" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["653DA29C175FA4C9"]
+			id: "01D567D19A1B0DB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68E8AB145F71A6C3"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24F63FD60CF2AFFA"
+				item: { count: 1, id: "createpropulsion:stirling_engine" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6161838A911C0C0B"]
+			id: "5BA185F99802ED21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CF7AA54E7354AB1"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "13A3B8037053D0D7"
+				item: { count: 1, id: "createpropulsion:tilt_adapter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6161838A911C0C0B"]
+			id: "6CCD5FC67A566F74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "685CB911CD474CBB"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BE0DBC07DF7980B"
+				item: { count: 1, id: "createpropulsion:liquid_vector_thruster" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CCD5FC67A566F74"]
+			id: "28189F97EE7DDC98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "258EBCB467CCACD8"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68A7971187ADFEE3"
+				item: { count: 1, id: "createpropulsion:vector_thruster" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6161838A911C0C0B"]
+			id: "0FFFF2DE8CF264D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AE30E620CE848EC"
+				table_id: 2430677310559348490L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36DFA52B0E6B2DF2"
+				item: { count: 1, id: "createpropulsion:ion_thruster" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"01D567D19A1B0DB8"
+				"0FFFF2DE8CF264D7"
+				"28189F97EE7DDC98"
+			]
+			id: "40CD2861E7F90A57"
+			rewards: [{
+				id: "79B1797B9A5318D8"
+				item: {
+					components: {
+						"relics:data": {
+							abilities: {
+								abilities: {
+									boost: {
+										extender: {
+											cooldown: 0
+											cooldownCap: 0
+											ticking: 0b
+										}
+										lock: {
+											breaks: 5
+										}
+										points: 0
+										research: {
+											links: { }
+											researched: 0b
+										}
+										stats: {
+											capacity: {
+												initialValue: 63.45588d
+											}
+											speed: {
+												initialValue: 1.11112d
+											}
+										}
+									}
+								}
+							}
+							leveling: {
+								experience: 0
+								level: 0
+								luck: 0
+								points: 0
+							}
+						}
+					}
+					count: 1
+					id: "relics:elytra_booster"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000D63EE042B6E8E"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6161838A911C0C0B"]
+			id: "107E3B844CAAD9A8"
+			tasks: [{
+				id: "0CC155D8330FA9CA"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+}

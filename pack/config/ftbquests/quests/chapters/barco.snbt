@@ -1,0 +1,327 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "barco"
+	group: "1064C2F129649404"
+	id: "4B3913B3D49F3FA2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "779B62BB4F369866"
+			rewards: [
+				{
+					count: 64
+					id: "71EE7016DE4B2CAE"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22BA064AE5451F53"
+					table_id: 1697955958300214969L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6DA0F91F3E56753C"
+				item: { count: 1, id: "simulated:steering_wheel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["779B62BB4F369866"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			id: "3F58B27290987575"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27617EACFB1C3E43"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37A4C7861D2F8E27"
+				item: { count: 1, id: "simulated:analog_transmission" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["779B62BB4F369866"]
+			id: "03FB07F69EB2A4F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "514DD79CD46BB86A"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				count: 3L
+				id: "6BB46BBDE8C2548C"
+				item: { count: 1, id: "aeronautics:andesite_propeller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["779B62BB4F369866"]
+			id: "46B72483BF3066DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F0D235FF482C835"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72A7D26E376168BF"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F58B27290987575"]
+			id: "0953FC7830276FA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26EAB83B086D714A"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CA2ABC86347B664"
+				item: { count: 1, id: "simulated:velocity_sensor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F58B27290987575"]
+			id: "40F0EFDCAA43343A"
+			rewards: [
+				{
+					count: 2
+					id: "217993F8A8DA2240"
+					item: {
+						count: 1
+						id: "create:redstone_link"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F7EE82ABF36CD6A"
+					table_id: 1697955958300214969L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "22F16E13F2D04D31"
+				item: { count: 1, id: "create:redstone_link" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F58B27290987575"]
+			id: "1341E56EA4EBBDB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D8B8932BA41CA38"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5183D9836B7A55D9"
+				item: { count: 1, id: "create:rotation_speed_controller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46B72483BF3066DD"]
+			id: "16EC2C38F4C94E6A"
+			rewards: [
+				{
+					id: "04A9ED7078AD536F"
+					item: {
+						count: 1
+						id: "simulated:iron_handle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18AC4E885A702821"
+					table_id: 1697955958300214969L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "53D31D02ABD63328"
+				item: { count: 1, id: "simulated:iron_handle" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46B72483BF3066DD"]
+			id: "608444EFA0338E73"
+			rewards: [
+				{
+					count: 6
+					id: "61BAF59209260DE2"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FF41FFF1232A79A"
+					table_id: 1697955958300214969L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "60C80B1D2D9145DB"
+				item: { count: 1, id: "create:large_cogwheel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03FB07F69EB2A4F2"]
+			id: "2527B81166A36D69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A203BD4A5A7ECD5"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22C1A14DE2E87EE7"
+				item: { count: 1, id: "create:clutch" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03FB07F69EB2A4F2"]
+			id: "7735072E871AFFA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "038108EE27AA07F7"
+				table_id: 1697955958300214969L
+				type: "random"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2724E935C1B4CE62"
+				item: { count: 1, id: "create:encased_chain_drive" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2527B81166A36D69"]
+			id: "060C4031BA502268"
+			rewards: [
+				{
+					count: 2
+					id: "4A9C18D8C7DB451E"
+					item: {
+						count: 1
+						id: "minecraft:lever"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DFBB7D83DA3BA7E"
+					table_id: 1697955958300214969L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "24197A4FCAD03D4C"
+				item: { count: 1, id: "create:analog_lever" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["779B62BB4F369866"]
+			id: "37ABE3B97497B33F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "248533A098F0C487"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1AA1D513557774A9"
+				item: { count: 1, id: "sablefloaters:reinforced_wooden_floater" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["779B62BB4F369866"]
+			id: "3BD0CC4521959735"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B687173020C8A8B"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1ECEEFF0645A73A9"
+				item: { count: 1, id: "sablefloaters:wooden_floater_bundle" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["779B62BB4F369866"]
+			id: "54E4B44C7C818229"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67440217C61A7A06"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D219D3A1648FDAA"
+				item: { count: 1, id: "sablefloaters:wooden_floater" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+}

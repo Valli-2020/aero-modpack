@@ -1,0 +1,31 @@
+[dragon_egg_passive_effect]
+	#The Dragon Egg grants a permanent effect to the player while worn (boolean, default = true)
+	enable_passive_effect = true
+	#Effect applied to the player while the dragon egg is worn (accepted values = vanilla effects) (default = minecraft:regeneration)
+	passive_effect = "minecraft:regeneration"
+	#Amplifier level of the passive effect (default = 1)
+	passive_effect_level = 1.0
+
+[dragon_egg_defensive_effect]
+	#The Dragon Egg grants a temporary effect to the player when the player takes damage (boolean, default = false)
+	enable_defensive_effect = false
+	#Effect applied to the player when the player takes damage (accepted values = vanilla effects) (default = minecraft:resistance)
+	defensive_effect = "minecraft:resistance"
+	#Amplifier level of the defensive effect (default = 1)
+	defensive_effect_level = 1.0
+	#Effect duration (in seconds) of the defensive effect (default = 10)
+	defensive_effect_duration = 10.0
+	#Cooldown (in seconds) before the defensive effect can be triggered again (must be higher than effect duration) (default = 30)
+	defensive_effect_cooldown = 30.0
+
+[dragon_egg_offensive_effect]
+	#The Dragon Egg grants a temporary effect to the player when the player deals a critical hit (boolean, default = false)
+	enable_offensive_effect = false
+	#Effect applied to the player when the player deals a critical hit (accepted values = vanilla effects) (default = minecraft:strength)
+	offensive_effect = "minecraft:strength"
+	#Amplifier level of the offensive effect (default = 1)
+	offensive_effect_level = 1.0
+	#Effect duration (in seconds) of the offensive effect (default = 5)
+	offensive_effect_duration = 5.0
+	#Cooldown (in seconds) before the offensive effect can be triggered again (must be higher than effect duration) (default = 15)
+	offensive_effect_cooldown = 15.0

@@ -1,0 +1,13 @@
+name = "Create Big Cannons: Automatic Shell Feeder"
+filename = "cbc-cannon-feeder-1.0.0-r6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2010e7db0bbd762e774cc1482f9fe7a1b8b23cd6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9256521
+project-id = 1754365

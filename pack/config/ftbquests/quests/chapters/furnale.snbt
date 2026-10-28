@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "furnale"
+	group: "755498137E246770"
+	id: "6F5668263DDA3C3A"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1700EDF76BEE277A"]
+			id: "309CEAD0570BE819"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CB39E7E86571A31"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "442B10CE02583A4F"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1700EDF76BEE277A"]
+			id: "3DC1AC8C3132BAD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "775D4CF4D53ECCA9"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "06B2A2A5A8870BE3"
+				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1700EDF76BEE277A"]
+			id: "551F5236CED963EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70742C1A6922414F"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "734B14138B48CF22"
+				item: { count: 1, id: "ironfurnaces:obsidian_furnace" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1700EDF76BEE277A"]
+			id: "526B533E0190141F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "070DE165DE67EF5E"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7ADDCE1DE5BF8533"
+				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1700EDF76BEE277A"]
+			id: "0D8865CC8CE799C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "219C976897604B97"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6BED3E9D07A77497"
+				item: { count: 1, id: "ironfurnaces:gold_furnace" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1700EDF76BEE277A"]
+			id: "20305801DD968722"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AB23A37C2D0090E"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5EB12A735A460D01"
+				item: { count: 1, id: "ironfurnaces:copper_furnace" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1700EDF76BEE277A"]
+			id: "0DBB4E65DC4613FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "365243281C1545F0"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4EBBDEBB46752DA5"
+				item: { count: 1, id: "ironfurnaces:crystal_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1700EDF76BEE277A"
+				"595B5282A7BD7329"
+			]
+			id: "5D68137D74D7CA25"
+			rewards: [{
+				id: "4A417A61F3E13AD0"
+				item: {
+					count: 1
+					id: "ironfurnaces:rainbow_coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74772BDA0EE5A556"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"green\",\"text\":\"w\"},{\"color\":\"yellow\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"light_purple\",\"text\":\"u\"},{\"color\":\"yellow\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"blue\",\"text\":\"e\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"20305801DD968722"
+				"1700EDF76BEE277A"
+				"0DBB4E65DC4613FF"
+				"526B533E0190141F"
+				"0D8865CC8CE799C0"
+				"3DC1AC8C3132BAD6"
+				"551F5236CED963EC"
+			]
+			id: "595B5282A7BD7329"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "340AC3CFFD15B1F7"
+				table_id: 8577672095746277681L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "294424B5E738DBFD"
+				item: { count: 1, id: "ironfurnaces:rainbow_plating" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "1700EDF76BEE277A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A78D922AFE31F08"
+				table_id: 2430677310559348490L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7F545ABF728FB99D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+}

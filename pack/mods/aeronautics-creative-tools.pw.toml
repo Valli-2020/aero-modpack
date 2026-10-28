@@ -1,0 +1,13 @@
+name = "Aeronautics: Creative Tools"
+filename = "creative_tools-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XS5zljia/versions/R7jKWqbb/creative_tools-1.0.0.jar"
+hash-format = "sha512"
+hash = "bcd370ddaee5ea7d9d2f5abd8a8165f055e37ed035ff98e54f680f9bb381b9e4396a45db2d9824b55c499fc8c328fd82ab06a5d87c579d7905f446beb799270a"
+
+[update]
+[update.modrinth]
+mod-id = "XS5zljia"
+version = "R7jKWqbb"

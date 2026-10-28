@@ -1,0 +1,13 @@
+name = "Aero"
+author = "Valli2020"
+version = "0.2.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c339f74af57b7361fb5e852b53f26d2afc7ac67cc66ee0c463f696c57c81d5b4"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"

@@ -1,0 +1,9 @@
+#Update interval for visualizing forces on subLevel
+# Default: 5
+# Range: 1 ~ 100
+forceUpdateInterval = 5
+#Maximum distance that wand can reach for teleporting/cloning/deleting...etc
+# Default: 512
+# Range: 1 ~ 1024
+maxReach = 512
+showKeyGuides = true

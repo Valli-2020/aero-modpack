@@ -1,0 +1,13 @@
+name = "CamoWarfare"
+filename = "camowarfare-1.4.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m0bvDj9D/versions/RlZzz6Sj/camowarfare-1.4.9.jar"
+hash-format = "sha512"
+hash = "230d630ed9c5694d1a6b34e4928f29d11f91b3a7d9617de84721194e5c34a0dee4348d99df30be6c6d3c309da30b3c8685a0ca9b0406ebc48db14e0b2d479e0d"
+
+[update]
+[update.modrinth]
+mod-id = "m0bvDj9D"
+version = "RlZzz6Sj"

@@ -1,0 +1,13 @@
+name = "Skniro's Nether and End Ores"
+filename = "SkniroNetherAndEndOres-1.1.0-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EUV7foM2/versions/Zamq2Pga/SkniroNetherAndEndOres-1.1.0-1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "ca07d5a23769b35c73a15a59f809791a9d361563109de65432c16bef7b2cd9b5abb55fa6581e2aa8ba302d09a2ed589794493c122a894647452806c4ffbf4208"
+
+[update]
+[update.modrinth]
+mod-id = "EUV7foM2"
+version = "Zamq2Pga"

@@ -1,0 +1,124 @@
+{
+	id: "02B8D33D7360D6F9"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 6
+			id: "53A6248603723224"
+			item: {
+				count: 1
+				id: "create_connected:fan_blasting_catalyst"
+			}
+		}
+		{
+			count: 6
+			id: "62770830B4F41F33"
+			item: {
+				count: 1
+				id: "create_connected:fan_smoking_catalyst"
+			}
+		}
+		{
+			count: 5
+			id: "4860C88F48334754"
+			item: {
+				components: {
+					"create_connected:kinetic_battery_charge": 3.6864E7d
+				}
+				count: 1
+				id: "create_connected:kinetic_battery"
+			}
+		}
+		{
+			count: 3
+			id: "7DF8B0B0916B8AE6"
+			item: {
+				count: 1
+				id: "create_connected:crank_wheel"
+			}
+		}
+		{ id: "44D2107CE09422D6", item: { count: 1, id: "create_connected:music_disc_elevator" } }
+		{ id: "6539F2BE6A84C5C5", item: { count: 1, id: "create_connected:music_disc_interlude" } }
+		{
+			count: 16
+			id: "1815118502317C74"
+			item: {
+				count: 1
+				id: "create_connected:shear_pin"
+			}
+		}
+		{
+			count: 24
+			id: "7B85951DBF06F42C"
+			item: {
+				count: 1
+				id: "create_connected:empty_fan_catalyst"
+			}
+		}
+		{
+			count: 6
+			id: "015B0649C5721F87"
+			item: {
+				count: 1
+				id: "create_connected:dashboard"
+			}
+		}
+		{
+			count: 8
+			id: "539E0E99285856FA"
+			item: {
+				count: 1
+				id: "create_connected:fluid_vessel"
+			}
+		}
+		{
+			count: 8
+			id: "6EDBC331F3C03247"
+			item: {
+				count: 1
+				id: "create_connected:item_silo"
+			}
+		}
+		{
+			count: 4
+			id: "19B98F77FF75838C"
+			item: {
+				count: 1
+				id: "create_connected:sequenced_pulse_generator"
+			}
+		}
+		{
+			count: 8
+			id: "36018C3D9446860C"
+			item: {
+				count: 1
+				id: "create_connected:kinetic_bridge"
+			}
+		}
+		{
+			count: 4
+			id: "38F081E7D6A89E25"
+			item: {
+				count: 1
+				id: "create_connected:brass_gearbox"
+			}
+		}
+		{
+			count: 2
+			id: "48A72B239982F1A6"
+			item: {
+				count: 1
+				id: "create_connected:vertical_brass_gearbox"
+			}
+		}
+		{
+			count: 8
+			id: "69119F31F2914716"
+			item: {
+				count: 1
+				id: "create_connected:redstone_link_wildcard"
+			}
+		}
+	]
+}

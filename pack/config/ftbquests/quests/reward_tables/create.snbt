@@ -1,0 +1,22 @@
+{
+	id: "179059F2AABE06B9"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "5C2C187EFD5EEC7F", item: { count: 1, id: "create:potato_cannon" } }
+		{ id: "29341FDD7ED2CF70", item: { components: { "ftbquests:missing_item": "vs_clockwork:physics_infuser" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 2
+			id: "0611E328D90B19D8"
+			item: {
+				count: 1
+				id: "create:crushing_wheel"
+			}
+		}
+		{ id: "2E6F04C86D3A5F75", item: { count: 1, id: "create:wrench" } }
+		{ id: "1FB1FCAC6169B1AB", item: { count: 1, id: "create:empty_blaze_burner" } }
+		{ id: "406692EDB4D1B80D", item: { count: 1, id: "create:spout" } }
+		{ id: "74C3CA1DBCDBED7A", item: { count: 1, id: "create:schematicannon" } }
+		{ id: "636272C749EE990A", item: { count: 1, id: "create:wrench" } }
+	]
+}

@@ -1,0 +1,14 @@
+{
+	id: "2CB3AF73114A5527"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ id: "492285AC386B4DAD", item: { count: 1, id: "projecte:philosophers_stone" } }
+		{ id: "21EDE0F94A31DD8D", item: { count: 1, id: "projecte:dark_matter" } }
+		{ id: "594156872F8E5F06", item: { count: 1, id: "projecte:transmutation_table" } }
+		{ id: "6E13470F47AE4965", item: { count: 1, id: "projecte:collector_mk1" } }
+		{ id: "6351E4FA4E0A68D8", item: { count: 1, id: "projecte:interdiction_torch" } }
+		{ id: "0973817ADDED5912", item: { count: 1, id: "projecte:aeternalis_fuel_block" } }
+		{ id: "1B5C7A46077B3FC3", item: { count: 1, id: "projecte:klein_star_ein" } }
+	]
+}

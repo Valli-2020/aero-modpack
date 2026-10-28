@@ -1,0 +1,13 @@
+name = "SableFanConfig"
+filename = "sable-fan-config-1.21.1-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UsILJ7sr/versions/17WEx8wU/sable-fan-config-1.21.1-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "ee33187944579693326b0b0f3fd5d3d080bc6aa14c9047f1fb8ebbadacde929c0ede00eb22f987180fe868389899f357f7929f6dfbf6403ea815b06d46625564"
+
+[update]
+[update.modrinth]
+mod-id = "UsILJ7sr"
+version = "17WEx8wU"

@@ -1,0 +1,13 @@
+name = "Create:Fire Control"
+filename = "create-fire-control-0.9.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "082c05ba58a910dfe08d6a8669e4a4bead7b955f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9300381
+project-id = 1647191

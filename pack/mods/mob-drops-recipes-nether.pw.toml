@@ -1,0 +1,13 @@
+name = "Mob Drops Recipes [Nether]"
+filename = "mob_drops_recipes_nether-merged-1.21.1-2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZZwVawuB/versions/lMY6ppvk/mob_drops_recipes_nether-merged-1.21.1-2.1.1.jar"
+hash-format = "sha512"
+hash = "961b068bb5d7020f54c15ce7242b6417f1be39348bc21c46a6a564d80c3a443286592bd703a6613dd730a717d8a599dd61dc0886d9e2fc1a7d9bb4b8c6a496e9"
+
+[update]
+[update.modrinth]
+mod-id = "ZZwVawuB"
+version = "lMY6ppvk"

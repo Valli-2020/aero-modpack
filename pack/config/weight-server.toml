@@ -1,0 +1,32 @@
+#Mass added by each survival/adventure player standing on a Sable structure,
+#in Sable block-mass units (1.0 = one normal block, e.g. stone; wool is 0.5).
+# Default: 0.75
+# Range: 0.0 ~ 1000.0
+playerMass = 0.75
+#Strength multiplier for jump/landing impulses on the deck.
+#1.0 = strictly physical — which is nearly imperceptible: a 0.75-block-mass
+#player barely rocks a 100+ mass hull. The default makes a jump actually felt.
+# Default: 4.0
+# Range: 0.0 ~ 100.0
+jumpImpulseMultiplier = 4.0
+#Mass scale for non-player living entities standing on a structure.
+#Mass is derived from the entity's hitbox volume, calibrated so a
+#player-sized body = playerMass (villager/pillager ~0.8, iron golem ~6,
+#cow ~1.3, rabbit ~0.1, babies lighter). 0 disables entity weight entirely.
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+entityMassScale = 1.0
+#Cap on a single entity's mass in block units (giant modded mobs).
+# Default: 10.0
+# Range: 0.1 ~ 1000.0
+entityMaxMass = 10.0
+#Mass multiplier applied per equipped armor piece tagged #weight:light_gear
+#(the addon's Light Harness, or any item another mod/datapack tags).
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+lightGearMassMultiplier = 0.5
+#Mass multiplier applied per equipped armor piece tagged #weight:heavy_gear
+#(the addon's Mooring Boots, or any item another mod/datapack tags).
+# Default: 2.0
+# Range: 1.0 ~ 10.0
+heavyGearMassMultiplier = 2.0

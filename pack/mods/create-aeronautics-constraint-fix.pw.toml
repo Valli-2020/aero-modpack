@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Constraint Fix"
+filename = "constraintfix-1.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DiyKT6tb/versions/C7d6T0sq/constraintfix-1.6.0.jar"
+hash-format = "sha512"
+hash = "4bc500dd7051e6cc752c4a93d6a11b3d44a8bda33e6bb0341437c214425e553c8ccfae6fcf7eae34354a2198718634b19a6c76ddb5ff40999ca13029129868e8"
+
+[update]
+[update.modrinth]
+mod-id = "DiyKT6tb"
+version = "C7d6T0sq"

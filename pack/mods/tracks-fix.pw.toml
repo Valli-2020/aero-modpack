@@ -1,0 +1,13 @@
+name = "Tracks+ Fix"
+filename = "tracks_plus_fix-2.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc7658168ce31ad22a4c15bdab3a32e67263ab65"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9222611
+project-id = 1725013

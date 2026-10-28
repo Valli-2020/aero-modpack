@@ -1,0 +1,173 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aldeo"
+	group: "755498137E246770"
+	id: "5263217A1DE47690"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "37D845857DF96FE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01B9A106E367DE22"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21353B0F3F70BF83"
+				item: { count: 1, id: "easy_villagers:villager" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37D845857DF96FE8"]
+			id: "613D41C6F0E05DA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6875324BC65A0E53"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AF9C074EE1E28B7"
+				item: { count: 1, id: "easy_villagers:farmer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37D845857DF96FE8"]
+			id: "54E3148A115DA65C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "319D1D04F1A5C562"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31F73F8A59F18650"
+				item: { count: 1, id: "easy_villagers:breeder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54E3148A115DA65C"]
+			dependency_requirement: "one_completed"
+			id: "4692D315FA063C6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D10A60539AC5370"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20252710A6837580"
+				item: { count: 1, id: "easy_villagers:villager" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"613D41C6F0E05DA9"
+				"4692D315FA063C6F"
+			]
+			id: "79C075284DC740B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B18FA798838275B"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50BFE399C428ED36"
+				item: { count: 1, id: "easy_villagers:incubator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79C075284DC740B1"]
+			id: "6AB1B552A56D9D30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B5CBD8EF7230F17"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2ED9CDA001667F49"
+				item: { count: 1, id: "easy_villagers:converter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79C075284DC740B1"]
+			id: "5349775E79837A42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "635F403B4AACFD98"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4022EF8AFD1A648C"
+				item: { count: 1, id: "easy_villagers:iron_farm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5349775E79837A42"]
+			id: "669DF933E3D38510"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72BB80916AB2E90A"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5231B1B8EE9C2057"
+				item: { count: 1, id: "easy_villagers:auto_trader" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6AB1B552A56D9D30"
+				"669DF933E3D38510"
+			]
+			id: "57B8D77523E37898"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DF40AAB8C6B1E85"
+				table_id: 1215649516714289688L
+				type: "random"
+			}]
+			tasks: [{
+				count: 64L
+				id: "78C9508920587953"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+	]
+}

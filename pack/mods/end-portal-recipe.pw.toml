@@ -1,0 +1,13 @@
+name = "End Portal Recipe"
+filename = "endportalrecipe-1.21.1-5.8.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/VbCjkvcq/versions/mQYG2fNE/endportalrecipe-1.21.1-5.8.jar"
+hash-format = "sha512"
+hash = "853f597554d01a7ce0dcbc2ed61c9d61bcc996acf655f45c4931973b704ceef3269cef419178f135d46e42ca113b4588e4a7312a74019e5ea7204ceb46f638cc"
+
+[update]
+[update.modrinth]
+mod-id = "VbCjkvcq"
+version = "mQYG2fNE"

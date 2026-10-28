@@ -1,0 +1,13 @@
+name = "CBC Tank Tower"
+filename = "cbc-tank-tower-0.9.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d86ecc86339d310add657c99a23d7450dfb880a7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9277155
+project-id = 1727767

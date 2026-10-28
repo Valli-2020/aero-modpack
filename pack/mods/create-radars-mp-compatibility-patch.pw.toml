@@ -1,0 +1,13 @@
+name = "Create Radars Multiplayer Compatibility Patch"
+filename = "fed_x_radars_compat-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/BdAgIYXr/versions/p6TlpSsm/fed_x_radars_compat-1.0.0.jar"
+hash-format = "sha512"
+hash = "ba76a63fb2066c3a753a509bc85e6a75d7f13df40f1f6f2e83f41a33fb2dc5e2f95bfc2236c85a267ea0ccb4ce49ac098f2023153f96de0c8598e54a6d07cf1a"
+
+[update]
+[update.modrinth]
+mod-id = "BdAgIYXr"
+version = "p6TlpSsm"

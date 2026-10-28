@@ -1,0 +1,13 @@
+name = "Night Vision Toggle"
+filename = "nightvisiontoggleneo-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hGo4dbRT/versions/iPBjhLvX/nightvisiontoggleneo-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "32ec7bd0856b9ffc56ba94efe65ccd0c11c76e56aec4723164a12a5844065f24d6d6b9888fbe00fbbb26446c6b12c450aafaf5f0fd8a44bbc8e356d22105ef62"
+
+[update]
+[update.modrinth]
+mod-id = "hGo4dbRT"
+version = "iPBjhLvX"

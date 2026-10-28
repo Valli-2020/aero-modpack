@@ -1,0 +1,13 @@
+name = "Dimensional Sable"
+filename = "dimensional_sable-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Iq9c4mLa/versions/qU6WVBqC/dimensional_sable-1.1.0.jar"
+hash-format = "sha512"
+hash = "3d9fa7e5eda317bcc42c51235dcdde3b58451bba117d1169cafedf69ee6a65f32f1e0b9ec65f8dbbe4f2a6a7eefb6d803b5098fdc170eb55f6c978a977067657"
+
+[update]
+[update.modrinth]
+mod-id = "Iq9c4mLa"
+version = "qU6WVBqC"

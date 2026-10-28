@@ -1,0 +1,359 @@
+{
+  "model": "sablecars:car",
+  "textures": [
+    "car"
+  ],
+  "physics": {
+    "max_thrust": 300.0,
+    "max_speed": 27.0,
+    "drag_coeff": 0.008,
+    "rolling_resistance": 0.6,
+    "grip_accel": 18.0,
+    "steer_rate": 0.075,
+    "steer_response": 0.1,
+    "fuel_capacity": 24000,
+    "wheel_spring": 15.0,
+    "wheel_damp": 5.0,
+    "wheel_offsets": [
+      [
+        -1.0,
+        -1.0,
+        -2.0
+      ],
+      [
+        1.0,
+        -1.0,
+        -2.0
+      ],
+      [
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      [
+        1.0,
+        -1.0,
+        2.0
+      ]
+    ]
+  },
+  "layout": {
+    "center_offset": [
+      0,
+      1,
+      0
+    ],
+    "assembly_min": [
+      -2,
+      0,
+      -2
+    ],
+    "assembly_max": [
+      2,
+      3,
+      3
+    ],
+    "blocks": [
+      {
+        "x": -2,
+        "y": 1,
+        "z": -1,
+        "type": "climb_left"
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "z": -1,
+        "type": "climb_left"
+      },
+      {
+        "x": -2,
+        "y": 3,
+        "z": -1,
+        "type": "climb_left"
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "z": -2,
+        "type": "frame"
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "z": 2,
+        "type": "frame"
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "z": -2,
+        "type": "taillight"
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "z": -1,
+        "type": "seat"
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "z": 0,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "z": 1,
+        "type": "seat"
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "z": 2,
+        "type": "headlight"
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "z": 3,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "z": -2,
+        "type": "frame_slab_bottom"
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "z": 0,
+        "type": "door_west"
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "z": 1,
+        "type": "door_west"
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "z": 2,
+        "type": "frame_slab_bottom"
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "z": -1,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "z": 0,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "z": 1,
+        "type": "headlight"
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "z": 2,
+        "type": "frame_slab_bottom"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": -2,
+        "type": "trunk"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": -1,
+        "type": "seat"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 0,
+        "type": "center"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 1,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 2,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "z": 3,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "z": -2,
+        "type": "frame_slab_bottom"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "z": 2,
+        "type": "frame_slab_bottom"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "z": -1,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "z": 0,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "z": 1,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "z": 2,
+        "type": "frame_slab_bottom"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "z": -2,
+        "type": "frame"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "z": 2,
+        "type": "frame"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": -2,
+        "type": "taillight"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": -1,
+        "type": "seat"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 0,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "type": "driver_seat"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 2,
+        "type": "headlight"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "z": 3,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "z": -2,
+        "type": "frame_slab_bottom"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "z": 0,
+        "type": "door_east"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "z": 1,
+        "type": "door_east"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "z": 2,
+        "type": "dashboard"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "z": -1,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "z": 0,
+        "type": "frame_slab_top"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "z": 1,
+        "type": "headlight"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "z": 2,
+        "type": "frame_slab_bottom"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "z": -1,
+        "type": "climb_right"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "z": -1,
+        "type": "climb_right"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "z": -1,
+        "type": "climb_right"
+      }
+    ]
+  }
+}

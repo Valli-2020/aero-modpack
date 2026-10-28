@@ -1,0 +1,95 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "teleport"
+	group: "755498137E246770"
+	id: "45236ADD14315104"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "0FB823448A33E7CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FA4B4E0F7E323AC"
+				table_id: 6479569248774455214L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4736752A9DACA4A5"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FB823448A33E7CE"]
+			id: "6A2594266B9F79C3"
+			optional: true
+			rewards: [{
+				id: "36C31995B4D90CB3"
+				item: {
+					count: 1
+					id: "waystones:return_scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59F3B42175D19D73"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FB823448A33E7CE"]
+			id: "7AAC26F9A197268E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "120F13E7FFA7501D"
+				table_id: 6479569248774455214L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6EE725B1E715F1CE"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AAC26F9A197268E"]
+			id: "3AAB913F156BAD4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D082E6732ABCE59"
+				table_id: 6479569248774455214L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F17E8C52A78460D"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FB823448A33E7CE"]
+			id: "0CE7C92BB72526D0"
+			tasks: [{
+				count: 8L
+				id: "4A4ACCFB57F5EA29"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+}

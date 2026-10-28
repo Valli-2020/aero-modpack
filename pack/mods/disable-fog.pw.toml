@@ -1,0 +1,13 @@
+name = "Disable Fog"
+filename = "disablefog-neoforge-1.21.1-2.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PmLlAay9/versions/Z66hIEvV/disablefog-neoforge-1.21.1-2.2.0.jar"
+hash-format = "sha512"
+hash = "804e474f9c180c920e13088cfec7296c88219f93e0ed3178d2cb181eff4b9d5ab1816e8fadbd9e66f401866d0f7db1e9749bb692cfa423e82e7db8a39787a4de"
+
+[update]
+[update.modrinth]
+mod-id = "PmLlAay9"
+version = "Z66hIEvV"

@@ -1,0 +1,85 @@
+[ERA]
+	#ERA block hardness. Default: 2.0
+	# Default: 2.0
+	# Range: 0.1 ~ 50.0
+	hardness = 2.0
+	#ERA blast resistance. Default: 22.0
+	# Default: 22.0
+	# Range: 0.0 ~ 1200.0
+	blastResistance = 22.0
+
+["Tusk ERA"]
+	#Tusk ERA hardness. Default: 2.0
+	# Default: 2.0
+	# Range: 0.1 ~ 50.0
+	hardness = 2.0
+	#Tusk ERA blast resistance. Default: 22.0
+	# Default: 22.0
+	# Range: 0.0 ~ 1200.0
+	blastResistance = 22.0
+
+[APS]
+	enabled = true
+	# Default: 2.0
+	# Range: 0.1 ~ 50.0
+	hardness = 2.0
+	# Default: 8.0
+	# Range: 0.0 ~ 1200.0
+	blastResistance = 8.0
+	# Default: 20.0
+	# Range: 5.0 ~ 128.0
+	scanRange = 20.0
+	# Default: 2
+	# Range: 1 ~ 20
+	tickInterval = 2
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	explosionPower = 1.0
+	# Default: 10
+	# Range: 1 ~ 50
+	sharpCount = 10
+
+["Iron Fist"]
+	enabled = true
+	# Default: 2.0
+	# Range: 0.1 ~ 50.0
+	hardness = 2.0
+	# Default: 8.0
+	# Range: 0.0 ~ 1200.0
+	blastResistance = 8.0
+	# Default: 65.0
+	# Range: 10.0 ~ 256.0
+	scanRadius = 65.0
+	# Default: 6.0
+	# Range: 1.0 ~ 20.0
+	interceptorSpeed = 6.0
+	# Default: 200
+	# Range: 1 ~ 1200
+	cooldownTicks = 200
+	# Default: 30
+	# Range: 10 ~ 200
+	maxInterceptTime = 30
+
+[AParryS]
+	enabled = true
+	# Default: 2.0
+	# Range: 0.1 ~ 50.0
+	hardness = 2.0
+	# Default: 8.0
+	# Range: 0.0 ~ 1200.0
+	blastResistance = 8.0
+	# Default: 180.0
+	# Range: 0.0 ~ 180.0
+	parryAngle = 180.0
+	# Default: 2.0
+	# Range: 0.1 ~ 10.0
+	parryVelocityMultiplier = 2.0
+	# Default: 15.0
+	# Range: 1.0 ~ 64.0
+	parryScanRange = 15.0
+	# Default: 10.0
+	# Range: 0.0 ~ 32.0
+	parryBlindRange = 10.0
+	# Default: 5
+	# Range: 0 ~ 100
+	parryBlindDuration = 5

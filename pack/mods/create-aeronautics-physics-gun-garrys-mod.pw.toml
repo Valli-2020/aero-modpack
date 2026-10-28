@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Physics Gun (Garry's Mod)"
+filename = "subphysicsstaff-0.1.1b.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OnJR3DHD/versions/HOwQBXNM/subphysicsstaff-0.1.1b.jar"
+hash-format = "sha512"
+hash = "3427d7cfc57c2538d11ff5b3d83a7fd727db4971736e5322cbb5d8cc036175ed39f63a8841b2cfb8d55b2017a8f7bfb73814e2a6fce02c453b2cc92a63dff49a"
+
+[update]
+[update.modrinth]
+mod-id = "OnJR3DHD"
+version = "HOwQBXNM"

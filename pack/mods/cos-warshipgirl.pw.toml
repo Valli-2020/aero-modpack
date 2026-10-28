@@ -1,0 +1,13 @@
+name = "Cos-warshipgirl"
+filename = "iwshipg-2.9N.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XdKpKqtH/versions/TL8Wb1tw/iwshipg-2.9N.jar"
+hash-format = "sha512"
+hash = "95353731259813fcfc84080424de38799a06f3760008f017db299529d80cad7544c98a1215114801e7bb8b4ce0967ca2a4e8dc549c9e258f3e5cba5c4fb0259c"
+
+[update]
+[update.modrinth]
+mod-id = "XdKpKqtH"
+version = "TL8Wb1tw"

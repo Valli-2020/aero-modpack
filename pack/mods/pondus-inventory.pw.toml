@@ -1,0 +1,13 @@
+name = "Pondus Inventory [Sable]"
+filename = "pondus_inventory_fi-0.15-Beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jkDxc7XT/versions/DUbbDhU1/pondus_inventory_fi-0.15-Beta.jar"
+hash-format = "sha512"
+hash = "bae18bafd155187a6ca6757750f488b1811debde5488beb67df36df1b7bf6611b66adee4e556a235d75830e444f790a6bf7b8bfb0ab5f5625911635327e8bddc"
+
+[update]
+[update.modrinth]
+mod-id = "jkDxc7XT"
+version = "DUbbDhU1"

@@ -1,0 +1,165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trasmiso"
+	group: "1064C2F129649404"
+	id: "16A4F8820C488033"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "72ED5DE5B57F7AB1"
+			rewards: [{
+				id: "6E693B5EB851DECB"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "5DC4EE2DF9E58E5B"
+				item: { count: 1, id: "aeronautics_utility_objects:hydraulic_hinge_head" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "2D2B1803F674BF51"
+			rewards: [{
+				id: "28AC4BC8B96A56E4"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "53128F696C02AD41"
+				item: { count: 1, id: "aeronautics_utility_objects:hydraulic_regulator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "144CEE045F0CD247"
+			rewards: [{
+				id: "050C9CA4AA9FEECD"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "399A0A0898525428"
+				item: { count: 1, id: "aeronautics_utility_objects:hydraulic_rod" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "53FD7CAF4E9FB27C"
+			rewards: [{
+				id: "75430665CA9A81E8"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "00FFD880A4DE482B"
+				item: { count: 1, id: "aeronautics_utility_objects:brass_universal_joint" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "0C2899B49C5A8DDB"
+			rewards: [{
+				id: "63B3557B5CEE2417"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "0EE8BDBD3BF5B66E"
+				item: { count: 1, id: "aeronautics_utility_objects:universal_joint_rod2" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "1938D93695DA5F8A"
+			rewards: [{
+				id: "3CC755B38510ED37"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "469C417795D424D1"
+				item: { count: 1, id: "aeronautics_utility_objects:damping_stress_bearing" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "5D7C51CB0D9EAF35"
+			rewards: [{
+				id: "1DA26418BBE048E0"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "39931A15636DCE49"
+				item: { count: 1, id: "aeronautics_utility_objects:hydraulic_connection_head" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "4E45EAD9E17B65C3"
+			rewards: [{
+				id: "7FFDDC123A432B5C"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "59F7EF8834EDBCDD"
+				item: { count: 1, id: "aeronautics_utility_objects:universal_joint_rod" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "18599F3A579B5331"
+			tasks: [{
+				id: "7CBF93E73531BE01"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18599F3A579B5331"]
+			id: "63DD64504F605F95"
+			rewards: [{
+				id: "358169BDE9B18CD9"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				id: "1329142CB22A6472"
+				item: { count: 1, id: "createtransmission:transmission_chain" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+}

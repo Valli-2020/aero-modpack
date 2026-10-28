@@ -1,0 +1,188 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flux_de_enegia"
+	group: "6460275E45193F36"
+	id: "2E43E5FF4D335499"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["139799A30ADDB09A"]
+			id: "4CB02FC703D42162"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A91B04EE3819C8E"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FB49F879373D3B6"
+				item: { count: 1, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CB02FC703D42162"]
+			id: "54D59515EE459ACA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B2901594B9A090E"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26B2ECA8E197B4CF"
+				item: { count: 1, id: "fluxnetworks:flux_core" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CB02FC703D42162"]
+			id: "76D8FC21E0083750"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04737BD50155E336"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22070FC55FF85CD5"
+				item: { count: 1, id: "fluxnetworks:flux_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"54D59515EE459ACA"
+				"76D8FC21E0083750"
+			]
+			id: "19B40B8C465BEE0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B9DCC6ECB6ECEE9"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0094D75A59B13647"
+				item: { count: 1, id: "fluxnetworks:flux_plug" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["54D59515EE459ACA"]
+			id: "6697AFBE6E7F53D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "628F24709B7B74A2"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E30FD82A3590D60"
+				item: { count: 1, id: "fluxnetworks:flux_point" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"19B40B8C465BEE0E"
+				"6697AFBE6E7F53D1"
+			]
+			id: "7ECC38A22B43E72F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CCB28F565FCB781"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A65BF3C90F86654"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A74C1DC3363EE8F"]
+			id: "7AA84EB3999A81F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F0D2DC0A5EEFC32"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6CA8DC27A3905777"
+				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ECC38A22B43E72F"]
+			id: "2A74C1DC3363EE8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42E4170672422890"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E8E8EA0101BF296"
+				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AA84EB3999A81F2"]
+			id: "0A1E02EA14DB2C9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "298C861EEF04BC61"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AA298AA96C87B3C"
+				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A1E02EA14DB2C9E"]
+			id: "44CF405FB524A084"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23349D3EB6D6B55C"
+				table_id: 1516416992629669430L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46EFF8C34773B65A"
+				item: { count: 1, id: "fluxnetworks:flux_configurator" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+	]
+}

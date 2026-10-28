@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Tournament"
+filename = "create-aeronautics-tournament-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cBLjBt5l/versions/V5E0vuNx/create-aeronautics-tournament-0.0.1.jar"
+hash-format = "sha512"
+hash = "9a5825c29daae5f29a8ed2f6f5222a414fa60153733e0ef6a82a115d078efc479b2f6bbb528e71711ccc9e4b552ef2c391303dd9e2460790e90c14bf336666fe"
+
+[update]
+[update.modrinth]
+mod-id = "cBLjBt5l"
+version = "V5E0vuNx"

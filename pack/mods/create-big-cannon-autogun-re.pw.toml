@@ -1,0 +1,13 @@
+name = "Create-Big-Cannon-Autogun-Revolution"
+filename = "Create-Big-Cannon-Autogun-Revolution.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8lptIdH0/versions/J3SNz0C5/Create-Big-Cannon-Autogun-Revolution.jar"
+hash-format = "sha512"
+hash = "666194c7f37d0c009280bb8537d4036cf63b0e95b42719123d889da8e8790e5a700c0cc9cbd8ca5008b099ba650793a2c5e9164ddaca09792245055b0ea04969"
+
+[update]
+[update.modrinth]
+mod-id = "8lptIdH0"
+version = "J3SNz0C5"

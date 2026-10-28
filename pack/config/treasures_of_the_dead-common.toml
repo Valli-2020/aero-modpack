@@ -1,0 +1,69 @@
+["Treasures of the dead - Common Config!"]
+	#For big adventures you can set this parameter to your distance of view. (if the value of this parameter is higher than your distance of view, than buried treasures and skeletons will spawning in bedrock)
+	# Default: 8
+	# Range: 6 ~ 128
+	randomAdventureItemDistanceInChunks = 8
+	#(For servers) For now you can use only ru_ru or en_us
+	captain_names_lang = "en_us"
+	#The damage depends on the distance from the center of the bomb explosion to the entity. The maximum damage is achieved in the very center.
+	# Default: 15.0
+	# Range: 0.0 ~ 1024.0
+	blunderBombAOEMaxDamage = 15.0
+	#Damage when the entity is hit directly. This is not additional damage! Please note that the highest damage is selected and dealt between AOE and on hit (by minecraft)
+	# Default: 15.0
+	# Range: 0.0 ~ 1024.0
+	blunderBombOnEntityHitDamage = 15.0
+	#Player Damage Modifier
+	# Default: 0.5
+	# Range: 0.0 ~ 1024.0
+	blunderBombPlayerGetDamageMultiplier = 0.5
+
+	["Treasures of the dead - Common Config!"."Mobs stats"]
+		# Default: 26.0
+		# Range: 1.0 ~ 1024.0
+		pirateSkeletonHealth = 26.0
+		# Default: 3.0
+		# Range: 0.0 ~ 1024.0
+		pirateSkeletonDamage = 3.0
+		# Default: 70.0
+		# Range: 1.0 ~ 1024.0
+		captainSkeletonHealth = 70.0
+		# Default: 4.0
+		# Range: 0.0 ~ 1024.0
+		captainSkeletonDamage = 4.0
+		# Default: 26.0
+		# Range: 1.0 ~ 1024.0
+		bloomingSkeletonHealth = 26.0
+		# Default: 3.0
+		# Range: 0.0 ~ 1024.0
+		bloomingSkeletonDamage = 3.0
+		# Default: 70.0
+		# Range: 1.0 ~ 1024.0
+		captainBloomingSkeletonHealth = 70.0
+		# Default: 4.0
+		# Range: 0.0 ~ 1024.0
+		captainBloomingSkeletonDamage = 4.0
+		# Default: 22.0
+		# Range: 1.0 ~ 1024.0
+		shadowSkeletonHealth = 22.0
+		# Default: 4.5
+		# Range: 0.0 ~ 1024.0
+		shadowSkeletonDamage = 4.5
+		# Default: 60.0
+		# Range: 1.0 ~ 1024.0
+		captainShadowSkeletonHealth = 60.0
+		# Default: 5.5
+		# Range: 0.0 ~ 1024.0
+		captainShadowSkeletonDamage = 5.5
+		# Default: 26.0
+		# Range: 1.0 ~ 1024.0
+		goldenSkeletonHealth = 26.0
+		# Default: 3.0
+		# Range: 0.0 ~ 1024.0
+		goldenSkeletonDamage = 3.0
+		# Default: 70.0
+		# Range: 1.0 ~ 1024.0
+		captainGoldenSkeletonHealth = 70.0
+		# Default: 4.0
+		# Range: 0.0 ~ 1024.0
+		captainGoldenSkeletonDamage = 4.0

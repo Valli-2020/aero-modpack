@@ -1,0 +1,13 @@
+name = "Rolled Homongenous: Forked"
+filename = "rha-1.0.3b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UFXAeoqT/versions/WODSoRtT/rha-1.0.3b.jar"
+hash-format = "sha512"
+hash = "b1580113fe5fd548746c976a79cf83cf70e1214b5145361b79f4a5a998a9eb9f36aec53bd4b02e702f688f833e0bf7a2f394bbb503beb6ab29db29d829099167"
+
+[update]
+[update.modrinth]
+mod-id = "UFXAeoqT"
+version = "WODSoRtT"

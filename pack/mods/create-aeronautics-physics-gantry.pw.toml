@@ -1,0 +1,13 @@
+name = "Create Aeronautics Physics Gantry"
+filename = "createaerophysicsgantry-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tptzZZl3/versions/ulpRYWR7/createaerophysicsgantry-1.1.0.jar"
+hash-format = "sha512"
+hash = "bea5c2860923e2f37eca21cd254e1ce915dfe4641801806134bdeacf778e10ad5efe3d4733455dcec1d2f1b8c0e1027ea628ffb9d299ab090d2560bbb1f665ea"
+
+[update]
+[update.modrinth]
+mod-id = "tptzZZl3"
+version = "ulpRYWR7"

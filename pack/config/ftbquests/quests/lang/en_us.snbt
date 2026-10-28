@@ -1,0 +1,115 @@
+{
+	chapter.06C13F8991636365.title: "Nether"
+	chapter.08526D8BBF8EC20D.title: "Car"
+	chapter.0D8F6A3CE55C77B6.title: "repair"
+	chapter.135E0FF591882B85.title: "A Magia"
+	chapter.16A4F8820C488033.title: "trasmisão"
+	chapter.185CBD249D19E7E1.title: "Creative"
+	chapter.187A82BA2510B01C.title: "Pipez"
+	chapter.2E43E5FF4D335499.title: "Flux de enegia"
+	chapter.30DCF9BD5690358F.title: "Credits"
+	chapter.34BF08F28FAF2BDF.title: "Armazenamento"
+	chapter.3A3DE3C6DF6A4FB4.title: "ProjectE"
+	chapter.3CCE213CA093E31A.title: "pra todo lucar"
+	chapter.3CFCCFF552B8E507.title: "radar"
+	chapter.40923813C1A7DD94.title: "space"
+	chapter.431A65295FB0BC7E.title: "Create:conectado"
+	chapter.45236ADD14315104.title: "Teleport"
+	chapter.4840B43439586BEA.title: "Alex caves"
+	chapter.48AF40F2B2DB26A9.title: "Relics"
+	chapter.494BB098B1658960.title: "voo basico"
+	chapter.4B3913B3D49F3FA2.title: "barco"
+	chapter.4CEF4EF4154B97D5.title: "End"
+	chapter.5134C9C0A4305578.title: "Rocket"
+	chapter.5263217A1DE47690.title: "Aldeão"
+	chapter.5BD4B85AEC17F5BB.title: "cola sem cola"
+	chapter.5D6DC659C8176639.title: "Shop"
+	chapter.5FBB46F8FE77F6E6.title: "dndsire"
+	chapter.61F6337472724450.title: "areo"
+	chapter.6D59333306CBC703.title: "Create"
+	chapter.6F5668263DDA3C3A.title: "furnale"
+	chapter.7C542B2364402688.title: "Survivor"
+	chapter_group.023BD0CBC1469830.title: "criadores"
+	chapter_group.1064C2F129649404.title: "maquinista"
+	chapter_group.4F5A0DE3B0E3FDAD.title: "FIM"
+	chapter_group.53A87F23CBF35B98.title: "O Magico"
+	chapter_group.53ACE81CFAD8FCAC.title: "survivo"
+	chapter_group.5B73ACB7C4799FE6.title: "cavernas"
+	chapter_group.6460275E45193F36.title: "enegia maquinas"
+	chapter_group.755498137E246770.title: "utilitario"
+	quest.0118632A79447084.title: "Casa"
+	quest.0225041D46FC6CB6.title: "crie um avião"
+	quest.03BE7F51B951ECAE.quest_desc: ["faça uma casa 3 x 3 o minimo depois venha e marque faz direitinha tá bom boa sorte cuidado com pilagems ele vai na sua casa emtão coloque portas. boa sorte"]
+	quest.03BE7F51B951ECAE.quest_subtitle: "tenha muita madeira"
+	quest.03BE7F51B951ECAE.title: "Faça uma casa"
+	quest.06FBB75A9D2EA0D5.title: "caminho do upgrade"
+	quest.0972B5071DBCA708.quest_desc: ["derrote em um tuneu onde não possa passa mais você sim e mate ele"]
+	quest.0972B5071DBCA708.quest_subtitle: "o wither é muito forte"
+	quest.0BFEBEDD6C616B06.title: "Shop"
+	quest.0C13F46044538D20.title: "catalhise"
+	quest.0F25184B1959F8AD.title: "O Nether"
+	quest.0F5B901874DFD962.title: "taixa"
+	quest.10F8BC18D7208D88.title: "Aeronave"
+	quest.1148C4DBC670A785.title: "Carro"
+	quest.139799A30ADDB09A.quest_desc: ["esse o primeiro passo"]
+	quest.139799A30ADDB09A.quest_subtitle: "agora vocÊ tem tudo para a sua jornade de craft"
+	quest.1700EDF76BEE277A.title: "furnale"
+	quest.18599F3A579B5331.title: "trasmisão"
+	quest.192A5B4A2A830719.quest_desc: ["usse para esquenta minerio craftavel com 8 pedregulos em formato de O"]
+	quest.192A5B4A2A830719.quest_subtitle: "com isso o segundo passo para o ferro"
+	quest.192A5B4A2A830719.title: "esquente cada vez mais melhor"
+	quest.219F1D5464745B2F.quest_desc: ["agora vá até o portal e mate o dragon"]
+	quest.219F1D5464745B2F.quest_subtitle: "pegue e tome cuidado com fogo"
+	quest.257E090B60649A13.quest_desc: ["vai lá com armadura poção escudo vocÊ consegue "]
+	quest.257E090B60649A13.quest_subtitle: "cuidado com blase e guests e esqueletos"
+	quest.257E090B60649A13.title: "cuidado é perigoso"
+	quest.257FB5371855B71F.quest_desc: ["mesma coisa não consigui coloca muita coisa porque é mais aventura e chefos não com muitos items mais tentei"]
+	quest.2E5234C77614A908.quest_desc: ["ira demorar mais descraftando os blocos em 18 ferro bruto e esquentando tera oque presisa"]
+	quest.2E5234C77614A908.quest_subtitle: "agora ace bem"
+	quest.310BEF229F3311C2.quest_desc: ["não tem muita missão nessa area porque é mais esploração e l0ot doque iteams mais tentei esplore aai"]
+	quest.346AEF78D14F828F.quest_desc: [
+		"pegue madeira e usse a tecla ' para pegar tudo ao ussar perdera fome emtão tenha comida"
+		"{image:minecraft:block/oak_log width:100 height:100 align:center}"
+	]
+	quest.346AEF78D14F828F.title: "começe agora"
+	quest.34FFCF22B9A1EACB.quest_desc: ["boa sorte"]
+	quest.34FFCF22B9A1EACB.quest_subtitle: "agora faça e mate o dragon"
+	quest.3650FC982421F9C5.quest_desc: ["esploda uma bomba nuclear no ovo do godizila para chocalo e cuidado a esplosa alcanção uma area radioativa de 150 blocos"]
+	quest.3F1402E220DFC059.quest_desc: ["faça um bigon tera mais change contra o ender dragon"]
+	quest.3F1402E220DFC059.quest_subtitle: "agora com wither derrotado"
+	quest.3F1402E220DFC059.title: "VOCÊ CONSEGUIU PARABENS"
+	quest.4CB02FC703D42162.quest_desc: ["conceguido comprimindo redstono em badroock"]
+	quest.4DEEA2B119861D3E.quest_desc: ["embreve teremos mais trabaladores agora só tem uma pessoa que é o criador em 2026 e ainda não estamos finalizados queremos ter mais que 22 capitulos e mais que 800 missãos"]
+	quest.4DEEA2B119861D3E.quest_subtitle: "teremos mais criadores"
+	quest.4DEEA2B119861D3E.title: "Create Flight Tech"
+	quest.507471803EFA6318.title: "o fim / começo"
+	quest.566C449D8C2B2F04.title: "caminho da defeça"
+	quest.58228D47F2B04360.quest_desc: ["pegue ouro para sua mochila e guarde para armas e maquinhas"]
+	quest.58228D47F2B04360.quest_subtitle: "para bems agora evolua"
+	quest.628590F0A27B33F4.quest_desc: ["no futuro utilizara  isso para maquinas automaticas e voadoras"]
+	quest.628590F0A27B33F4.quest_subtitle: "isso te ajudara no create"
+	quest.62EC69B34125DE0E.title: "over"
+	quest.6A8AF5642AC08C89.quest_desc: ["PARABENS AGORA DERROTADO O END ESTÀ LIVRE PEGUE A ELYTRA"]
+	quest.6A8AF5642AC08C89.quest_subtitle: "EU SEMPRE SOUBE VOCÊ È FORTE"
+	quest.6A920EDEA58C297D.title: "Avião"
+	quest.6BEBB641B8F0687B.title: "kaixa"
+	quest.72E2E902792789AF.quest_desc: ["faça uma bancada de encatamentos e encante a sua armadura e equipamentos o Nether é bem dificio e tenha uma casa"]
+	quest.72E2E902792789AF.quest_subtitle: "vai até o Nether com encantamentos"
+	quest.72E2E902792789AF.title: "Nether"
+	quest.75BF3D5D4FBA739A.quest_desc: ["só ir em caverna pegar e tomar cuidados com mobs"]
+	quest.75BF3D5D4FBA739A.quest_subtitle: "boa sorte o minerio não é muito raro"
+	quest.75BF3D5D4FBA739A.title: "pegue sua picareta e vai atras de ferro"
+	quest.776526CD6B0DAF93.quest_desc: ["coloque dentro do altor-forno os ferros e esquente com carvão pronto agora boa sorte"]
+	quest.776526CD6B0DAF93.quest_subtitle: "pegue ferro e esquente"
+	reward_table.02B8D33D7360D6F9.title: "create.2.0"
+	task.04B0ABAFD6B89454.title: "avião"
+	task.0C9B886C6F3D48A2.title: "FIM"
+	task.0FC569D2C314DBEF.title: "Create Core"
+	task.22F205EE1C9414FE.title: "crie uma nave"
+	task.36A6F92035D2C0FA.title: "Crie uma AeroNave"
+	task.572BAB2413DF527F.title: "shop"
+	task.6C9203099A08F197.title: "nether"
+	task.7CBF93E73531BE01.title: "trasmição"
+	task.7F545ABF728FB99D.title: "furnale"
+	task.7FB13CDAB40A067D.title: "crie um carro"
+}

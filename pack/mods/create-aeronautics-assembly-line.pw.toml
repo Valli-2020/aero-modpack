@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Assembly Line"
+filename = "create_aeronautics_assembly_line-1.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e7DDhnLj/versions/6sIHwNIS/create_aeronautics_assembly_line-1.2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "b0a3f036fa907e97d8b962f84726f3c783046664a2b78a6ff57b2d0c7360f81fba5bf247628d88a893d5d896e508c4d0ad76f37116bfe1bfb7949a723082f099"
+
+[update]
+[update.modrinth]
+mod-id = "e7DDhnLj"
+version = "6sIHwNIS"

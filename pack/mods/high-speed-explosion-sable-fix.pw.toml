@@ -1,0 +1,13 @@
+name = "High Speed Explosion Sable Fix"
+filename = "highspeedexplosionfix-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "26eb5c34c0e9257104106ded0d861fa793e1b6a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8984053
+project-id = 1713333
