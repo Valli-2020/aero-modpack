@@ -3,9 +3,9 @@ filename = "mianbaos_modernwarfare-2.5.1-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "62dce85cb698257c22c2a8961c9a448737418c2b"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "d4a77d88910369ab21ce3b10640d377fe3756057b428ddecbf1e3d826e5203b71da7c7a82c6711e2d05229ea6365a3cac47f49bfeacbad987d4bb61b7c504581"
+url = "https://edge.forgecdn.net/files/8778/561/mianbaos_modernwarfare-2.5.1-neoforge.jar"
 
 [update]
 [update.curseforge]

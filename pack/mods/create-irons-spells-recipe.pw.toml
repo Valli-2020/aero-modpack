@@ -3,9 +3,9 @@ filename = "create_ironspell_recipe-1.2.1-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bb9d0efa60310117e7468b1b5646d174b980dc17"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "6a9b64c4f85a707843d879cedd0a073a9fd9c1b7efa90b30d01633cab7ac86715bc3444d30549bdc8ee4b1f4b90551bec85214a95c22136f7178f31fb1edb653"
+url = "https://edge.forgecdn.net/files/8299/197/create_ironspell_recipe-1.2.1-neoforge-1.21.1.jar"
 
 [update]
 [update.curseforge]

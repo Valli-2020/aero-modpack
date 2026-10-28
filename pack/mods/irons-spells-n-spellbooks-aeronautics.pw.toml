@@ -3,9 +3,9 @@ filename = "ironssablecompat-1.0.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8cfe21160b4ee0ddd70659620181bf0313f8470b"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "592e3e8b90105a47338d9233c550aca08f4dfd06f41edca69b5a309fd1d55a016289cc00d88340e037f8d48e29a80bb6311fbca87cfb59702cbab6b21bba897b"
+url = "https://edge.forgecdn.net/files/8284/717/ironssablecompat-1.0.4.jar"
 
 [update]
 [update.curseforge]

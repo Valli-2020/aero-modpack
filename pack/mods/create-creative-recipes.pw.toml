@@ -3,9 +3,9 @@ filename = "create_creative-1.0.5.3-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ad116719245abdfe58f950a4752b70c548aa5434"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "eda0e9c1055e1c46cb144f1bb6484b0bdf29ab6cc3cd4f3be1f74e01775bc1b6018bab0e2b7fbeb1d5eedec276d18a51a648a7ea531a3d4a541af6814e7ada3c"
+url = "https://edge.forgecdn.net/files/8191/598/create_creative-1.0.5.3-neoforge-1.21.1.jar"
 
 [update]
 [update.curseforge]

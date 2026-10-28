@@ -3,9 +3,9 @@ filename = "trashslot-neoforge-1.21.1-21.1.11.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7343e4b563feb79122c8373a0d5416182ca436a8"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "8e56e3bd91536a3393500c32badcfb43912bc2a262e2d98348e38fe25604973c23e3923c041903b0f64252e5ff3a6ef43e333f71b4c31b127de8c51014dbf9cc"
+url = "https://edge.forgecdn.net/files/8163/135/trashslot-neoforge-1.21.1-21.1.11.jar"
 
 [update]
 [update.curseforge]

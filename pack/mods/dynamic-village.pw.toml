@@ -3,9 +3,9 @@ filename = "dynamicvillage-0.6-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e9d98ed6a76cf14c7e0785abe5f52cd49387b3e7"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "7065aeec3d911931f7a289813788129cb0be5c67221d774c45625dddc6f2837eb674d75d6fd65e93e2908d3553e468a2814b62c7a0ad3d49240d6fa7a64b0f29"
+url = "https://edge.forgecdn.net/files/8325/567/dynamicvillage-0.6-1.21.1.jar"
 
 [update]
 [update.curseforge]

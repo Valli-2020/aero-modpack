@@ -3,9 +3,9 @@ filename = "ftb-chunks-neoforge-2101.1.20.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f8fd8b158379015302f7aa234785f29a1353803d"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "fa973ebb3f0996a59e9b664e319ced9d892fe751c2ce47b53347b1db8331ed4592e8fd16954a112e33f5d40f1330bf5b25d9641e9a5fe6c23e1ba13b6aeb0ead"
+url = "https://edge.forgecdn.net/files/8317/865/ftb-chunks-neoforge-2101.1.20.jar"
 
 [update]
 [update.curseforge]

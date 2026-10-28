@@ -3,9 +3,9 @@ filename = "extra_create_recipes_1.21.1_v1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "58552805ec6e6ab5ea1069fa7fba676d18006470"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "ebbd1a0c85b505b0da9745bbd66f0fec047d6baf1c180b17872b6287f7fc1859c5f6bf52b4379da9d8d54f60e7529be91fad9dd778b201fc0bcf9d4ffc646ab3"
+url = "https://edge.forgecdn.net/files/7370/449/extra_create_recipes_1.21.1_v1.jar"
 
 [update]
 [update.curseforge]

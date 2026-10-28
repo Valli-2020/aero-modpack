@@ -3,9 +3,9 @@ filename = "aeronautical_explorations-1.0.3-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f8a22281b8e0f22eb80dbcb0548d9454e698c025"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "130e4337c72216a78be9808fcf9e0aba05cf640cc10560475fa13b19edf49ff83c3ab2127f9790ca665720c2503a976b07866dbaf1d5d44385c7369839906156"
+url = "https://edge.forgecdn.net/files/8251/276/aeronautical_explorations-1.0.3-neoforge-1.21.1.jar"
 
 [update]
 [update.curseforge]

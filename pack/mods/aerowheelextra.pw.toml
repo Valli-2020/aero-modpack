@@ -3,9 +3,9 @@ filename = "aeronautics_wheelworks-3.2.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "70f640043e854c0bfb1180312b840537c622d4ef"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "99817d6eb9df3f5fa7d85b10f66a29bc156f868e8dc5d70cb3662ccda4c9950220bc2b4da8eef3f334b574615a67af542a2d84e2cc2b9f51e11e1e2c9eeba944"
+url = "https://edge.forgecdn.net/files/9224/307/aeronautics_wheelworks-3.2.0.jar"
 
 [update]
 [update.curseforge]

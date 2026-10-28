@@ -3,9 +3,9 @@ filename = "advancedcrafting-1.21.1-0.2.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "381801fc33f41a1a304472b5353d5e5437055668"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "79d48e5b063a74009ddde6c560ad500d71a7af9e88bd40e44e737e36df7a1ca785558a8082b6c86a81c2fa9e019893b9cb9b09b223d295d25d85e3a75c585ec8"
+url = "https://edge.forgecdn.net/files/7211/596/advancedcrafting-1.21.1-0.2.3.jar"
 
 [update]
 [update.curseforge]

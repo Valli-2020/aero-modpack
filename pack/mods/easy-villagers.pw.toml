@@ -3,9 +3,9 @@ filename = "easy-villagers-neoforge-1.21.1-1.1.42.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bde2278d0c216916ff5a780c9f3acfb50ebee9e5"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "be1c20a7e94d0a760a3459e17c70e07a51f91b74f8940ccad79549eaaf6f6033b7cbe6e8dff16c7921255d186867ac0e22608c17a8db0c8eb687e21ce5c7d832"
+url = "https://edge.forgecdn.net/files/8066/730/easy-villagers-neoforge-1.21.1-1.1.42.jar"
 
 [update]
 [update.curseforge]

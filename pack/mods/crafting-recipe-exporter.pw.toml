@@ -3,9 +3,9 @@ filename = "craftingrecipeexporter-1.21.1-NeoForge-1.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "dd220b41833ecd917d46f6d79e55fdfc28fbccdf"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "ec420d259077e5d94f24d4e7a79cb75de3a12a99abc2b9fd349ce770b78e51c3bdb4a4c11a885be7b6361a6080ec3df77956c9050022f6265b8f7f83829f4526"
+url = "https://edge.forgecdn.net/files/6509/385/craftingrecipeexporter-1.21.1-NeoForge-1.0.0.jar"
 
 [update]
 [update.curseforge]

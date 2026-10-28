@@ -3,9 +3,9 @@ filename = "sophisticatedcore-1.21.1-1.4.72.2136.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c57acf3ffeb9207fcfad94ecae3c2d5a963f5c1e"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "af52ca4d6fd4647ab925712bf2410ca6a4a6cc7fc488ad2afae0ab7e170f1068e7ac136249a5f503b2e329609c77454292fd4489b6be5ee5bf9941ef6e26f979"
+url = "https://edge.forgecdn.net/files/8412/295/sophisticatedcore-1.21.1-1.4.72.2136.jar"
 
 [update]
 [update.curseforge]

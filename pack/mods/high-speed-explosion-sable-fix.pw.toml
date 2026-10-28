@@ -3,9 +3,9 @@ filename = "highspeedexplosionfix-1.2.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "26eb5c34c0e9257104106ded0d861fa793e1b6a4"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "662078b097f7ddae496b26de06791c957e368626fd5a3d082930f6098287c940723ac0de3a3a5b1336f3c6b3c5a24c8286160cf0d91a72951468c7803ad43417"
+url = "https://edge.forgecdn.net/files/8984/53/highspeedexplosionfix-1.2.0.jar"
 
 [update]
 [update.curseforge]

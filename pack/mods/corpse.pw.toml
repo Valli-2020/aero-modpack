@@ -3,9 +3,9 @@ filename = "corpse-neoforge-1.21.1-1.1.13.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4f42091ef36e98e99c2f28a273ded960c0ac08bd"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "d20c8bc23381a44bcf854fb6f948ec404de31598747be73664abb640f7ac19df56a03e701c6694e11cc856fc5ebc978f0982208925b5bcdd0d6fdb99b0c716ab"
+url = "https://edge.forgecdn.net/files/7018/307/corpse-neoforge-1.21.1-1.1.13.jar"
 
 [update]
 [update.curseforge]

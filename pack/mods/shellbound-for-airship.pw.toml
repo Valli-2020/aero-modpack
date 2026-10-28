@@ -3,9 +3,9 @@ filename = "shellbound_for_airship-1.0.0-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4b4eda51698af682da9d8c05a7bba4fd1e1bc298"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "88733154645262db1cedda078ce3152ad29d8bce6a4967cabb98c3076d9f764b72f8fc51e011e03bb7da54b928272f64ac8f9990859cbe9719dc825ea2fa35a8"
+url = "https://edge.forgecdn.net/files/7689/536/shellbound_for_airship-1.0.0-neoforge.jar"
 
 [update]
 [update.curseforge]

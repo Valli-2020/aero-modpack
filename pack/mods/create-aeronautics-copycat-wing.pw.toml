@@ -3,9 +3,9 @@ filename = "CreateAeronauticsCopycatWing-1.21.1-1.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0e4c37b6327917984dea0885c6ced8341b556568"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "924645a91e1ae668ba1a2186aa246eaaa8e656a897c934a9e84c74fc52999f1f35819442981c93f9ffe9feb950170cc2b8ebd214f280a96b02ee59ed2a3c44c1"
+url = "https://edge.forgecdn.net/files/8215/540/CreateAeronauticsCopycatWing-1.21.1-1.0.2.jar"
 
 [update]
 [update.curseforge]

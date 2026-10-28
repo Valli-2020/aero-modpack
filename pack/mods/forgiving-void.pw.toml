@@ -3,9 +3,9 @@ filename = "forgivingvoid-neoforge-1.21.1-21.1.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bfcad985c5e335e2b712965c9b0d9028da01c845"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "ff5ce26ba89f9d05d7a8a9be861d65d7c4d355c45f15dbeb70e16c44e2a18826d1dcdac0d161bda25c6a5de5e63ebd12c7d6bb67a956bc4e752ea20eea4bca21"
+url = "https://edge.forgecdn.net/files/7966/159/forgivingvoid-neoforge-1.21.1-21.1.7.jar"
 
 [update]
 [update.curseforge]

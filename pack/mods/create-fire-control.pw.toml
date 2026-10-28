@@ -3,9 +3,9 @@ filename = "create-fire-control-0.9.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "082c05ba58a910dfe08d6a8669e4a4bead7b955f"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "45f3609e88f9afd914431eecc582d1c92b08929253b702b649373f6aefe449d115ec7742072e413f4c2b973986baa4d222519597671e0b344e4fc28033484882"
+url = "https://edge.forgecdn.net/files/9300/381/create-fire-control-0.9.4.jar"
 
 [update]
 [update.curseforge]

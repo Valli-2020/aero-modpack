@@ -3,9 +3,9 @@ filename = "cbcoptics-0.2.2-all.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ace3516839e5888afdff11703712134aebea722e"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "3ea9c59a92ca186372b6983beb97cd420cb15046e6f1d0f70d8d08fa1f48366c319573a2182574b0c570c7a96714c3c89d71c2261597e8998e240f4b94a7c345"
+url = "https://edge.forgecdn.net/files/8243/703/cbcoptics-0.2.2-all.jar"
 
 [update]
 [update.curseforge]

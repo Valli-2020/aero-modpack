@@ -3,9 +3,9 @@ filename = "betterfpsdist-1.21.1-6.1.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "9c499f5133ebeed43da4ce42d48bf747cead6d24"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "10f8a202d3f8b4793153bb67113da52d9bb4ca757c62eaa7cafe9cf8e047ccae830392d6521eb81ebd4db581c6b6e9c7c2b81d517797f1d8833871a6aa0b8b10"
+url = "https://edge.forgecdn.net/files/8319/712/betterfpsdist-1.21.1-6.1.jar"
 
 [update]
 [update.curseforge]

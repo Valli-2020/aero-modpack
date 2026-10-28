@@ -3,9 +3,9 @@ filename = "threadtweak-1.21.1-NeoForge-1.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0f247dcc81986cd4bc980af5f2ecd06e17d97ace"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "393f7981bef519a1bd4a5b815b00a4b9af6482b0a6a0736407ae67e11e10f95b3e8a5ccbcaa752c716b8c1c422b2445edcd3cab46be0344586a8b5fe61a59ae7"
+url = "https://edge.forgecdn.net/files/7937/266/threadtweak-1.21.1-NeoForge-1.0.0.jar"
 
 [update]
 [update.curseforge]

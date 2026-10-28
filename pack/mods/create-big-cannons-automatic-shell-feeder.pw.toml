@@ -3,9 +3,9 @@ filename = "cbc-cannon-feeder-1.0.0-r6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2010e7db0bbd762e774cc1482f9fe7a1b8b23cd6"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "e909d0440b17b6680b712bf0279b091a8f177204b03f322bc88e8facc4086d74c9675638a5eb4e0686c63ac0d38be84b52d7aaf18b302ed06152f06e38b606e5"
+url = "https://edge.forgecdn.net/files/9256/521/cbc-cannon-feeder-1.0.0-r6.jar"
 
 [update]
 [update.curseforge]

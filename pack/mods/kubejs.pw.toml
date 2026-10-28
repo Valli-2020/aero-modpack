@@ -3,9 +3,9 @@ filename = "kubejs-neoforge-2101.7.2-build.368.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "cd8e1e392d642e4d0f1fbc099d93da105c263d0d"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "443ddce7c1e4a0dc2ed55174610716c5be0c3b375ebaa0ca1f125055e1be1409d85bbd43b9f8bab55baf2db58cefd43a0ca6db33aec908ac94bee2a40b51b6c2"
+url = "https://edge.forgecdn.net/files/8083/208/kubejs-neoforge-2101.7.2-build.368.jar"
 
 [update]
 [update.curseforge]

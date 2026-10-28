@@ -3,9 +3,9 @@ filename = "cobblegengalore-1.21.1-0.2.9.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d08c1d93e7918eebed6e405d0680d11d33c80bf6"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "529af287a9cf8ad4aa0d9b423c67e98e4a450875e42161458e663440d0fb7e60b3641a3957da29d22dbeeb1ca266b0c6d41cc05186e831bc115bee85b6068e02"
+url = "https://edge.forgecdn.net/files/8523/192/cobblegengalore-1.21.1-0.2.9.jar"
 
 [update]
 [update.curseforge]

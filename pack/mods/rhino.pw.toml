@@ -3,9 +3,9 @@ filename = "rhino-2101.2.7-build.85.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "370598a1d2321c8a705ce539eb970375f20150c3"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "ef9dc03e13ebcc2c8c3507396e5b0de551bb2376b966507efcd0c0140b74dfd3e17859ab8672ed3ddd37cda9999e689ae83f155a7dcdbb663cfcf7dcf50ecee7"
+url = "https://edge.forgecdn.net/files/8218/748/rhino-2101.2.7-build.85.jar"
 
 [update]
 [update.curseforge]

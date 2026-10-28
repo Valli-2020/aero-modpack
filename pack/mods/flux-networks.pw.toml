@@ -3,9 +3,9 @@ filename = "FluxNetworks-1.21.1-8.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "183342f454428084748f2784c8efd748664a9f9c"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "24c3ecae0e49a4e8fa9ca9cf3f99af36d185f95970249f414c8feb2f18fc2e5b3ad2700e17714c1bc5ebadf440de5dbc98fd4113a85fb9364aa2c5922a8366bf"
+url = "https://edge.forgecdn.net/files/6089/446/FluxNetworks-1.21.1-8.0.0.jar"
 
 [update]
 [update.curseforge]

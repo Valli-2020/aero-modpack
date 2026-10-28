@@ -3,9 +3,9 @@ filename = "tracks_plus_fix-2.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "fc7658168ce31ad22a4c15bdab3a32e67263ab65"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "33297f77f566803fb60df08fe0b6a84074c3f6893e44dbd220a2892d7d0586c81f2a985b4835e064a0f6eef23059c1af93fa526a5ec591f1f001874525bb88db"
+url = "https://edge.forgecdn.net/files/9222/611/tracks_plus_fix-2.6.jar"
 
 [update]
 [update.curseforge]

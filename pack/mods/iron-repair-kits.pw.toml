@@ -3,9 +3,9 @@ filename = "iron_repair_kits-2.7.6-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "54905b6b5257e2cb4a68b5635facf3eedd420f67"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "0ee35daa33ba9d278626aac10aec4378f1c0d3f747673323ddb51a882547cc91623526eabdb076a4fa341dc9b213d173d9d46a8c8664d9023c43acda0c5b1ce8"
+url = "https://edge.forgecdn.net/files/7872/751/iron_repair_kits-2.7.6-neoforge-1.21.1.jar"
 
 [update]
 [update.curseforge]

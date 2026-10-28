@@ -3,9 +3,9 @@ filename = "TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2016eed89eac0eb0510d2190c3b0b80bf4346191"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "d51720b21b4cdaeaf962416575f27209219941b8a0067b0bccab478227f32ad9d91a2b94469925bb7b810ffb446d15b02a5381a5425b3f54739f2f174034870e"
+url = "https://edge.forgecdn.net/files/6054/947/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
 
 [update]
 [update.curseforge]

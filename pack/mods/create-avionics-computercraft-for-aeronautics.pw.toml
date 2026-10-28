@@ -3,9 +3,9 @@ filename = "create_avionics-neoforge-1.0.0-By-NoxCrafted.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4f16c35efbb3e748250a7057c6fddf5e27a82f0d"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "fcb4171c24ea2700c5d13602764bbcad4b321c610d019dd6bd4f15a0e6d3886e1c32fbb9a09b7a672a4aca4a03cc6dad53cce6850f9f938d5cd97796b5c3c2c5"
+url = "https://edge.forgecdn.net/files/8776/543/create_avionics-neoforge-1.0.0-By-NoxCrafted.jar"
 
 [update]
 [update.curseforge]
