@@ -14,18 +14,6 @@ ServerEvents.recipes(event => {
             }
     )
     event.shaped(
-            Item.of('supplementaries:bomb_blue'),
-            [
-                    'AAA',
-                    'ABA',
-                    'AAA'
-            ],
-            {
-                    B: 'minecraft:sculk_sensor',
-                    A: 'supplementaries:bomb'
-            }
-    )
-    event.shaped(
             Item.of('minecraft:heavy_core'),
             [
                     'ABA',
@@ -503,20 +491,6 @@ ServerEvents.recipes(event => {
                     A: 'create:andesite_alloy',
                     C: 'create:large_water_wheel',
                     B: 'create:andesite_alloy_block'
-            }
-    )
-    event.shaped(
-            Item.of('supplementaries:globe'),
-            [
-                    'ABC',
-                    'BDB',
-                    'BBB'
-            ],
-            {
-                    D: 'quark:blaze_lantern',
-                    A: 'supplementaries:hourglass',
-                    C: 'minecraft:bell',
-                    B: 'minecraft:gold_block'
             }
     )
     event.shaped(
@@ -1054,36 +1028,6 @@ ServerEvents.recipes(event => {
             ],
             {
                     A: 'create_creative:creative_alloy'
-            }
-    )
-    event.shaped(
-            Item.of('supplementaries:antique_ink'),
-            [
-                    'AB ',
-                    'CDA',
-                    'DEA'
-            ],
-            {
-                    E: 'minecraft:flint',
-                    B: 'minecraft:leather',
-                    D: 'minecraft:ink_sac',
-                    A: 'minecraft:iron_ingot',
-                    C: 'minecraft:charcoal'
-            }
-    )
-    event.shaped(
-            Item.of('create:schematic'),
-            [
-                    'ABA',
-                    'ACA',
-                    'DED'
-            ],
-            {
-                    C: 'waystones:waystone',
-                    E: 'create:empty_schematic',
-                    B: 'minecraft:glowstone',
-                    D: 'minecraft:polished_andesite',
-                    A: 'supplementaries:pedestal'
             }
     )
     event.shaped(

@@ -6354,10 +6354,10 @@ hash = "c437ad75547a49d5da392b1f4de1d26ea0d42dcc5c4469e645e8ac27ea4fbaf1"
 
 [[files]]
 file = "kubejs/server_scripts/exported_recipes.js"
-hash = "21fbb7c8039bd484be2e4b0ed4367ed28974cdbb2c3c8267a27d9832a2cbde19"
+hash = "081735da7078d900ed2f09b3726566891827c7db26bb9fa231db2ecc1d682396"
 
 [[files]]
-file = "kubejs/server_scripts/kjsigrm/cobblegengalore.js"
+file = "kubejs/server_scripts/kjsigrm/cobblegengalore.js.disabled"
 hash = "b514b7954437cf364970cff42e2dd2355dab2f90467ee9ada7fb85976276159f"
 
 [[files]]
@@ -7050,7 +7050,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
-hash = "20d37fb12ead4c29b93ed3ecd57df3d4826e72927c2019275387b0ed69b6704d"
+hash = "f701dbbdd26e9f9be292e64c38a93a893e5ff7746cfed21c8d6d9d7d75f538ff"
 metafile = true
 
 [[files]]
@@ -7401,11 +7401,6 @@ metafile = true
 [[files]]
 file = "mods/create-tfmg.pw.toml"
 hash = "dfbb2a077b144492f48af0255906b146d56011ccb6c6f6e343bab703e8cc0f79"
-metafile = true
-
-[[files]]
-file = "mods/create-the-air-war.pw.toml"
-hash = "422fd5cf73322f4379b04dc0a3d8dc952b8faeadd2f287d40e31db596db72c83"
 metafile = true
 
 [[files]]
@@ -7784,11 +7779,6 @@ hash = "a2fbecad69fcbff54919864ea8b95e54d140a1a2c637d73307fb366e76066fe6"
 metafile = true
 
 [[files]]
-file = "mods/idas.pw.toml"
-hash = "b13158a1f8daea08344c22f072a708fd658a958e06a24560e5a3016e69c16375"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "94af73eec28b59b314b2c6ef9dfb98f37d7bbcbcb482c278570cc15e44b6a559"
 metafile = true
@@ -7811,11 +7801,6 @@ metafile = true
 [[files]]
 file = "mods/integrated-api.pw.toml"
 hash = "b1d504ffc8dfda9bd5c0868db2f09d14c7a12501372eab149fb481b278b259fb"
-metafile = true
-
-[[files]]
-file = "mods/integrated-stronghold.pw.toml"
-hash = "9db2595b8dcf9759ec549481561132e1affc19634d368a78ae79aa45557c3be2"
 metafile = true
 
 [[files]]
@@ -7911,6 +7896,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "f0c66fc8c3d9dbea2704b007e79125377d50484ff3a40c280b48707659209045"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
 metafile = true
 
 [[files]]
@@ -8551,11 +8541,6 @@ metafile = true
 [[files]]
 file = "mods/strut-your-stuff.pw.toml"
 hash = "aa89e067824ca42d818a81a6d02ce5296ce662d834c35dd2ff0d81189d3bc3f9"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "f4362615b463f2e68e4a9573720ef19d3c483e2c035981791b5834082a3e56be"
 metafile = true
 
 [[files]]

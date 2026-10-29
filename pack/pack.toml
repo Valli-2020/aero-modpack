@@ -1,12 +1,12 @@
 name = "Aero"
 author = "Valli2020"
-version = "0.2.2"
+version = "0.2.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5bab94b6090589df455d772f6cddfdbb9f4377a7df30a9b38c690ad86e6a8af4"
+hash = "0c2bd01432b03406902c3f780ec07db53afdff0a08e2ba363b9b80aef48dbe4c"
 
 [versions]
 minecraft = "1.21.1"
