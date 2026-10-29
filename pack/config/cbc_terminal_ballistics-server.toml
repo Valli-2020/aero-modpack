@@ -1,6 +1,6 @@
 [terminal_ballistics]
 	#Enable CBC terminal ballistics penetration override.
-	enabled = false
+	enabled = true
 	#Global multiplier for accumulated armor integrity thresholds.
 	# Default: 1.0
 	# Range: 0.05 ~ 100.0

@@ -774,7 +774,7 @@ hash = "9ccb2e050e524ad1c16241ff82721ff1becd748713ffa7fb47fa9f4b507c5d79"
 
 [[files]]
 file = "config/cbc_terminal_ballistics-server.toml"
-hash = "ef7169bdbe95620d9757e769ccfd1ba8548c3dbc0831691a7d4125433340d073"
+hash = "541080c71ebd2e7c4f47f444f58925a6c1a922b13e60943803c4c18bf45b17a9"
 
 [[files]]
 file = "config/cbcmoreshells-server.toml"
